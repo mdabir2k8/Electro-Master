@@ -1,0 +1,3082 @@
+[
+  {
+    "id": "1",
+    "name": "NE555",
+    "category": "IC",
+    "icon": "ic_timer",
+    "pinout": "1-GND, 2-TRIG, 3-OUT, 4-RESET, 5-CTRL, 6-THR, 7-DIS, 8-VCC",
+    "primaryFunction": "Precision timing circuit capable of producing accurate time delays or oscillation.",
+    "keySpecs": "Max Voltage: 18V, Max Sink/Source Current: 200mA, Operating Temp: 0-70\u00b0C",
+    "useCase": "Pulse width modulation (PWM), delay timers, tone generators, LED blinkers."
+  },
+  {
+    "id": "2",
+    "name": "LM358",
+    "category": "IC",
+    "icon": "ic_opamp",
+    "pinout": "Dual Op-Amp 8-DIP: 1-1OUT, 2-1IN-, 3-1IN+, 4-GND, 5-2IN+, 6-2IN-, 7-2OUT, 8-VCC+",
+    "primaryFunction": "Dual low power operational amplifier with single supply operation.",
+    "keySpecs": "Supply Range: 3V-32V (Single), Bandwidth: 1.1MHz, Low Input Offset: 2mV",
+    "useCase": "Sensor signal conditioning, active low-pass filters, DC gain blocks, comparators."
+  },
+  {
+    "id": "3",
+    "name": "LM324",
+    "category": "IC",
+    "icon": "ic_opamp",
+    "pinout": "Quad Op-Amp 14-DIP: 1-1OUT, 2-1IN-, 3-1IN+, 4-VCC+, 5-2IN+, 6-2IN-, 7-2OUT, 8-3OUT, 9-3IN-, 10-3IN+, 11-GND, 12-4IN+, 13-4IN-, 14-4OUT",
+    "primaryFunction": "Quad low power operational amplifiers with wide supply range.",
+    "keySpecs": "Supply: 3V-32V single or \u00b11.5V-\u00b116V split, Input Common Mode includes ground",
+    "useCase": "Multi-stage audio filters, transducer amplifiers, analog computing circuits."
+  },
+  {
+    "id": "4",
+    "name": "LM386",
+    "category": "IC",
+    "icon": "ic_opamp",
+    "pinout": "8-DIP: 1-GAIN, 2-IN-, 3-IN+, 4-GND, 5-VOUT, 6-VS, 7-BYPASS, 8-GAIN",
+    "primaryFunction": "Low-voltage audio power amplifier designed for battery-powered applications.",
+    "keySpecs": "Supply: 4V-12V, Output Power: 325mW-1W into 8\u03a9 load, Voltage Gain: 20 to 200",
+    "useCase": "Portable AM/FM radio receivers, intercoms, guitar mini-amps, computer speakers."
+  },
+  {
+    "id": "5",
+    "name": "TL072",
+    "category": "IC",
+    "icon": "ic_opamp",
+    "pinout": "Dual JFET 8-DIP: 1-1OUT, 2-1IN-, 3-1IN+, 4-VCC-, 5-2IN+, 6-2IN-, 7-2OUT, 8-VCC+",
+    "primaryFunction": "Dual low-noise high-speed JFET-input operational amplifier.",
+    "keySpecs": "Slew Rate: 13V/\u00b5s, Gain Bandwidth: 3MHz, Input Impedance: 10^12 \u03a9, Low THD: 0.003%",
+    "useCase": "High-fidelity audio preamplifiers, graphic equalizers, active crossover networks."
+  },
+  {
+    "id": "6",
+    "name": "TL074",
+    "category": "IC",
+    "icon": "ic_opamp",
+    "pinout": "Quad JFET 14-DIP: 1-1OUT, 2-1IN-, 3-1IN+, 4-VCC+, 5-2IN+, 6-2IN-, 7-2OUT, 8-3OUT, 9-3IN-, 10-3IN+, 11-VCC-, 12-4IN+, 13-4IN-, 14-4OUT",
+    "primaryFunction": "Quad high-speed JFET-input operational amplifier with low harmonic distortion.",
+    "keySpecs": "Slew Rate: 13V/\u00b5s, Bandwidth: 3MHz, High Input Resistance, Low Noise: 18nV/\u221aHz",
+    "useCase": "Audio mixing consoles, synthesizer filters, multi-channel instrument preamps."
+  },
+  {
+    "id": "7",
+    "name": "TL082",
+    "category": "IC",
+    "icon": "ic_opamp",
+    "pinout": "Dual JFET 8-DIP: 1-1OUT, 2-1IN-, 3-1IN+, 4-VCC-, 5-2IN+, 6-2IN-, 7-2OUT, 8-VCC+",
+    "primaryFunction": "Dual general purpose JFET-input operational amplifier.",
+    "keySpecs": "Supply: \u00b15V to \u00b118V, Slew Rate: 13V/\u00b5s, Input Bias Current: 30pA, Fast Settling",
+    "useCase": "Sample and hold circuits, peak detectors, active filters, instrument buffers."
+  },
+  {
+    "id": "8",
+    "name": "LM393",
+    "category": "IC",
+    "icon": "ic_opamp",
+    "pinout": "Dual Comparator 8-DIP: 1-1OUT, 2-1IN-, 3-1IN+, 4-GND, 5-2IN+, 6-2IN-, 7-2OUT, 8-VCC",
+    "primaryFunction": "Dual independent precision voltage comparators with open-collector outputs.",
+    "keySpecs": "Supply: 2V-36V, Low Supply Current: 0.8mA, Response Time: 1.3\u00b5s, Open Collector Out",
+    "useCase": "Zero-crossing detectors, window comparators, battery voltage monitors, light alarms."
+  },
+  {
+    "id": "9",
+    "name": "LM339",
+    "category": "IC",
+    "icon": "ic_opamp",
+    "pinout": "Quad Comparator 14-DIP: 1-2OUT, 2-1OUT, 3-VCC, 4-1IN-, 5-1IN+, 6-2IN-, 7-2IN+, 8-3IN-, 9-3IN+, 10-4IN-, 11-4IN+, 12-GND, 13-4OUT, 14-3OUT",
+    "primaryFunction": "Quad precision voltage comparators with open collector outputs.",
+    "keySpecs": "Single/Dual Supply: 2V to 36V, Input Common Mode includes ground, Sink Current: 16mA",
+    "useCase": "Multi-level battery monitors, Schmitt triggers, analog threshold sensors, oscillator logic."
+  },
+  {
+    "id": "10",
+    "name": "NE5532",
+    "category": "IC",
+    "icon": "ic_opamp",
+    "pinout": "Dual Audio Op-Amp 8-DIP: 1-1OUT, 2-1IN-, 3-1IN+, 4-VCC-, 5-2IN+, 6-2IN-, 7-2OUT, 8-VCC+",
+    "primaryFunction": "High-performance dual low-noise operational amplifier for studio audio equipment.",
+    "keySpecs": "Gain Bandwidth: 10MHz, Slew Rate: 9V/\u00b5s, Low Noise: 5nV/\u221aHz, Output Drive: 600\u03a9",
+    "useCase": "Audiophile DAC output stages, studio microphone preamps, headphone amplifiers."
+  },
+  {
+    "id": "11",
+    "name": "OP07",
+    "category": "IC",
+    "icon": "ic_opamp",
+    "pinout": "8-DIP: 1-VOS Trim, 2-IN-, 3-IN+, 4-V-, 5-NC, 6-OUT, 7-V+, 8-VOS Trim",
+    "primaryFunction": "Ultra-low offset voltage precision operational amplifier.",
+    "keySpecs": "Input Offset Voltage: 75\u00b5V Max, Offset Drift: 1.3\u00b5V/\u00b0C, CMRR: 120dB, Supply: \u00b13V to \u00b118V",
+    "useCase": "Precision instrumentation, thermocouple amplifiers, strain gauge bridges, medical sensors."
+  },
+  {
+    "id": "12",
+    "name": "TDA2030",
+    "category": "IC",
+    "icon": "ic_opamp",
+    "pinout": "Pentawatt-5: 1-Non-inverting Input, 2-Inverting Input, 3-Vs- (GND), 4-Output, 5-Vs+",
+    "primaryFunction": "14W Hi-Fi class-AB audio power amplifier with thermal shut-down protection.",
+    "keySpecs": "Supply: \u00b16V to \u00b118V, Power: 14W into 4\u03a9 at 0.5% THD, Peak Output Current: 3.5A",
+    "useCase": "Subwoofer amplifiers, car radios, desktop stereo sound systems."
+  },
+  {
+    "id": "13",
+    "name": "TDA2822M",
+    "category": "IC",
+    "icon": "ic_opamp",
+    "pinout": "8-DIP: 1-OUT1, 2-VCC, 3-OUT2, 4-GND, 5-IN1-, 6-IN1+, 7-IN2+, 8-IN2-",
+    "primaryFunction": "Dual low-voltage stereo power amplifier for portable audio devices.",
+    "keySpecs": "Supply: 1.8V to 15V, Output Power: 1W/channel into 4\u03a9 (Bridge Mode: 2W)",
+    "useCase": "Mini portable cassette/MP3 players, walkie-talkies, battery-powered speaker toys."
+  },
+  {
+    "id": "14",
+    "name": "XR2206",
+    "category": "IC",
+    "icon": "ic_timer",
+    "pinout": "16-DIP: 1-AMS In, 2-Sine/Tri Out, 3-Mult Out, 4-VCC, 5-Timing Res, 6-Timing Res, 7-Timing Res, 8-Timing Res, 9-FSK In, 10-Bias, 11-Sync Out, 12-GND",
+    "primaryFunction": "Monolithic function generator IC capable of producing sine, square, triangle and ramp waveforms.",
+    "keySpecs": "Frequency Range: 0.01Hz to 1MHz, Supply: 10V-26V, Low Sine Distortion: 0.5%",
+    "useCase": "DIY laboratory bench function generators, sweep generators, FSK modems."
+  },
+  {
+    "id": "15",
+    "name": "AD620",
+    "category": "IC",
+    "icon": "ic_opamp",
+    "pinout": "8-DIP: 1-RG, 2-IN-, 3-IN+, 4-V-, 5-REF, 6-OUTPUT, 7-V+, 8-RG",
+    "primaryFunction": "Low cost, high precision instrumentation amplifier with single external resistor gain set.",
+    "keySpecs": "Gain Range: 1 to 10000 set by single resistor, CMRR: 100dB min (G=10), Input Offset: 50\u00b5V",
+    "useCase": "Medical ECG/EKG monitors, weight scale load cells, battery-powered data acquisition."
+  },
+  {
+    "id": "16",
+    "name": "INA219",
+    "category": "IC",
+    "icon": "ic_timer",
+    "pinout": "SOT-23 / Module: 1-IN+, 2-IN-, 3-GND, 4-Vs, 5-SCL, 6-SDA, 7-A0, 8-A1",
+    "primaryFunction": "Bidirectional current and power monitor IC with high-speed I2C digital interface.",
+    "keySpecs": "Bus Voltage: 0V to 26V, Current Accuracy: 1%, 12-bit ADC, I2C Address: 16 options",
+    "useCase": "Solar panel power tracking, battery discharge monitor, USB power delivery telemetry."
+  },
+  {
+    "id": "17",
+    "name": "MAX232",
+    "category": "IC",
+    "icon": "ic_timer",
+    "pinout": "16-DIP: 1-C1+, 2-V+, 3-C1-, 4-C2+, 5-C2-, 6-V-, 7-T2OUT, 8-R2IN, 9-R2OUT, 10-T2IN, 11-T1IN, 12-R1OUT, 13-R1IN, 14-T1OUT, 15-GND, 16-VCC",
+    "primaryFunction": "Dual RS-232 driver and receiver with internal capacitive charge pump voltage booster.",
+    "keySpecs": "Supply: 5V single supply, \u00b110V generated internally, Data Rate: 120kbps, 4x 1\u00b5F caps",
+    "useCase": "Microcontroller UART to PC serial COM port translation, industrial PLC communication."
+  },
+  {
+    "id": "18",
+    "name": "MAX485",
+    "category": "IC",
+    "icon": "ic_timer",
+    "pinout": "8-DIP: 1-RO (Receiver Out), 2-RE (Rec Enable), 3-DE (Driver Enable), 4-DI (Driver In), 5-GND, 6-A (Non-inv Bus), 7-B (Inv Bus), 8-VCC",
+    "primaryFunction": "Low-power half-duplex RS-485 and RS-422 differential line transceiver.",
+    "keySpecs": "Data Rate: Up to 2.5Mbps, Max Bus Nodes: 32, Supply: 5V, Bus Range: up to 1200 meters",
+    "useCase": "Long-distance industrial sensor networks, Modbus protocol, DMX512 stage lighting."
+  },
+  {
+    "id": "19",
+    "name": "MCP6002",
+    "category": "IC",
+    "icon": "ic_opamp",
+    "pinout": "Dual 8-DIP: 1-VOUTA, 2-VINA-, 3-VINA+, 4-VSS, 5-VINB+, 6-VINB-, 7-VOUTB, 8-VDD",
+    "primaryFunction": "Dual 1MHz low-power rail-to-rail input and output operational amplifier.",
+    "keySpecs": "Supply Voltage: 1.8V to 6.0V, Quiescent Current: 100\u00b5A/amp, Unity Gain Stable",
+    "useCase": "3.3V low-power microcontroller ADC input buffers, battery-powered photodiode amps."
+  },
+  {
+    "id": "20",
+    "name": "ICL7660",
+    "category": "IC",
+    "icon": "ic_regulator",
+    "pinout": "8-DIP: 1-NC, 2-CAP+, 3-GND, 4-CAP-, 5-VOUT, 6-LV, 7-OSC, 8-V+",
+    "primaryFunction": "Monolithic CMOS switched-capacitor voltage inverter and doubler.",
+    "keySpecs": "Input Voltage: 1.5V to 10V, Generates -Vout from +Vin, Power Efficiency: 98%",
+    "useCase": "Generating negative voltage rails for op-amps and LCD bias from a single 5V battery."
+  },
+  {
+    "id": "21",
+    "name": "BC547",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-92 (Flat face facing you): 1-Collector, 2-Base, 3-Emitter",
+    "primaryFunction": "General purpose small signal NPN Bipolar Junction Transistor.",
+    "keySpecs": "Vceo: 45V, Ic: 100mA, hFE: 110-800, Ptot: 500mW, Transition Freq: 300MHz",
+    "useCase": "Audio pre-amplification, relay driving from microcontrollers, signal inverting."
+  },
+  {
+    "id": "22",
+    "name": "BC548",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-92 (Flat face facing you): 1-Collector, 2-Base, 3-Emitter",
+    "primaryFunction": "General purpose low-noise small signal NPN BJT.",
+    "keySpecs": "Vceo: 30V, Ic: 100mA, hFE: 110-800, Ptot: 500mW",
+    "useCase": "Low voltage signal amplifiers, logic gate synthesizers, sensor switch interfaces."
+  },
+  {
+    "id": "23",
+    "name": "BC557",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-92 (Flat face facing you): 1-Collector, 2-Base, 3-Emitter",
+    "primaryFunction": "General purpose PNP small signal transistor (complement to BC547).",
+    "keySpecs": "Vceo: -45V, Ic: -100mA, hFE: 125-800, Ptot: 500mW",
+    "useCase": "High-side power switching, push-pull complementary output stages, level shifting."
+  },
+  {
+    "id": "24",
+    "name": "BC558",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-92 (Flat face facing you): 1-Collector, 2-Base, 3-Emitter",
+    "primaryFunction": "General purpose small signal PNP BJT (complement to BC548).",
+    "keySpecs": "Vceo: -30V, Ic: -100mA, hFE: 125-800, Ptot: 500mW",
+    "useCase": "Audio pre-amps, current mirrors, differential amplifier stages."
+  },
+  {
+    "id": "25",
+    "name": "2N2222A",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-92: 1-Emitter, 2-Base, 3-Collector (Note: opposite order of BC series!)",
+    "primaryFunction": "High-current, high-speed NPN switching and amplifier transistor.",
+    "keySpecs": "Vceo: 40V, Ic: 800mA, hFE: 100-300, Switching Time: <250ns, Ptot: 625mW",
+    "useCase": "Driving DC motors, solenoids, power LEDs, buzzer alarms, high-frequency circuits."
+  },
+  {
+    "id": "26",
+    "name": "2N3904",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-92: 1-Emitter, 2-Base, 3-Collector",
+    "primaryFunction": "Popular US standard general purpose NPN silicon switching transistor.",
+    "keySpecs": "Vceo: 40V, Ic: 200mA, hFE: 100-300, ft: 300MHz, Fast turn-on time",
+    "useCase": "General hobbyist breadboard circuits, RF oscillators, micro-power switches."
+  },
+  {
+    "id": "27",
+    "name": "2N3906",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-92: 1-Emitter, 2-Base, 3-Collector",
+    "primaryFunction": "Complementary general purpose PNP transistor to 2N3904.",
+    "keySpecs": "Vceo: -40V, Ic: -200mA, hFE: 100-300, Ptot: 625mW",
+    "useCase": "Complementary push-pull amplifiers, current sources, high-side switches."
+  },
+  {
+    "id": "28",
+    "name": "2N2907",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-92 / TO-18: 1-Emitter, 2-Base, 3-Collector",
+    "primaryFunction": "High-current PNP switching transistor (complement to 2N2222A).",
+    "keySpecs": "Vceo: -60V, Ic: -600mA, hFE: 100-300, Fast switching response",
+    "useCase": "High-side load drivers, H-bridge upper arms, pulsed strobe drivers."
+  },
+  {
+    "id": "29",
+    "name": "BD139",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-126 (Printed face facing you): 1-Emitter, 2-Collector, 3-Base",
+    "primaryFunction": "Medium-power NPN audio and power switching transistor.",
+    "keySpecs": "Vceo: 80V, Ic: 1.5A (Peak 3A), Ptot: 12.5W (with heatsink), hFE: 40-250",
+    "useCase": "Audio amplifier driver stages, motor control, relay modules, linear power supply passes."
+  },
+  {
+    "id": "30",
+    "name": "BD140",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-126 (Printed face facing you): 1-Emitter, 2-Collector, 3-Base",
+    "primaryFunction": "Medium-power PNP complement to BD139.",
+    "keySpecs": "Vceo: -80V, Ic: -1.5A, Ptot: 12.5W with heatsink, hFE: 40-250",
+    "useCase": "Complementary symmetry audio output pairs, bidirectional motor drivers."
+  },
+  {
+    "id": "31",
+    "name": "TIP120",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-220 (Facing front): 1-Base, 2-Collector (Tab), 3-Emitter",
+    "primaryFunction": "Medium-power NPN Darlington transistor with ultra-high current gain.",
+    "keySpecs": "Vceo: 60V, Ic: 5A (Peak 8A), hFE: 1000 min, Built-in base-emitter resistor & diode",
+    "useCase": "Direct microcontroller drive for heavy loads: large solenoids, stepper motors, lamps."
+  },
+  {
+    "id": "32",
+    "name": "TIP122",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-220 (Facing front): 1-Base, 2-Collector (Tab), 3-Emitter",
+    "primaryFunction": "100V NPN Darlington power transistor for heavy-duty switching.",
+    "keySpecs": "Vceo: 100V, Ic: 5A, hFE: 1000 min, Ptot: 65W with heatsink",
+    "useCase": "High voltage solenoid actuators, automotive lighting drivers, inductive load switches."
+  },
+  {
+    "id": "33",
+    "name": "TIP127",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-220 (Facing front): 1-Base, 2-Collector (Tab), 3-Emitter",
+    "primaryFunction": "Complementary PNP Darlington power transistor to TIP122.",
+    "keySpecs": "Vceo: -100V, Ic: -5A, hFE: 1000 min, Ptot: 65W",
+    "useCase": "High-side heavy load switching, high-gain linear power amplifiers."
+  },
+  {
+    "id": "34",
+    "name": "2N3055",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-3 Metal Can: Pin 1-Base, Pin 2-Emitter, Metal Case-Collector",
+    "primaryFunction": "Classic 15A rugged silicon NPN power transistor in metallic TO-3 enclosure.",
+    "keySpecs": "Vceo: 60V, Ic: 15A, Ptot: 115W, hFE: 20-70, Extremely durable thermal characteristics",
+    "useCase": "Linear laboratory power supply series pass element, high-power audio amplifiers."
+  },
+  {
+    "id": "35",
+    "name": "SS8050",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-92: 1-Emitter, 2-Base, 3-Collector",
+    "primaryFunction": "High-current small signal NPN transistor for power handling in compact packages.",
+    "keySpecs": "Vceo: 25V, Ic: 1.5A, Ptot: 1W, hFE: 85-300, Low Vce sat: 0.5V",
+    "useCase": "Battery-powered toys, miniature audio amplifier outputs, flash strobe triggers."
+  },
+  {
+    "id": "36",
+    "name": "SS8550",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-92: 1-Emitter, 2-Base, 3-Collector",
+    "primaryFunction": "High-current small signal PNP transistor (complement to SS8050).",
+    "keySpecs": "Vceo: -25V, Ic: -1.5A, Ptot: 1W, hFE: 85-300",
+    "useCase": "Push-pull mini audio amplifiers, battery protection disconnect switches."
+  },
+  {
+    "id": "37",
+    "name": "IRFZ44N",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "TO-220 (Facing front): 1-Gate, 2-Drain (Tab), 3-Source",
+    "primaryFunction": "High-efficiency N-Channel HEXFET Power MOSFET for fast switching.",
+    "keySpecs": "Vds: 55V, Id: 49A, Rds(on): 17.5m\u03a9, Vgs(th): 2V-4V, Max Ptot: 94W",
+    "useCase": "PWM DC motor speed control, high-current LED light strips, 12V inverters."
+  },
+  {
+    "id": "38",
+    "name": "IRF540N",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "TO-220 (Facing front): 1-Gate, 2-Drain (Tab), 3-Source",
+    "primaryFunction": "100V N-Channel Power MOSFET with low on-resistance.",
+    "keySpecs": "Vds: 100V, Id: 33A, Rds(on): 44m\u03a9, Vgs max: \u00b120V, Power: 130W",
+    "useCase": "24V/48V e-bike motor controllers, high-power DC-DC converters, audio D-class amps."
+  },
+  {
+    "id": "39",
+    "name": "IRF3205",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "TO-220 (Facing front): 1-Gate, 2-Drain (Tab), 3-Source",
+    "primaryFunction": "Ultra-low resistance 110A N-Channel power MOSFET.",
+    "keySpecs": "Vds: 55V, Id: 110A (Silicon limited), Rds(on): 8.0m\u03a9, Fast switching",
+    "useCase": "Pure sine wave power inverters, high-current spot welders, electronic speed controllers."
+  },
+  {
+    "id": "40",
+    "name": "IRLZ44N",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "TO-220 (Facing front): 1-Gate, 2-Drain (Tab), 3-Source",
+    "primaryFunction": "Logic-Level N-Channel Power MOSFET driven directly by 3.3V or 5V microcontrollers.",
+    "keySpecs": "Vds: 55V, Id: 47A, Rds(on): 22m\u03a9 at Vgs=5V, Vgs(th): 1.0V-2.0V",
+    "useCase": "Direct Arduino / ESP32 GPIO high-current switching without gate driver IC."
+  },
+  {
+    "id": "41",
+    "name": "2N7000",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "TO-92 (Facing flat): 1-Source, 2-Gate, 3-Drain",
+    "primaryFunction": "N-Channel small signal field-effect transistor for fast digital switching.",
+    "keySpecs": "Vds: 60V, Id: 200mA (Peak 500mA), Rds(on): 5\u03a9, Vgs(th): 0.8V-3.0V",
+    "useCase": "Bidirectional I2C level shifters (3.3V to 5V), low-power relays, CMOS/TTL drivers."
+  },
+  {
+    "id": "42",
+    "name": "BS170",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "TO-92 (Facing flat): 1-Drain, 2-Gate, 3-Source (Opposite of 2N7000!)",
+    "primaryFunction": "N-Channel small signal MOSFET with higher current capability.",
+    "keySpecs": "Vds: 60V, Id: 500mA (Peak 1.2A), Rds(on): 1.8\u03a9 at Vgs=10V, Vgs(th): 0.8V-3V",
+    "useCase": "Small relay coils, LED indicator drivers, QRP ham radio RF amplifiers."
+  },
+  {
+    "id": "43",
+    "name": "IRF9540N",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "TO-220 (Facing front): 1-Gate, 2-Drain (Tab), 3-Source",
+    "primaryFunction": "-100V P-Channel power MOSFET for high-side switching.",
+    "keySpecs": "Vds: -100V, Id: -23A, Rds(on): 117m\u03a9, Vgs(th): -2.0V to -4.0V",
+    "useCase": "High-side load disconnects, H-bridge upper power switches, reverse polarity protection."
+  },
+  {
+    "id": "44",
+    "name": "IRF4905",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "TO-220 (Facing front): 1-Gate, 2-Drain (Tab), 3-Source",
+    "primaryFunction": "Ultra-low on-resistance -55V -74A P-Channel power MOSFET.",
+    "keySpecs": "Vds: -55V, Id: -74A, Rds(on): 20m\u03a9, Power Dissipation: 200W",
+    "useCase": "Automotive battery master switches, high-side power distribution, solar charge controllers."
+  },
+  {
+    "id": "45",
+    "name": "AO3400A",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "SOT-23: 1-Gate, 2-Source, 3-Drain (Top single pin)",
+    "primaryFunction": "High-current logic level N-Channel SMD MOSFET.",
+    "keySpecs": "Vds: 30V, Id: 5.7A, Rds(on): 28m\u03a9 at Vgs=4.5V (33m\u03a9 at 2.5V), Vgs(th): 0.65V-1.45V",
+    "useCase": "Compact IoT devices, lithium-ion battery load disconnect, drone ESC modules."
+  },
+  {
+    "id": "46",
+    "name": "AO3401A",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "SOT-23: 1-Gate, 2-Source, 3-Drain",
+    "primaryFunction": "Logic level P-Channel SMD MOSFET for high-side load switching.",
+    "keySpecs": "Vds: -30V, Id: -4.2A, Rds(on): 44m\u03a9 at Vgs=-4.5V, Vgs(th): -0.7V to -1.4V",
+    "useCase": "Power multiplexing between USB and LiPo battery, smartphone charging controllers."
+  },
+  {
+    "id": "47",
+    "name": "SI2302",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "SOT-23: 1-Gate, 2-Source, 3-Drain",
+    "primaryFunction": "20V N-Channel fast-switching subminiature SMD MOSFET.",
+    "keySpecs": "Vds: 20V, Id: 2.8A, Rds(on): 85m\u03a9 at Vgs=2.5V, Low gate charge",
+    "useCase": "Low-power step-down converters, wearable electronics, vibrator motor drivers."
+  },
+  {
+    "id": "48",
+    "name": "BSS138",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "SOT-23: 1-Gate, 2-Source, 3-Drain",
+    "primaryFunction": "Small signal 50V N-Channel MOSFET widely used for bidirectional logic level shifting.",
+    "keySpecs": "Vds: 50V, Id: 220mA, Rds(on): 3.5\u03a9, Vgs(th): 0.8V-1.5V, Input Capacitance: 27pF",
+    "useCase": "Universal 3.3V <-> 5V I2C, SPI and UART bidirectional level translator modules."
+  },
+  {
+    "id": "49",
+    "name": "FQP30N06L",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "TO-220: 1-Gate, 2-Drain, 3-Source",
+    "primaryFunction": "60V 32A logic-level N-Channel QFET power MOSFET.",
+    "keySpecs": "Vds: 60V, Id: 32A, Rds(on): 35m\u03a9 at Vgs=5V, Fast switching, Avalanche rated",
+    "useCase": "Solenoid actuation, 3D printer heated beds, robotics PWM motor speed stages."
+  },
+  {
+    "id": "50",
+    "name": "IRF740",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "TO-220: 1-Gate, 2-Drain (Tab), 3-Source",
+    "primaryFunction": "400V 10A High-Voltage N-Channel Power MOSFET.",
+    "keySpecs": "Vds: 400V, Id: 10A, Rds(on): 0.55\u03a9, Power Dissipation: 125W",
+    "useCase": "SMPS primary switching, flyback converters, high-voltage strobe lights, Tesla coils."
+  },
+  {
+    "id": "51",
+    "name": "STP55NF06",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "TO-220: 1-Gate, 2-Drain, 3-Source",
+    "primaryFunction": "60V 50A low on-resistance N-Channel STripFET II MOSFET.",
+    "keySpecs": "Vds: 60V, Id: 50A, Rds(on): 15m\u03a9 at Vgs=10V, Gate Charge: 45nC",
+    "useCase": "High-current DC motor drives, uninterruptible power supplies (UPS), battery disconnects."
+  },
+  {
+    "id": "52",
+    "name": "LM7805",
+    "category": "Voltage Regulator",
+    "icon": "ic_regulator",
+    "pinout": "TO-220 (Facing front): 1-Input, 2-Ground (Tab), 3-Output",
+    "primaryFunction": "+5V 1.5A positive fixed linear voltage regulator with internal current limiting.",
+    "keySpecs": "Input: 7V-35V, Output: 5.0V \u00b14%, Max Current: 1.5A, Dropout: 2.0V",
+    "useCase": "Standard 5V clean power rail for logic ICs, microcontrollers, and sensors."
+  },
+  {
+    "id": "53",
+    "name": "LM7812",
+    "category": "Voltage Regulator",
+    "icon": "ic_regulator",
+    "pinout": "TO-220 (Facing front): 1-Input, 2-Ground (Tab), 3-Output",
+    "primaryFunction": "+12V 1.5A positive fixed linear voltage regulator.",
+    "keySpecs": "Input: 14.5V-35V, Output: 12.0V \u00b14%, Max Current: 1.5A",
+    "useCase": "12V cooling fans, relay coils, analog operational amplifier positive rails."
+  },
+  {
+    "id": "54",
+    "name": "LM7809",
+    "category": "Voltage Regulator",
+    "icon": "ic_regulator",
+    "pinout": "TO-220 (Facing front): 1-Input, 2-Ground (Tab), 3-Output",
+    "primaryFunction": "+9V 1.5A positive fixed linear voltage regulator.",
+    "keySpecs": "Input: 11.5V-35V, Output: 9.0V, Max Current: 1.5A",
+    "useCase": "Guitar effects pedals, audio equipment, replacing 9V batteries with wall adapters."
+  },
+  {
+    "id": "55",
+    "name": "LM7905",
+    "category": "Voltage Regulator",
+    "icon": "ic_regulator",
+    "pinout": "TO-220: 1-Ground, 2-Input (Negative), 3-Output (-5V) [Note: Different pinout from 78xx!]",
+    "primaryFunction": "-5V 1.5A negative fixed linear voltage regulator.",
+    "keySpecs": "Input: -7V to -35V, Output: -5.0V, Max Current: 1.5A, Safe-Area Protection",
+    "useCase": "Split-rail dual supplies (\u00b15V) for op-amps, ADCs, and DACs."
+  },
+  {
+    "id": "56",
+    "name": "LM7912",
+    "category": "Voltage Regulator",
+    "icon": "ic_regulator",
+    "pinout": "TO-220: 1-Ground, 2-Input (Negative), 3-Output (-12V)",
+    "primaryFunction": "-12V 1.5A negative fixed linear voltage regulator.",
+    "keySpecs": "Input: -14.5V to -35V, Output: -12.0V, Max Current: 1.5A",
+    "useCase": "\u00b112V analog audio mixers, modular synthesizer Eurorack power supplies."
+  },
+  {
+    "id": "57",
+    "name": "LM317",
+    "category": "Voltage Regulator",
+    "icon": "ic_regulator",
+    "pinout": "TO-220 (Facing front): 1-Adjust (ADJ), 2-Output (Tab), 3-Input",
+    "primaryFunction": "Adjustable positive linear voltage regulator (1.25V to 37V).",
+    "keySpecs": "Output: 1.25V-37V set by 2 resistors, Current: 1.5A, Vref: 1.25V, Ripple Rejection: 80dB",
+    "useCase": "Variable benchtop power supplies, precision current sources, battery chargers."
+  },
+  {
+    "id": "58",
+    "name": "LM337",
+    "category": "Voltage Regulator",
+    "icon": "ic_regulator",
+    "pinout": "TO-220 (Facing front): 1-Adjust (ADJ), 2-Input, 3-Output",
+    "primaryFunction": "Adjustable negative linear voltage regulator (-1.2V to -37V).",
+    "keySpecs": "Output: -1.2V to -37V, Max Current: 1.5A, Line Regulation: 0.01%/V",
+    "useCase": "Negative tracking power supplies, precision analog signal generator rails."
+  },
+  {
+    "id": "59",
+    "name": "AMS1117-3.3",
+    "category": "Voltage Regulator",
+    "icon": "ic_regulator",
+    "pinout": "SOT-223: 1-GND/ADJ, 2-VOUT (and Tab), 3-VIN",
+    "primaryFunction": "3.3V 800mA Low Dropout (LDO) linear voltage regulator.",
+    "keySpecs": "Input: up to 15V (5V typical), Output: 3.3V \u00b11.5%, Dropout: 1.1V at 800mA",
+    "useCase": "Powering ESP32, ESP8266, STM32, and Raspberry Pi Pico from 5V USB rails."
+  },
+  {
+    "id": "60",
+    "name": "AMS1117-5.0",
+    "category": "Voltage Regulator",
+    "icon": "ic_regulator",
+    "pinout": "SOT-223: 1-GND/ADJ, 2-VOUT (and Tab), 3-VIN",
+    "primaryFunction": "5.0V 800mA Low Dropout (LDO) linear regulator.",
+    "keySpecs": "Input: 6.5V-15V, Output: 5.0V, Max Current: 800mA, Thermal Protection",
+    "useCase": "Compact SMD Arduino boards, USB 5V conditioning, digital sensor modules."
+  },
+  {
+    "id": "61",
+    "name": "AMS1117-ADJ",
+    "category": "Voltage Regulator",
+    "icon": "ic_regulator",
+    "pinout": "SOT-223: 1-ADJ, 2-VOUT (Tab), 3-VIN",
+    "primaryFunction": "Adjustable 800mA LDO regulator set with two external resistors.",
+    "keySpecs": "Output: 1.25V to 13.8V, Reference: 1.25V, Max Current: 800mA",
+    "useCase": "Custom core voltages (1.8V, 2.5V) for FPGAs, microcontrollers, and memory chips."
+  },
+  {
+    "id": "62",
+    "name": "LM2596S-ADJ",
+    "category": "Voltage Regulator",
+    "icon": "ic_regulator",
+    "pinout": "TO-263 / Module: 1-VIN, 2-OUTPUT, 3-GND, 4-FEEDBACK, 5-ON/OFF",
+    "primaryFunction": "High-efficiency 3A step-down (buck) switching voltage regulator.",
+    "keySpecs": "Input: 4.5V-40V, Output: 1.23V-37V, Frequency: 150kHz, Efficiency: up to 92%",
+    "useCase": "Step down 12V/24V to 5V with minimal heat, DIY high-efficiency power supplies."
+  },
+  {
+    "id": "63",
+    "name": "LM2596S-5.0",
+    "category": "Voltage Regulator",
+    "icon": "ic_regulator",
+    "pinout": "TO-263 / TO-220: 1-VIN, 2-OUTPUT, 3-GND, 4-FEEDBACK, 5-ON/OFF",
+    "primaryFunction": "Fixed +5V 3A step-down switching regulator (internal feedback network).",
+    "keySpecs": "Input: 7V to 40V, Output: 5.0V \u00b14%, Switching Frequency: 150kHz, 3A Current",
+    "useCase": "Automotive 12V to 5V USB fast charger ports, Raspberry Pi 5V/3A power supply."
+  },
+  {
+    "id": "64",
+    "name": "XL6009",
+    "category": "Voltage Regulator",
+    "icon": "ic_regulator",
+    "pinout": "TO-263 / Module: 1-GND, 2-ENABLE, 3-SW (Switch), 4-VIN, 5-FB (Feedback)",
+    "primaryFunction": "High performance 4A step-up (boost) switching DC-DC converter.",
+    "keySpecs": "Input: 3V-32V, Output: 5V-35V (Adjustable), Switch Current: 4A, Frequency: 400kHz",
+    "useCase": "Boosting 3.7V Li-ion battery to 12V, solar battery booster, portable LED panels."
+  },
+  {
+    "id": "65",
+    "name": "TL431",
+    "category": "Voltage Regulator",
+    "icon": "ic_regulator",
+    "pinout": "TO-92 (Facing front): 1-Reference (REF), 2-Anode (A), 3-Cathode (K)",
+    "primaryFunction": "Three-terminal programmable precision shunt voltage reference.",
+    "keySpecs": "Output Range: 2.5V to 36V, Dynamic Impedance: 0.2\u03a9, Sink Current: 1mA to 100mA",
+    "useCase": "SMPS optical feedback regulation loop, precision ADC reference, voltage comparator."
+  },
+  {
+    "id": "66",
+    "name": "LM78L05",
+    "category": "Voltage Regulator",
+    "icon": "ic_regulator",
+    "pinout": "TO-92 (Facing front): 1-Output (+5V), 2-Ground, 3-Input [Note: opposite of 7805!]",
+    "primaryFunction": "Compact 100mA +5V linear voltage regulator in small TO-92 transistor package.",
+    "keySpecs": "Input: 7V-30V, Output: 5.0V, Max Current: 100mA, Internal thermal overload protection",
+    "useCase": "Local on-board regulation for operational amplifiers, precision sensors, low-power modules."
+  },
+  {
+    "id": "67",
+    "name": "1N4007",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "Axial DO-41: Anode (A) -> Cathode (K - marked with silver ring)",
+    "primaryFunction": "1000V 1A Silicon standard recovery rectifier diode.",
+    "keySpecs": "Max Peak Reverse Voltage: 1000V, Max Forward Current: 1A, Forward Drop: 1.1V at 1A",
+    "useCase": "Mains 230V/115V AC-DC bridge rectifiers, reverse polarity protection, inductive kickback."
+  },
+  {
+    "id": "68",
+    "name": "1N4001",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "Axial DO-41: Anode (A) -> Cathode (K - silver band)",
+    "primaryFunction": "50V 1A Silicon rectifier diode for low-voltage circuits.",
+    "keySpecs": "Peak Reverse Voltage: 50V, Forward Current: 1A, Forward Voltage Drop: 1.1V",
+    "useCase": "Relay coil flyback clamping, battery reverse polarity safety, low-voltage rectifiers."
+  },
+  {
+    "id": "69",
+    "name": "1N4148",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "Glass DO-35: Anode (A) -> Cathode (K - black stripe)",
+    "primaryFunction": "Ultra-fast high-speed small signal switching diode.",
+    "keySpecs": "Reverse Voltage: 100V, Forward Current: 200mA (Peak 450mA), Reverse Recovery: 4ns",
+    "useCase": "High-frequency logic clipping, wave shaping, diode logic gates, signal detection."
+  },
+  {
+    "id": "70",
+    "name": "1N5819",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "DO-41: Anode (A) -> Cathode (K - stripe)",
+    "primaryFunction": "40V 1A Schottky barrier rectifier diode with very low forward voltage drop.",
+    "keySpecs": "Peak Reverse: 40V, Forward Current: 1A, Low Forward Drop: 0.45V at 1A, Ultra-fast",
+    "useCase": "High-efficiency step-down buck catch diode, battery ORing diode, low loss protection."
+  },
+  {
+    "id": "71",
+    "name": "1N5822",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "DO-201AD (Thick axial): Anode (A) -> Cathode (K - stripe)",
+    "primaryFunction": "40V 3A high-current Schottky barrier diode.",
+    "keySpecs": "Peak Reverse: 40V, Forward Current: 3A (Surge 80A), Forward Drop: 0.52V at 3A",
+    "useCase": "Switch-mode power supplies, solar panel bypass diode, battery chargers."
+  },
+  {
+    "id": "72",
+    "name": "SS34",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "SMA / DO-214AC (SMD): Anode -> Cathode (Band on package)",
+    "primaryFunction": "Surface Mount (SMD) 40V 3A Schottky barrier rectifier.",
+    "keySpecs": "Max Reverse: 40V, Average Forward: 3A, Forward Voltage: 0.5V, Compact SMD footprint",
+    "useCase": "DC-DC buck converter output freewheeling, compact power management PCBs."
+  },
+  {
+    "id": "73",
+    "name": "UF4007",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "DO-41: Anode -> Cathode (Silver band)",
+    "primaryFunction": "1000V 1A Ultra-Fast silicon rectifier diode.",
+    "keySpecs": "Reverse Voltage: 1000V, Forward Current: 1A, Ultra-Fast Recovery Time: 75ns",
+    "useCase": "High frequency SMPS secondary rectification, snubber circuits in switching converters."
+  },
+  {
+    "id": "74",
+    "name": "FR107",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "DO-41: Anode -> Cathode (White band)",
+    "primaryFunction": "1000V 1A Fast Recovery Rectifier diode (recovery time 500ns).",
+    "keySpecs": "Reverse Voltage: 1000V, Forward: 1A, Recovery: 500ns, Forward Drop: 1.3V",
+    "useCase": "Flyback transformer demagnetizing clamp, electronic ballasts, inverter bridges."
+  },
+  {
+    "id": "75",
+    "name": "BZX55C5V1",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "Glass DO-35: Anode -> Cathode (Black band - connected to positive in zener mode)",
+    "primaryFunction": "5.1V 500mW precision Zener voltage regulator diode.",
+    "keySpecs": "Zener Voltage: 5.1V (4.8V-5.4V), Power Dissipation: 500mW, Dynamic Resistance: 30\u03a9",
+    "useCase": "5V voltage clamping, analog ADC overvoltage input protection, simple shunt regulation."
+  },
+  {
+    "id": "76",
+    "name": "1N4733A",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "DO-41: Anode -> Cathode (Band)",
+    "primaryFunction": "5.1V 1.0W high-power Zener voltage regulator diode.",
+    "keySpecs": "Nominal Zener: 5.1V, Power: 1 Watt, Zener Current Izt: 49mA, Low Leakage",
+    "useCase": "Microcontroller reset voltage monitoring, power rail clamping, gate protection."
+  },
+  {
+    "id": "77",
+    "name": "1N4742A",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "DO-41: Anode -> Cathode (Band)",
+    "primaryFunction": "12V 1.0W silicon Zener voltage regulator diode.",
+    "keySpecs": "Zener Voltage: 12.0V, Power Dissipation: 1.0 Watt, Test Current Izt: 21mA",
+    "useCase": "12V reference rails, automotive transient surge protection, gate-source overvoltage limit."
+  },
+  {
+    "id": "78",
+    "name": "1N4735A",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "DO-41: Anode -> Cathode (Band)",
+    "primaryFunction": "6.2V 1.0W Zener diode with exceptionally low temperature coefficient.",
+    "keySpecs": "Zener Voltage: 6.2V, Power: 1 Watt, Near-zero thermal drift coefficient at 6.2V",
+    "useCase": "Highly stable analog voltage references, comparator trip points."
+  },
+  {
+    "id": "79",
+    "name": "MBR10100",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "TO-220 (Dual Diode Common Cathode): 1-Anode 1, 2-Cathode (Tab), 3-Anode 2",
+    "primaryFunction": "100V 10A High-Voltage Dual Schottky Power Rectifier.",
+    "keySpecs": "Peak Reverse: 100V, Total Forward: 10A (5A/diode), Forward Drop: 0.7V, High dv/dt",
+    "useCase": "Secondary side rectification in ATX PC power supplies, high-power solar arrays."
+  },
+  {
+    "id": "80",
+    "name": "DB107",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "DIP-4 / SMD: 1-AC (~), 2-AC (~), 3-DC Positive (+), 4-DC Negative (-)",
+    "primaryFunction": "1000V 1A single-phase full-wave bridge rectifier in compact DIP-4 package.",
+    "keySpecs": "Peak Repetitive Reverse: 1000V, Average Forward: 1.0A, Surge Current: 30A",
+    "useCase": "Direct mains rectification in LED light bulbs, wall wart power bricks, small power supplies."
+  },
+  {
+    "id": "81",
+    "name": "P6KE6.8A",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "Axial DO-15: Cathode (band) to protected line, Anode to Ground",
+    "primaryFunction": "600W Transient Voltage Suppressor (TVS) unidirectional diode.",
+    "keySpecs": "Breakdown Voltage: 6.8V, Clamping Voltage: 10.5V, Peak Pulse Power: 600W (10/1000\u00b5s)",
+    "useCase": "Electrostatic discharge (ESD) and lightning surge protection on 5V communication buses."
+  },
+  {
+    "id": "82",
+    "name": "74HC00",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "14-DIP: 1-1A, 2-1B, 3-1Y, 4-2A, 5-2B, 6-2Y, 7-GND, 8-3Y, 9-3A, 10-3B, 11-4Y, 12-4A, 13-4B, 14-VCC",
+    "primaryFunction": "Quadruple 2-input NAND gate (Universal logic building block).",
+    "keySpecs": "Supply: 2.0V-6.0V, Propagation Delay: 9ns, High-Speed CMOS, Low Power",
+    "useCase": "Synthesizing any boolean logic gate, set-reset (SR) latches, square wave oscillators."
+  },
+  {
+    "id": "83",
+    "name": "74HC02",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "14-DIP: 1-1Y, 2-1A, 3-1B, 4-2Y, 5-2A, 6-2B, 7-GND, 8-3A, 9-3B, 10-3Y, 11-4A, 12-4B, 13-4Y, 14-VCC",
+    "primaryFunction": "Quadruple 2-input NOR gate (Universal logic gate).",
+    "keySpecs": "Supply: 2.0V-6.0V, High Speed CMOS, Output Drive: \u00b15.2mA at 6V",
+    "useCase": "Cross-coupled NOR latches, motor interlock safety circuits, digital decoders."
+  },
+  {
+    "id": "84",
+    "name": "74HC04",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "14-DIP: 1-1A, 2-1Y, 3-2A, 4-2Y, 5-3A, 6-3Y, 7-GND, 8-4Y, 9-4A, 10-5Y, 11-5A, 12-6Y, 13-6A, 14-VCC",
+    "primaryFunction": "Hex Inverter IC (6 independent NOT gates).",
+    "keySpecs": "Supply: 2V-6V, Propagation Delay: 8ns, Low Input Current: 1\u00b5A Max",
+    "useCase": "Signal phase inversion, crystal oscillator drive circuits, ring oscillators."
+  },
+  {
+    "id": "85",
+    "name": "74HC08",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "14-DIP: 1-1A, 2-1B, 3-1Y, 4-2A, 5-2B, 6-2Y, 7-GND, 8-3Y, 9-3A, 10-3B, 11-4Y, 12-4A, 13-4B, 14-VCC",
+    "primaryFunction": "Quadruple 2-input positive AND gate.",
+    "keySpecs": "Supply: 2V-6V, Propagation Delay: 10ns, Fan-out: 10 LSTTL loads",
+    "useCase": "Memory address qualification, conditional hardware enable, safety interlocks."
+  },
+  {
+    "id": "86",
+    "name": "74HC32",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "14-DIP: 1-1A, 2-1B, 3-1Y, 4-2A, 5-2B, 6-2Y, 7-GND, 8-3Y, 9-3A, 10-3B, 11-4Y, 12-4A, 13-4B, 14-VCC",
+    "primaryFunction": "Quadruple 2-input positive OR gate.",
+    "keySpecs": "Supply: 2V-6V, High Noise Immunity, High Speed CMOS",
+    "useCase": "Interrupt line combining, multiple sensor fault aggregation, multiplexer gating."
+  },
+  {
+    "id": "87",
+    "name": "74HC86",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "14-DIP: 1-1A, 2-1B, 3-1Y, 4-2A, 5-2B, 6-2Y, 7-GND, 8-3Y, 9-3A, 10-3B, 11-4Y, 12-4A, 13-4B, 14-VCC",
+    "primaryFunction": "Quadruple 2-input Exclusive-OR (XOR) gate.",
+    "keySpecs": "Supply: 2V-6V, True Boolean XOR, Propagation Delay: 11ns",
+    "useCase": "Binary full/half adders, parity bit generators, digital phase comparators."
+  },
+  {
+    "id": "88",
+    "name": "74HC14",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "14-DIP: 1-1A, 2-1Y, 3-2A, 4-2Y, 5-3A, 6-3Y, 7-GND, 8-4Y, 9-4A, 10-5Y, 11-5A, 12-6Y, 13-6A, 14-VCC",
+    "primaryFunction": "Hex Inverter with Schmitt-Trigger inputs for noise immunity.",
+    "keySpecs": "Hysteresis Voltage: 0.9V typical at 5V, Transforms slow/noisy signals into crisp square waves",
+    "useCase": "Pushbutton switch debouncing, relaxation oscillators, sine-to-square converters."
+  },
+  {
+    "id": "89",
+    "name": "74HC595",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "16-DIP: 1-QB, 2-QC, 3-QD, 4-QE, 5-QF, 6-QG, 7-QH, 8-GND, 9-QH'(Serial Out), 10-SRCLR, 11-SRCLK, 12-RCLK, 13-OE, 14-SER, 15-QA, 16-VCC",
+    "primaryFunction": "8-Bit Serial-In Parallel-Out Shift Register with 3-State Output Storage Register.",
+    "keySpecs": "Clock Freq: up to 100MHz, Output Current: \u00b135mA, Cascaded expansion supported",
+    "useCase": "Expanding microcontroller GPIO pins to drive 7-segment displays, LED matrices, relays."
+  },
+  {
+    "id": "90",
+    "name": "74HC165",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "16-DIP: 1-PL(Shift/Load), 2-CP(Clock), 3-D4, 4-D5, 5-D6, 6-D7, 7-Q7_inv, 8-GND, 9-Q7(Serial Out), 10-DS(Serial In), 11-D0, 12-D1, 13-D2, 14-D3, 15-CE(Clock Inh), 16-VCC",
+    "primaryFunction": "8-Bit Parallel-In Serial-Out Shift Register (GPIO Input Expander).",
+    "keySpecs": "Parallel-to-serial conversion, Synchronous clocking up to 50MHz, Wide 2V-6V supply",
+    "useCase": "Reading multiple DIP switches, keypads, or digital buttons using only 3 MCU pins."
+  },
+  {
+    "id": "91",
+    "name": "74HC138",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "16-DIP: 1-A0, 2-A1, 3-A2, 4-E1_inv, 5-E2_inv, 6-E3, 7-Y7_inv, 8-GND, 9-Y6_inv, 10-Y5_inv, 11-Y4_inv, 12-Y3_inv, 13-Y2_inv, 14-Y1_inv, 15-Y0_inv, 16-VCC",
+    "primaryFunction": "3-to-8 Line Decoder / Demultiplexer with active-low outputs.",
+    "keySpecs": "3 binary select inputs decode 1-of-8 outputs, 3 enable inputs for easy cascading",
+    "useCase": "Memory chip-select decoding, 8-channel device addressing, LED column strobing."
+  },
+  {
+    "id": "92",
+    "name": "74HC74",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "14-DIP: 1-1CLR, 2-1D, 3-1CLK, 4-1PRE, 5-1Q, 6-1Q_inv, 7-GND, 8-2Q_inv, 9-2Q, 10-2PRE, 11-2CLK, 12-2D, 13-2CLR, 14-VCC",
+    "primaryFunction": "Dual D-Type Positive-Edge-Triggered Flip-Flop with Set and Reset.",
+    "keySpecs": "Toggle Frequency: up to 60MHz, Asynchronous Set and Clear inputs",
+    "useCase": "Frequency divider by 2, digital state machines, data synchronization, pulse storage."
+  },
+  {
+    "id": "93",
+    "name": "74HC245",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "20-DIP: 1-DIR, 2-A1...9-A8, 10-GND, 11-B8...18-B1, 19-OE_inv, 20-VCC",
+    "primaryFunction": "Octal 3-State Non-Inverting Bidirectional Bus Transceiver.",
+    "keySpecs": "Bidirectional data transmission between 2 buses, Direction pin controls A->B or B->A",
+    "useCase": "Microcontroller data bus isolation, driving long parallel ribbons, high-current bus buffering."
+  },
+  {
+    "id": "94",
+    "name": "74HC4051",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "16-DIP: 1-CH4, 2-CH6, 3-COM Out/In, 4-CH7, 5-CH5, 6-INH, 7-VEE, 8-GND, 9-S2, 10-S1, 11-S0, 12-CH3, 13-CH0, 14-CH1, 15-CH2, 16-VCC",
+    "primaryFunction": "8-Channel Analog Multiplexer/Demultiplexer.",
+    "keySpecs": "Low ON resistance: 80\u03a9, Handles both analog signals and digital levels, Rail-to-Rail",
+    "useCase": "Multiplexing 8 analog sensors into a single microcontroller ADC pin (e.g. ESP8266)."
+  },
+  {
+    "id": "95",
+    "name": "CD4017B",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "16-DIP: 1-Out5, 2-Out1, 3-Out0, 4-Out2, 5-Out6, 6-Out7, 7-Out3, 8-VSS, 9-Out8, 10-Out4, 11-Out9, 12-Carry Out, 13-Clock Enable, 14-Clock, 15-Reset, 16-VDD",
+    "primaryFunction": "CMOS Decade Counter with 10 Decoded outputs (Johnson Counter).",
+    "keySpecs": "Supply: 3V-18V, 10 sequentially active-high outputs, Automatic carry out for cascading",
+    "useCase": "LED chaser / knight rider lighting effects, sequential timer switches, dice simulators."
+  },
+  {
+    "id": "96",
+    "name": "CD4066B",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "14-DIP: 1-IN/OUT A, 2-OUT/IN A, 3-OUT/IN B, 4-IN/OUT B, 5-CTRL B, 6-CTRL C, 7-VSS, 8-IN/OUT C, 9-OUT/IN C, 10-OUT/IN D, 11-IN/OUT D, 12-CTRL D, 13-CTRL A, 14-VDD",
+    "primaryFunction": "Quad Bilateral Analog Switch for multiplexing audio, video, and digital signals.",
+    "keySpecs": "Supply: 3V-18V, Peak-to-Peak signal handling up to 15V, Low ON Resistance: 125\u03a9",
+    "useCase": "Audio signal routing, electronic potentiometer step switches, squelch circuits."
+  },
+  {
+    "id": "97",
+    "name": "CD4011B",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "14-DIP: 1-1A, 2-1B, 3-1Y, 4-2Y, 5-2A, 6-2B, 7-VSS, 8-3A, 9-3B, 10-3Y, 11-4Y, 12-4A, 13-4B, 14-VDD",
+    "primaryFunction": "Quad 2-Input CMOS NAND Gate supporting high voltage rails (up to 18V).",
+    "keySpecs": "Wide Supply: 3V to 18V, Parametric ratings at 5V, 10V, 15V, Ultra-low quiescent power",
+    "useCase": "12V automotive logic controller, high-voltage battery monitoring circuits."
+  },
+  {
+    "id": "98",
+    "name": "DHT11",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "4-Pin (Grid facing you): 1-VCC (3.3V-5V), 2-DATA, 3-NC, 4-GND",
+    "primaryFunction": "Basic low-cost digital temperature and relative humidity sensor.",
+    "keySpecs": "Humidity Range: 20-90% RH (\u00b15%), Temp Range: 0-50\u00b0C (\u00b12\u00b0C), Sampling: 1Hz",
+    "useCase": "Home weather stations, room comfort monitoring, greenhouse automation."
+  },
+  {
+    "id": "99",
+    "name": "DHT22",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "4-Pin: 1-VCC, 2-DATA, 3-NC, 4-GND (Also known as AM2302)",
+    "primaryFunction": "High-accuracy digital humidity and temperature sensor with calibrated digital output.",
+    "keySpecs": "Humidity: 0-100% RH (\u00b12%), Temp: -40 to 80\u00b0C (\u00b10.5\u00b0C), Single-bus protocol",
+    "useCase": "HVAC system monitoring, laboratory climate chambers, incubator temperature control."
+  },
+  {
+    "id": "100",
+    "name": "DS18B20",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "TO-92 (Facing flat): 1-GND, 2-DQ (Data with 4.7k\u03a9 pull-up), 3-VDD (3.0V-5.5V)",
+    "primaryFunction": "Programmable resolution 1-Wire digital thermometer sensor.",
+    "keySpecs": "Range: -55\u00b0C to +125\u00b0C, Accuracy: \u00b10.5\u00b0C (-10\u00b0C to +85\u00b0C), 9 to 12-bit user resolution",
+    "useCase": "Waterproof stainless probe liquid sensing, multi-point temperature sensing on one wire."
+  },
+  {
+    "id": "101",
+    "name": "HC-SR04",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "4-Pin Module: 1-VCC (5V), 2-TRIG (10\u00b5s pulse), 3-ECHO (Pulse width), 4-GND",
+    "primaryFunction": "Non-contact ultrasonic sonar distance measuring sensor module.",
+    "keySpecs": "Range: 2cm to 400cm, Resolution: 3mm, Ultrasonic Frequency: 40kHz, Angle: 15\u00b0",
+    "useCase": "Robot obstacle avoidance, liquid level tank monitoring, smart parking assistants."
+  },
+  {
+    "id": "102",
+    "name": "GL5528",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "2-Lead Radial: Symmetric Light Dependent Resistor (LDR)",
+    "primaryFunction": "Cadmium Sulfide (CdS) photoresistor that decreases resistance as light increases.",
+    "keySpecs": "Dark Resistance: 1M\u03a9 min, Light Resistance (10 Lux): 10k-20k\u03a9, Peak Spectral: 540nm",
+    "useCase": "Automatic dusk-to-dawn street lighting, camera ambient light detection, solar trackers."
+  },
+  {
+    "id": "103",
+    "name": "MQ-2",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "Module: 1-VCC (5V), 2-GND, 3-DO (Digital threshold out), 4-AO (Analog voltage out)",
+    "primaryFunction": "Combustible gas and smoke detection sensor (LPG, Propane, Methane, Smoke).",
+    "keySpecs": "Detect Concentration: 300-10000ppm, Internal 5V heater element, Dual AO/DO outputs",
+    "useCase": "Kitchen gas leak alarms, fire detection systems, industrial safety equipment."
+  },
+  {
+    "id": "104",
+    "name": "MQ-135",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "Module: 1-VCC (5V), 2-GND, 3-DO (Comparator out), 4-AO (Analog voltage out)",
+    "primaryFunction": "Air quality hazardous gas detector (Ammonia, NOx, Alcohol, Benzene, Smoke, CO2).",
+    "keySpecs": "Detect Range: 10-1000ppm Ammonia / Alcohol, Analog resistance change based on air quality",
+    "useCase": "Indoor air quality (IAQ) monitors, smart ventilation controllers, air purifiers."
+  },
+  {
+    "id": "105",
+    "name": "HC-SR501",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "Module 3-Pin: 1-VCC (4.5V-20V), 2-OUT (3.3V TTL High on motion), 3-GND",
+    "primaryFunction": "Passive Infrared (PIR) body motion detector module with Fresnel lens.",
+    "keySpecs": "Detect Distance: up to 7m, Angle: <120\u00b0, Adjustable Delay Time & Sensitivity trimpots",
+    "useCase": "Automatic security room lighting, burglar alarm motion triggers, energy saving monitors."
+  },
+  {
+    "id": "106",
+    "name": "MPU-6050",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "Module: 1-VCC, 2-GND, 3-SCL, 4-SDA, 5-XDA, 6-XCL, 7-AD0, 8-INT",
+    "primaryFunction": "6-Axis MotionTracking device combining 3-axis Gyroscope and 3-axis Accelerometer.",
+    "keySpecs": "Gyro: \u00b1250 to \u00b12000\u00b0/s, Accel: \u00b12g to \u00b116g, 16-bit ADC, On-chip Digital Motion Processor (DMP)",
+    "useCase": "Self-balancing two-wheel robots, quadcopter flight controllers, VR motion controllers."
+  },
+  {
+    "id": "107",
+    "name": "BMP280",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "Module: 1-VCC (1.8V-3.6V), 2-GND, 3-SCL, 4-SDA, 5-CSB, 6-SDO",
+    "primaryFunction": "High-precision digital barometric atmospheric pressure and temperature sensor.",
+    "keySpecs": "Pressure Range: 300 to 1100 hPa, Altitude Precision: \u00b11 meter, Interface: I2C / SPI",
+    "useCase": "Drone altimeters, indoor floor navigation, precision weather forecast barometers."
+  },
+  {
+    "id": "108",
+    "name": "TCS3200",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "Module: 1-GND, 2-VCC, 3-S0, 4-S1, 5-S2, 6-S3, 7-OUT, 8-OE",
+    "primaryFunction": "Programmable color light-to-frequency converter with 4 white illumination LEDs.",
+    "keySpecs": "Photodiode Array: 16 Red, 16 Green, 16 Blue, 16 Clear; Output: 50% duty cycle square wave",
+    "useCase": "Automated color sorting machines, RGB color calibration, candy sorters, paint matching."
+  },
+  {
+    "id": "109",
+    "name": "A3144",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "TO-92UA: 1-VCC (4.5V-24V), 2-GND, 3-VOUT (Open collector, needs 10k\u03a9 pull-up)",
+    "primaryFunction": "Unipolar Hall Effect digital magnetic field sensor switch.",
+    "keySpecs": "Operating Point Bop: 350G, Release Point Brp: 250G, Output Sink: 25mA, Fast <2\u00b5s response",
+    "useCase": "Brushless DC motor commutation, wheel speed tachometers, door open magnetic sensors."
+  },
+  {
+    "id": "110",
+    "name": "ACS712",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "Module: 1-VCC (5V), 2-OUT, 3-GND; Screw terminals: IP+ and IP- (Conductor)",
+    "primaryFunction": "Fully integrated Hall-effect based linear current sensor with 2.1kVRMS galvanic isolation.",
+    "keySpecs": "Current Range: \u00b15A, \u00b120A, or \u00b130A variants, Sensitivity: 185mV/A (5A model), Low Loss: 1.2m\u03a9",
+    "useCase": "AC/DC motor current monitoring, smart home energy meters, solar inverter battery current."
+  },
+  {
+    "id": "111",
+    "name": "SW-420",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "Module: 1-VCC (3.3V-5V), 2-GND, 3-DO (Digital switch output)",
+    "primaryFunction": "Normally closed vibration and tilt sensor module with LM393 comparator.",
+    "keySpecs": "On-board sensitivity adjustment trimpot, Clean digital output: Low when still, High on shock",
+    "useCase": "Anti-theft vehicle alarms, earthquake detectors, smart washing machine imbalance alert."
+  },
+  {
+    "id": "112",
+    "name": "RC522",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "Module 8-Pin: 1-SDA(SS), 2-SCK, 3-MOSI, 4-MISO, 5-IRQ, 6-GND, 7-RST, 8-3.3V",
+    "primaryFunction": "13.56MHz contactless RFID reader and writer module.",
+    "keySpecs": "Protocol: ISO/IEC 14443A / MIFARE, Range: 50mm, Operating Current: 13-26mA at 3.3V",
+    "useCase": "Electronic door locks, contactless access control keyfobs, public transit smart cards."
+  },
+  {
+    "id": "113",
+    "name": "PC817",
+    "category": "Opto & Relay",
+    "icon": "ic_opto",
+    "pinout": "DIP-4: 1-Anode (LED), 2-Cathode (LED), 3-Emitter (Photo-Transistor), 4-Collector",
+    "primaryFunction": "4-Pin general purpose phototransistor optocoupler for galvanic isolation.",
+    "keySpecs": "Isolation Voltage: 5000V RMS, Vceo: 35V, Collector Current: 50mA, Current Transfer Ratio: 50-600%",
+    "useCase": "Isolating noisy inductive relays/motors from sensitive microcontrollers, SMPS feedback."
+  },
+  {
+    "id": "114",
+    "name": "4N35",
+    "category": "Opto & Relay",
+    "icon": "ic_opto",
+    "pinout": "DIP-6: 1-Anode, 2-Cathode, 3-NC, 4-Emitter, 5-Collector, 6-Base (allows external bias)",
+    "primaryFunction": "6-Pin phototransistor optocoupler with base connection for switching speed tuning.",
+    "keySpecs": "Isolation: 3550V Peak, Vceo: 30V, CTR: 100%, Base pin access for fast turn-off resistor",
+    "useCase": "MIDI musical synthesizer interface, industrial automation input isolation."
+  },
+  {
+    "id": "115",
+    "name": "MOC3021",
+    "category": "Opto & Relay",
+    "icon": "ic_opto",
+    "pinout": "DIP-6: 1-Anode, 2-Cathode, 3-NC, 4-Main Terminal, 5-Substrate, 6-Main Terminal",
+    "primaryFunction": "Random-phase optically isolated triac driver for AC load control.",
+    "keySpecs": "Peak Off-State Voltage: 400V, Trigger Current Ift: 15mA Max, High dv/dt: 1000V/\u00b5s",
+    "useCase": "AC mains light dimmers, fan speed controllers, phase-angle firing control."
+  },
+  {
+    "id": "116",
+    "name": "MOC3041",
+    "category": "Opto & Relay",
+    "icon": "ic_opto",
+    "pinout": "DIP-6: 1-Anode, 2-Cathode, 3-NC, 4-Main Terminal, 5-Substrate, 6-Main Terminal",
+    "primaryFunction": "Zero-crossing optically coupled bilateral triac driver for silent AC switching.",
+    "keySpecs": "Blocking Voltage: 400V, Built-in Zero-Cross detector inhibits switching during AC peaks",
+    "useCase": "Solid State Relays (SSR), AC heater element on/off control without electrical noise."
+  },
+  {
+    "id": "117",
+    "name": "ULN2003A",
+    "category": "Opto & Relay",
+    "icon": "ic_transistor",
+    "pinout": "16-DIP: 1-IN1...7-IN7, 8-GND, 9-COM (Freewheeling clamp diodes), 10-OUT7...16-OUT1",
+    "primaryFunction": "High-voltage high-current 7-Darlington transistor sink driver array.",
+    "keySpecs": "Output Voltage: 50V, Collector Current: 500mA per channel, Integrated suppression diodes",
+    "useCase": "Driving 28BYJ-48 unipolar stepper motors, 7 relay coils, high-power 12V LED banks."
+  },
+  {
+    "id": "118",
+    "name": "ULN2803A",
+    "category": "Opto & Relay",
+    "icon": "ic_transistor",
+    "pinout": "18-DIP: 1-IN1...8-IN8, 9-GND, 10-COM (Free-wheeling diodes), 11-OUT8...18-OUT1",
+    "primaryFunction": "8-Channel Darlington transistor array for 5V TTL and CMOS logic interfacing.",
+    "keySpecs": "Channels: 8, Peak Current: 500mA/ch, Output Clamp: 50V, Direct 5V microcontroller drive",
+    "useCase": "8-relay module boards, solenoid arrays, high-power dot matrix LED displays."
+  },
+  {
+    "id": "119",
+    "name": "L293D",
+    "category": "Opto & Relay",
+    "icon": "ic_timer",
+    "pinout": "16-DIP: 1-1,2EN, 2-1A, 3-1Y, 4,5-GND, 6-2Y, 7-2A, 8-VCC2(Motor), 9-3,4EN, 10-3A, 11-3Y, 12,13-GND, 14-4Y, 15-4A, 16-VCC1(Logic 5V)",
+    "primaryFunction": "Quadruple high-current half-H driver designed for bidirectional DC and stepper motors.",
+    "keySpecs": "Motor Supply VCC2: 4.5V to 36V, Output Current: 600mA per channel (1.2A Peak), Internal clamp diodes",
+    "useCase": "Driving 2 bidirectional DC motors (forward/reverse/speed) or 1 4-wire bipolar stepper motor."
+  },
+  {
+    "id": "120",
+    "name": "L298N",
+    "category": "Opto & Relay",
+    "icon": "ic_timer",
+    "pinout": "Multiwatt-15: 1-Current Sense A, 2-OUT1, 3-OUT2, 4-Vs (Power), 5-IN1, 6-ENA, 7-IN2, 8-GND, 9-Vss(Logic), 10-IN3, 11-ENB, 12-IN4, 13-OUT3, 14-OUT4, 15-Sense B",
+    "primaryFunction": "High-power dual full-bridge motor driver capable of handling higher currents.",
+    "keySpecs": "Operating Supply: up to 46V, Total DC Current: up to 4A (2A per bridge), Thermal Shutdown",
+    "useCase": "Heavy robotics chassis motors, CNC machine bipolar stepper axes, Peltier elements."
+  },
+  {
+    "id": "121",
+    "name": "PCF8574",
+    "category": "Opto & Relay",
+    "icon": "ic_timer",
+    "pinout": "16-DIP: 1-A0, 2-A1, 3-A2, 4-P0, 5-P1, 6-P2, 7-P3, 8-GND, 9-P4, 10-P5, 11-P6, 12-P7, 13-INT_inv, 14-SCL, 15-SDA, 16-VDD",
+    "primaryFunction": "Remote 8-bit I/O expander for two-line bidirectional I2C bus.",
+    "keySpecs": "Operating Supply: 2.5V-6.0V, Low Standby Current: 10\u00b5A, Open-drain interrupt output",
+    "useCase": "HD44780 16x2 / 20x4 LCD character backpack (converting 16-pin LCD to 2-wire I2C)."
+  },
+  {
+    "id": "122",
+    "name": "SRD-05VDC",
+    "category": "Opto & Relay",
+    "icon": "ic_opto",
+    "pinout": "5-Pin PCB Relay: 2x Coil Pins, 1x Common (COM), 1x Normally Open (NO), 1x Normally Closed (NC)",
+    "primaryFunction": "Miniature Single-Pole Double-Throw (SPDT) 5V DC electromagnetic power relay.",
+    "keySpecs": "Coil Voltage: 5V DC (71mA), Contact Rating: 10A 250VAC / 10A 30VDC, Dielectric: 1500V",
+    "useCase": "Home automation smart switches, switching 230V AC home appliances from 5V logic."
+  },
+  {
+    "name": "ESP32-WROOM-32",
+    "category": "MCU & Board",
+    "icon": "ic_mcu",
+    "pinout": "38-Pin DevKit: 3V3, EN, VP(36), VN(39), D34, D35, D32, D33, D25(DAC1), D26(DAC2), D27, D14, D12, GND, D13, D9, D10, D11, 5V(VIN), CMD, SD3, SD2, D15, D2, D0, D4, D16(RX2), D17(TX2), D5, D18(SCK), D19(MISO), D21(SDA), D3(RX0), D1(TX0), D22(SCL), D23(MOSI), GND",
+    "primaryFunction": "Dual-Core 32-bit Xtensa LX6 MCU with integrated 2.4 GHz Wi-Fi and Bluetooth 4.2 BR/EDR/BLE.",
+    "keySpecs": "Clock: Up to 240 MHz, SRAM: 520 KB, Flash: 4MB/8MB SPI, Operating Voltage: 3.0V - 3.6V, 12-bit SAR ADC (18 channels), 2x 8-bit DACs, Capacitive touch pins.",
+    "useCase": "University IoT thesis, smart agriculture gateways, drone telemetry, edge computing, wireless sensor networks (WSN).",
+    "id": "123"
+  },
+  {
+    "name": "ESP8266 (NodeMCU V3)",
+    "category": "MCU & Board",
+    "icon": "ic_mcu",
+    "pinout": "30-Pin NodeMCU: A0(ADC0), RSV, RSV, SD3, SD2, SD1, CMD, SD0, CLK, GND, 3V3, EN, RST, GND, VIN(5V), D0(GPIO16), D1(GPIO5/SCL), D2(GPIO4/SDA), D3(GPIO0), D4(GPIO2/LED), 3V3, GND, D5(GPIO14/SCK), D6(GPIO12/MISO), D7(GPIO13/MOSI), D8(GPIO15/CS), RX(GPIO3), TX(GPIO1), GND, 3V3",
+    "primaryFunction": "Low-cost Wi-Fi microchip with full TCP/IP stack and microcontroller capability.",
+    "keySpecs": "CPU: Tensilica 32-bit L106 @ 80/160 MHz, 4MB Flash, 10-bit ADC (0-1V input range, 0-3.3V on NodeMCU divider), 802.11 b/g/n Wi-Fi, 3.3V logic.",
+    "useCase": "Home automation projects, smart energy meters, MQTT cloud data loggers, remote telemetry servers.",
+    "id": "124"
+  },
+  {
+    "name": "STM32F103C8T6 (Blue Pill)",
+    "category": "MCU & Board",
+    "icon": "ic_mcu",
+    "pinout": "40-Pin DIP form factor: VBAT, PC13(Built-in LED), PC14, PC15, PA0(WKUP/ADC0), PA1-PA7(ADC/PWM), PB0-PB1, PB10(SCL2), PB11(SDA2), RESET, 3V3, GND, PA8-PA10(UART1), PA11(USB D-), PA12(USB D+), PA15, PB3-PB9(I2C1/Timer4), 5V, GND, 3V3",
+    "primaryFunction": "ARM Cortex-M3 32-bit RISC core microcontroller widely used in university embedded systems curriculum.",
+    "keySpecs": "Clock: 72 MHz max, Flash: 64KB/128KB, SRAM: 20KB, 2x 12-bit ADC (16 channels), USB 2.0 Full Speed, CAN 2.0B, 3x USART, 2x SPI, 2x I2C.",
+    "useCase": "Robotics motor control with hardware quadrature encoder inputs, real-time operating systems (FreeRTOS labs), digital signal processing.",
+    "id": "125"
+  },
+  {
+    "name": "STM32F401CCU6 (Black Pill)",
+    "category": "MCU & Board",
+    "icon": "ic_mcu",
+    "pinout": "Type-C 40-Pin: B12-B15(SPI2), A8-A12(USB/PWM), A15, B3-B9(I2C1/I2C2), 5V, GND, 3V3, C13(LED), C14, C15, A0-A7(12-bit ADC), B0, B1, B2(BOOT1), B10",
+    "primaryFunction": "High-performance ARM Cortex-M4 32-bit MCU with hardware Single Precision FPU and DSP instructions.",
+    "keySpecs": "Clock: 84 MHz, Flash: 256KB, SRAM: 64KB, Hardware FPU, USB Type-C OTG 2.0, 16-channel 12-bit ADC @ 2.4 MSPS.",
+    "useCase": "Audio DSP processing, FFT analysis, autonomous quadcopter flight computers, fast PID closed-loop control.",
+    "id": "126"
+  },
+  {
+    "name": "Raspberry Pi Pico (RP2040)",
+    "category": "MCU & Board",
+    "icon": "ic_mcu",
+    "pinout": "40-Pin Castellated DIP: GP0-GP22 (Digital I/O, PWM, UART, SPI, I2C), GP26(ADC0), GP27(ADC1), GP28(ADC2), ADC_VREF, 3V3_OUT, 3V3_EN, GND, VSYS, VBUS, SWDIO, SWCLK",
+    "primaryFunction": "Custom Dual ARM Cortex-M0+ microcontroller designed by Raspberry Pi with unique Programmable I/O (PIO) blocks.",
+    "keySpecs": "Clock: Flexible up to 133 MHz, SRAM: 264KB, External Flash: 2MB QSPI, 8x Programmable I/O (PIO) state machines, Dual SPI/I2C/UART, 3x 12-bit ADC.",
+    "useCase": "MicroPython university labs, custom hardware protocol generation (DVI/VGA generation via PIO), high-speed logic analyzers.",
+    "id": "127"
+  },
+  {
+    "name": "ATmega328P-PU",
+    "category": "MCU & Board",
+    "icon": "ic_mcu",
+    "pinout": "28-Pin DIP: 1-PC6(RESET), 2-PD0(RX), 3-PD1(TX), 4-PD2(INT0), 5-PD3(INT1/PWM), 6-PD4, 7-VCC, 8-GND, 9-PB6(XTAL1), 10-PB7(XTAL2), 11-PD5(PWM), 12-PD6(PWM), 13-PD7, 14-PB0, 15-PB1(PWM), 16-PB2(PWM/SS), 17-PB3(MOSI/PWM), 18-PB4(MISO), 19-PB5(SCK), 20-AVCC, 21-AREF, 22-GND, 23-PC0(A0), 24-PC1(A1), 25-PC2(A2), 26-PC3(A3), 27-PC4(A4/SDA), 28-PC5(A5/SCL)",
+    "primaryFunction": "8-bit AVR RISC microcontroller with 32KB ISP flash memory, heart of the Arduino Uno.",
+    "keySpecs": "Clock: Up to 20 MHz, 32KB Flash, 2KB SRAM, 1KB EEPROM, 6 PWM channels, 8-channel 10-bit ADC, Operating Voltage: 1.8V - 5.5V.",
+    "useCase": "Core microcontroller laboratory experiments, standalone embedded circuit design, embedded C/assembly programming.",
+    "id": "128"
+  },
+  {
+    "name": "ATmega2560",
+    "category": "MCU & Board",
+    "icon": "ic_mcu",
+    "pinout": "100-Pin TQFP (Arduino Mega 2560 board form factor): 54 Digital I/O pins (15 PWM), 16 Analog Inputs, 4 Hardware Serial UART ports (TX0/RX0 - TX3/RX3), SPI pins (50-53), I2C (20-SDA, 21-SCL)",
+    "primaryFunction": "Large 8-bit AVR microcontroller with extensive I/O capacity, utilized in 3D printers and multi-sensor systems.",
+    "keySpecs": "Clock: 16 MHz, Flash: 256KB, SRAM: 8KB, EEPROM: 4KB, 16x 10-bit ADC channels, 4x Hardware UARTs, Operating Voltage: 5V.",
+    "useCase": "3D printer controllers (RAMPS 1.4), robotics projects requiring multiple serial devices (GPS, Bluetooth, GSM, telemetry) simultaneously.",
+    "id": "129"
+  },
+  {
+    "name": "ATtiny85",
+    "category": "MCU & Board",
+    "icon": "ic_mcu",
+    "pinout": "8-Pin DIP: 1-PB5(RESET/ADC0), 2-PB3(XTAL1/ADC3), 3-PB4(XTAL2/ADC2/PWM), 4-GND, 5-PB0(MOSI/SDA/PWM), 6-PB1(MISO/PWM), 7-PB2(SCK/SCL/ADC1), 8-VCC",
+    "primaryFunction": "Ultra-compact high-performance, low-power 8-bit AVR RISC-based microcontroller.",
+    "keySpecs": "Clock: Up to 20 MHz (Internal 8MHz oscillator), Flash: 8KB, EEPROM: 512B, SRAM: 512B, 6 General Purpose I/O lines, 4-channel 10-bit ADC, 2.7V - 5.5V.",
+    "useCase": "Wearable electronics, ultra-miniature sensor nodes, USB keystroke injectors (Digispark), minimalist battery-powered devices.",
+    "id": "130"
+  },
+  {
+    "name": "Arduino Nano V3",
+    "category": "MCU & Board",
+    "icon": "ic_mcu",
+    "pinout": "30-Pin Breadboard Friendly: D1/TX, D0/RX, RST, GND, D2-D12, D13(LED), 3V3, REF, A0-A7(8 Analog Inputs), 5V, RST, GND, VIN",
+    "primaryFunction": "Compact breadboard-ready microcontroller board based on the ATmega328P with mini-B USB or Type-C.",
+    "keySpecs": "Clock: 16 MHz, Operating Voltage: 5V, Input Voltage: 7-12V, 14 Digital pins (6 PWM), 8 Analog ADC pins (2 more than Uno), CH340G / FT232RL USB UART.",
+    "useCase": "Standard university lab prototyping on breadboards, mini sumo robots, multi-sensor measurement circuits.",
+    "id": "131"
+  },
+  {
+    "name": "PIC16F877A",
+    "category": "MCU & Board",
+    "icon": "ic_mcu",
+    "pinout": "40-Pin DIP: 1-MCLR/VPP, 2-RA0/AN0, 3-RA1/AN1, 4-RA2/AN2, 5-RA3/AN3, 6-RA4/T0CKI, 7-RA5/AN4, 8-RE0, 9-RE1, 10-RE2, 11-VDD, 12-VSS, 13-OSC1, 14-OSC2, 15-RC0, 16-RC1, 17-RC2/CCP1, 18-RC3/SCK, 19-RD0, 20-RD1, 21-RD2, 22-RD3, 23-RC4/SDI, 24-RC5/SDO, 25-RC6/TX, 26-RC7/RX, 27-RD4, 28-RD5, 29-RD6, 30-RD7, 31-VSS, 32-VDD, 33-RB0/INT, 34-RB1, 35-RB2, 36-RB3/PGM, 37-RB4, 38-RB5, 39-RB6/PGC, 40-RB7/PGD",
+    "primaryFunction": "Classic 8-bit Microchip PIC microcontroller foundational to university EEE microcontroller syllabuses.",
+    "keySpecs": "Operating frequency: DC to 20 MHz, Flash Memory: 8K words (14-bit), RAM: 368 Bytes, EEPROM: 256 Bytes, 8-channel 10-bit ADC, Capture/Compare/PWM modules.",
+    "useCase": "University Microcontroller Lab courses, assembly and Embedded C MPLAB XC8 teaching, industrial automation benchmarks.",
+    "id": "132"
+  },
+  {
+    "name": "nRF24L01+",
+    "category": "MCU & Board",
+    "icon": "ic_wireless",
+    "pinout": "8-Pin 2x4 Header: 1-GND, 2-VCC(3.3V ONLY), 3-CE(Chip Enable), 4-CSN(SPI Chip Select), 5-SCK(SPI Clock), 6-MOSI(SPI Master Out), 7-MISO(SPI Master In), 8-IRQ(Interrupt Request)",
+    "primaryFunction": "2.4 GHz ISM band wireless transceiver RF module with ultra-low power consumption and hardware packet engine.",
+    "keySpecs": "Frequency: 2.400 - 2.525 GHz, Data rates: 250kbps, 1Mbps, 2Mbps, Supply: 1.9V to 3.6V (5V tolerant logic inputs), ShockBurst hardware protocol.",
+    "useCase": "Wireless remote controllers, quadcopter telemetry links, multi-node mesh sensor networks, autonomous car communications.",
+    "id": "133"
+  },
+  {
+    "name": "SX1278 (Ra-02 LoRa 433MHz)",
+    "category": "MCU & Board",
+    "icon": "ic_wireless",
+    "pinout": "16-Pin SMD / Breakout: GND, 3V3, RST, DIO0(Packet Rx/Tx done interrupt), DIO1, DIO2, DIO3, DIO4, DIO5, SCK, MISO, MOSI, NSS(CS), GND, ANT",
+    "primaryFunction": "Long Range (LoRa) spread spectrum wireless transceiver module for ultra-long distance RF links.",
+    "keySpecs": "Frequency: 410-525 MHz (433MHz nominal), Link budget: up to +148 dBm, Transmit power: +20 dBm (100mW), Range: 3-10 km Line of Sight, SPI interface, 3.3V.",
+    "useCase": "Smart city environmental monitoring, agricultural soil station telemetry over kilometers, disaster warning mesh nodes.",
+    "id": "134"
+  },
+  {
+    "name": "SIM800L GPRS/GSM Module",
+    "category": "MCU & Board",
+    "icon": "ic_wireless",
+    "pinout": "12-Pin Breakout: NET(Antenna), VCC(3.7V-4.4V High Peak Current), RST, RXD(UART Receive 2.8V-3.3V), TXD(UART Transmit), GND, RING, DTR, MICP, MICN, SPKP, SPKN",
+    "primaryFunction": "Quad-band GSM/GPRS cellular communication module supporting SMS, voice calls, and GPRS HTTP data transfer.",
+    "keySpecs": "Quad-band: 850/900/1800/1900 MHz, Supply: 3.7V - 4.4V (Requires 2A burst current capacitor!), AT command set interface, micro SIM card slot.",
+    "useCase": "SMS-based accident alert systems, smart vehicle theft tracking with GPS, remote GSM irrigation pump switches, IoT billing meters.",
+    "id": "135"
+  },
+  {
+    "name": "NEO-6M GPS Module",
+    "category": "MCU & Board",
+    "icon": "ic_wireless",
+    "pinout": "4-Pin Header: 1-VCC(3.0V-5.0V), 2-RX(UART Receive 3.3V logic), 3-TX(UART Transmit 9600 baud NMEA), 4-GND, PPS LED: Pulses once per second on satellite fix",
+    "primaryFunction": "High-sensitivity GPS receiver module outputting standard NMEA satellite positioning sentences over UART.",
+    "keySpecs": "Tracking channels: 50, Update rate: 1 Hz to 5 Hz, Sensitivity: -161 dBm, Time-To-First-Fix (Cold): 27s, Built-in ceramic patch antenna & EEPROM for config.",
+    "useCase": "Autonomous vehicle navigation, drone GPS return-to-home fail-safes, geo-fencing asset trackers, atomic precision NTP clocks.",
+    "id": "136"
+  },
+  {
+    "name": "HC-05 Bluetooth Module",
+    "category": "MCU & Board",
+    "icon": "ic_wireless",
+    "pinout": "6-Pin Header: 1-STATE(Connection status), 2-RXD(Serial Receive - use voltage divider with 5V MCU!), 3-TXD(Serial Transmit 3.3V), 4-GND, 5-VCC(3.6V-6V), 6-EN/KEY(High for AT Command Mode)",
+    "primaryFunction": "Master and Slave Bluetooth SPP (Serial Port Protocol) module for transparent wireless UART communication.",
+    "keySpecs": "Bluetooth v2.0+EDR, Operating Voltage: 3.3V (Module board has 5V LDO), Baud rate: 9600 (default) to 1382400, Range: ~10 meters, AT command programmable.",
+    "useCase": "Smartphone Bluetooth robot controllers, wireless lab instrument serial monitoring, wireless computer mouse/keyboard emulators.",
+    "id": "137"
+  },
+  {
+    "name": "HC-06 Bluetooth Module",
+    "category": "MCU & Board",
+    "icon": "ic_wireless",
+    "pinout": "4-Pin Header: 1-VCC(3.6V-6V), 2-GND, 3-TXD(Serial Transmit 3.3V), 4-RXD(Serial Receive 3.3V - requires divider with 5V Arduino), Status LED indicates pairing",
+    "primaryFunction": "Dedicated Slave-mode Bluetooth 2.0 serial module designed for simple point-to-point wireless UART bridges.",
+    "keySpecs": "Bluetooth v2.0+EDR Slave only, 2.4GHz ISM band, Default baud 9600 8N1, Current: 30-40mA pairing, 8mA connected, Range: 10m.",
+    "useCase": "Mobile app control of home appliances, Android robot car control, wireless telemetry debugging.",
+    "id": "138"
+  },
+  {
+    "name": "ESP32-CAM (OV2640 Module)",
+    "category": "MCU & Board",
+    "icon": "ic_mcu",
+    "pinout": "16-Pin Dual Header: 5V, GND, IO12, IO13, IO15, IO14, IO2, IO4(Flash LED), GND, 3V3, U0R(RX), U0T(TX), IO0(Ground to Flash firmware), IO16(PSRAM), GND, VCC",
+    "primaryFunction": "ESP32-S module with integrated 2MP OV2640 camera, micro SD card slot, and 4MB external PSRAM.",
+    "keySpecs": "Processor: Dual-core 240MHz, 520KB SRAM + 4MB PSRAM, Camera: OV2640 up to UXGA (1600x1200), Wi-Fi video streaming, MicroSD SPI interface.",
+    "useCase": "AI face recognition door lock capstone, wireless security IP camera, smart vision sorting robot, visual inspection systems.",
+    "id": "139"
+  },
+  {
+    "name": "CH340G USB to UART IC",
+    "category": "MCU & Board",
+    "icon": "ic_interface",
+    "pinout": "16-Pin SOP: 1-GND, 2-TXD, 3-RXD, 4-V3(Decoupling 3.3V), 5-UD+(USB Data +), 6-UD-(USB Data -), 7-XI(12MHz Crystal In), 8-XO(12MHz Crystal Out), 9-CTS, 10-DSR, 11-RI, 12-DCD, 13-DTR(Auto-reset cap to MCU), 14-RTS, 15-R232, 16-VCC",
+    "primaryFunction": "USB bus converter chip providing serial port, IrDA infrared, or printer interface.",
+    "keySpecs": "USB 2.0 full speed compatible, supports baud rates from 50bps to 2Mbps, 5V and 3.3V power supply, integrated clock generator requiring external 12MHz crystal.",
+    "useCase": "Standard USB programming interface for Arduino Nano, NodeMCU, and custom university microcontroller boards.",
+    "id": "140"
+  },
+  {
+    "name": "CP2102 USB to UART Bridge",
+    "category": "MCU & Board",
+    "icon": "ic_interface",
+    "pinout": "28-Pin QFN: DCD, RI, GND, D+, D-, VDD(3.3V Out), REGIN(5V In), VBUS, RST, NC, SUSPEND, SUSPEND_N, TXD, RXD, RTS, CTS, DTR",
+    "primaryFunction": "Highly integrated USB-to-UART bridge controller with internal oscillator and 3.3V voltage regulator.",
+    "keySpecs": "Data transfer rates from 300 bps to 1 Mbps, USB 2.0 full-speed (12 Mbps), integrated 1024-byte EEPROM for vendor ID/product ID customization, no external crystal required.",
+    "useCase": "Reliable serial flashing and real-time debugging for ESP32 and STM32 university research hardware.",
+    "id": "141"
+  },
+  {
+    "name": "MAX30102 Heart Rate & SpO2",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "7-Pin Breakout: VIN(1.8V-5V), GND, SCL(I2C Clock), SDA(I2C Data), INT(Active Low Interrupt), IRD(Red LED cathode test), RD(IR LED test)",
+    "primaryFunction": "High-sensitivity pulse oximeter and heart-rate sensor module for wearable biomedical monitoring.",
+    "keySpecs": "Optical system with Red (660nm) and Infrared (880nm) LEDs and photodetectors, 18-bit ADC, programmable sample rate, ultra-low standby current (0.7uA), I2C interface.",
+    "useCase": "Biomedical engineering thesis projects, wearable patient vital signs monitors, fitness tracking wristbands.",
+    "id": "142"
+  },
+  {
+    "name": "MLX90614 Contactless IR Thermometer",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "TO-39 Metal Can / 4-Pin Module: 1-SCL(SMBus Clock), 2-SDA(SMBus Data), 3-VDD(3.3V or 5V depending on version DCI/BAA), 4-VSS(Ground)",
+    "primaryFunction": "Factory calibrated non-contact infrared temperature sensor with medical accuracy.",
+    "keySpecs": "Object temperature range: -70\u00b0C to +382.2\u00b0C, Accuracy: \u00b10.5\u00b0C in human body range, Resolution: 0.02\u00b0C, 17-bit ADC, SMBus/PWM interface.",
+    "useCase": "Automated forehead temperature scanner gates (COVID screening), industrial thermal hotspot detection, contactless molten solder bath monitoring.",
+    "id": "143"
+  },
+  {
+    "name": "VL53L0X Laser ToF Distance Sensor",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "6-Pin Breakout: VCC(2.8V-5V), GND, SCL(I2C Clock), SDA(I2C Data), XSHUT(Shutdown/I2C address change), GPIO1(Interrupt output)",
+    "primaryFunction": "Time-of-Flight (ToF) laser-ranging sensor measuring distance based on photon travel time rather than acoustic reflection.",
+    "keySpecs": "Wavelength: 940 nm invisible VCSEL laser (Class 1 Eye Safe), Range: up to 2 meters, Millimeter resolution, I2C address programmable via XSHUT, immunity to target color/reflectance.",
+    "useCase": "Autonomous drone altitude hold, obstacle avoidance for micromouse robots, high-speed fluid level measurement.",
+    "id": "144"
+  },
+  {
+    "name": "ADXL345 3-Axis Accelerometer",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "8-Pin Breakout: VCC(3.3V-5V with regulator), GND, CS(Chip Select - pull high for I2C), SDO(MISO / I2C Address select), SDA(MOSI/I2C Data), SCL(SPI Clock/I2C Clock), INT1, INT2",
+    "primaryFunction": "Small, thin, ultra-low power 3-axis accelerometer with high resolution (13-bit) measurement up to \u00b116g.",
+    "keySpecs": "Selectable g-ranges: \u00b12g, \u00b14g, \u00b18g, \u00b116g, Output data rate: 0.1 Hz to 3200 Hz, SPI and I2C interfaces, hardware tap, double-tap, free-fall detection.",
+    "useCase": "Seismic earthquake vibration monitoring, free-fall detection in laptops/drones, structural health monitoring of bridges.",
+    "id": "145"
+  },
+  {
+    "name": "BME280 Environmental Sensor",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "6-Pin Breakout: VCC(3.3V), GND, SCL(I2C/SPI Clock), SDA(I2C Data / SPI MOSI), CSB(Chip Select), SDO(SPI MISO / I2C Address pin: Low=0x76, High=0x77)",
+    "primaryFunction": "Combined digital humidity, barometric pressure, and temperature sensor in an ultra-compact package.",
+    "keySpecs": "Pressure: 300 to 1100 hPa (\u00b11 hPa accuracy ~ 1m altitude resolution), Temp: -40 to 85\u00b0C, Humidity: 0 to 100% RH (\u00b13%), I2C & SPI interfaces.",
+    "useCase": "Weather station thesis projects, precision variometer for gliders/drones, indoor HVAC environmental monitoring.",
+    "id": "146"
+  },
+  {
+    "name": "MQ-3 Alcohol Gas Sensor",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "4-Pin Module: VCC(5V), GND, DO(Digital threshold comparator output), AO(Analog output voltage proportional to alcohol concentration)",
+    "primaryFunction": "Metal oxide semiconductor chemical sensor with high sensitivity to ethanol vapor.",
+    "keySpecs": "Detection concentration: 0.05 mg/L to 10 mg/L Alcohol, Heater Voltage: 5.0V \u00b10.1V (Heater Resistance: 31\u03a9 \u00b13\u03a9), Preheating time: Over 48 hours for stable baseline.",
+    "useCase": "Smart ignition interlock breathalyzer projects, distillery fermentation monitoring, drink-and-drive vehicle safety systems.",
+    "id": "147"
+  },
+  {
+    "name": "MQ-7 Carbon Monoxide Sensor",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "4-Pin Module: VCC(Cycle between 5V high heat and 1.4V low heat read), GND, DO, AO",
+    "primaryFunction": "Specialized gas sensor for toxic Carbon Monoxide (CO) detection using cyclic temperature heating.",
+    "keySpecs": "Detection range: 20 ppm to 2000 ppm CO, Requires cycle: 60s @ 5V (cleaning) then 90s @ 1.4V (measurement), High sensitivity to CO, low cross-sensitivity to alcohol.",
+    "useCase": "Household gas leak and furnace safety alarms, underground mine toxic gas telemetry, firefighter safety monitors.",
+    "id": "148"
+  },
+  {
+    "name": "APDS-9960 RGB & Gesture Sensor",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "6-Pin Breakout: VL(IR LED cathode power optional), GND, VCC(3.3V), SDA(I2C Data), SCL(I2C Clock), INT(Interrupt Output)",
+    "primaryFunction": "Digital RGB color, ambient light, proximity, and directional 4-way gesture sensor (Up, Down, Left, Right).",
+    "keySpecs": "Operating Voltage: 2.4V - 3.6V, 4 directional photodiodes with integrated IR LED, UV and IR blocking filters, I2C fast mode @ 400kHz.",
+    "useCase": "Touchless gesture-controlled human-machine interfaces (HMI), contactless robot navigation, ambient brightness display adjusters.",
+    "id": "149"
+  },
+  {
+    "name": "HX711 24-Bit ADC Load Cell Amp",
+    "category": "Sensor",
+    "icon": "ic_interface",
+    "pinout": "Load Cell Side: E+(Red/Excitation+), E-(Black/Excitation-), A+(Green/Signal+), A-(White/Signal-), B+/B-(Optional Channel B). MCU Side: VCC(2.7V-5.5V), GND, DT(Data Out), SCK(Clock In)",
+    "primaryFunction": "Precision 24-bit analog-to-digital converter designed specifically for weigh scales and industrial strain gauges.",
+    "keySpecs": "Selectable gain of 64 or 128 for Channel A (\u00b120mV full-scale differential input), On-chip low-noise PGA, Output data rate: 10 SPS or 80 SPS, 2-wire serial protocol.",
+    "useCase": "Smart inventory weighing systems, structural load testing platforms, digital bathroom scales, tensile test rigs.",
+    "id": "150"
+  },
+  {
+    "name": "YF-S201 Water Flow Sensor",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "3-Wire Cable: Red-VCC(5V-18V DC), Black-GND, Yellow-Signal Pulse (Hall effect square wave output, frequency proportional to flow rate)",
+    "primaryFunction": "Turbine flow meter with internal magnetic Hall-effect sensor measuring water liquid flow rate.",
+    "keySpecs": "Flow Rate: 1 to 30 Liters/min, Water Pressure: \u2264 1.75 MPa, Flow Pulse Characteristic: F = (7.5 * Q) \u00b13% (Q in L/min, F in Hz), 1/2 inch male pipe thread.",
+    "useCase": "Prepaid digital water metering, automated hydroponic nutrient dosing, leak detection systems, solar water heater monitoring.",
+    "id": "151"
+  },
+  {
+    "name": "ACS712-20A Hall Current Sensor",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "Screw Terminals: IP+ & IP- (In-line current path). Pinout Header: VCC(5V), GND, OUT(Analog voltage: 2.5V at 0A, sensitivity 100mV/A)",
+    "primaryFunction": "Fully integrated, Hall-effect-based linear current sensor IC with 2.1 kVRMS voltage isolation.",
+    "keySpecs": "Measurement range: -20A to +20A AC/DC, Sensitivity: 100 mV/A, Bandwidth: 80 kHz, Internal conductor resistance: 1.2 m\u03a9 (very low power loss), 5.0V supply.",
+    "useCase": "Smart solar inverter energy monitors, motor overload protection, battery charging telemetry, electric vehicle motor current feedback.",
+    "id": "152"
+  },
+  {
+    "name": "RCWL-0516 Microwave Radar Sensor",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "5-Pin Breakout: 3V3(Regulated 3.3V out max 100mA), GND, OUT(High 3.3V on motion detection for ~2s), VIN(4V-28V DC), CDS(Light sensor enable pin)",
+    "primaryFunction": "Miniature microwave Doppler radar motion detector capable of penetrating non-metallic walls, glass, and plastic enclosures.",
+    "keySpecs": "Operating frequency: ~3.18 GHz, Detection distance: 5 to 7 meters (360-degree detection cone), Supply voltage: 4.0V - 28V, Current: 3mA, Penetrates drywall/wood.",
+    "useCase": "Hidden smart home presence detection, tamper-proof security radar alarms, automatic corridor lighting through luminaire covers.",
+    "id": "153"
+  },
+  {
+    "name": "MAX6675 Thermocouple to SPI IC",
+    "category": "Sensor",
+    "icon": "ic_interface",
+    "pinout": "8-Pin SOIC / Breakout: 1-GND, 2-T-(Thermocouple Alumel), 3-T+(Thermocouple Chromel), 4-VCC(3.0V-5.5V), 5-SCK(SPI Clock), 6-CS(Chip Select), 7-SO(Serial Data Out), 8-NC",
+    "primaryFunction": "Cold-junction-compensated K-Type thermocouple-to-digital converter with 12-bit resolution and SPI interface.",
+    "keySpecs": "Temperature range: 0\u00b0C to +1024\u00b0C, Resolution: 0.25\u00b0C, Open thermocouple detection, Cold-junction compensation range: -20\u00b0C to +85\u00b0C.",
+    "useCase": "High-temperature kiln furnace controllers, 3D printer hotend thermometry, plastic injection molding temperature PID controllers.",
+    "id": "154"
+  },
+  {
+    "name": "TDS Water Quality Sensor Meter",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "Probe Side: Waterproof 2-pin conductivity probe. Signal Board: VCC(3.3V-5.5V), GND, AOUT(Analog output voltage proportional to TDS value in ppm)",
+    "primaryFunction": "Total Dissolved Solids (TDS) measurement module for testing the cleanliness and electrical conductivity of water.",
+    "keySpecs": "Measurement range: 0 to 1000 ppm, Accuracy: \u00b110% F.S. (at 25\u00b0C), AC excitation signal to avoid electrode polarization, 3.3V / 5V microcontroller compatible.",
+    "useCase": "Reverse Osmosis (RO) purifier quality testing, hydroponic nutrient concentration monitoring, aquaculture water telemetry.",
+    "id": "155"
+  },
+  {
+    "name": "Sound Sensor (LM393 Mic Module)",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "4-Pin Header: VCC(3.3V-5V), GND, DO(Digital output triggers when sound exceeds potentiometer threshold), AO(Analog direct microphone amplified voltage)",
+    "primaryFunction": "Electret condenser microphone module with LM393 high-speed voltage comparator and sensitivity trimmer.",
+    "keySpecs": "Frequency range: 50 Hz to 20 kHz, Onboard sensitivity adjustment pot, Power LED and Output Status LED, Low power consumption.",
+    "useCase": "Clap-activated light switches, acoustic gunshot detection localization systems, noise pollution decibel logging.",
+    "id": "156"
+  },
+  {
+    "name": "Capacitive Soil Moisture Sensor v1.2",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "3-Pin Header: VCC(3.3V-5.5V), GND, AOUT(Analog voltage: ~1.2V in wet water, ~3.0V in completely dry air)",
+    "primaryFunction": "Corrosion-resistant soil moisture sensor measuring volumetric water content via capacitive dielectric change.",
+    "keySpecs": "Operating Voltage: 3.3V - 5.5V DC, Onboard 555-based high-frequency oscillator, No exposed metal traces on soil probe (eliminates galvanic copper corrosion).",
+    "useCase": "Automated solar-powered smart irrigation systems, greenhouse soil telemetry, precision agriculture thesis projects.",
+    "id": "157"
+  },
+  {
+    "name": "TB6612FNG Dual H-Bridge Driver",
+    "category": "Motor Driver",
+    "icon": "ic_motor",
+    "pinout": "16-Pin SSOP: 1-AO1, 2-AO1, 3-PGND1, 4-PGND2, 5-AO2, 6-AO2, 7-BO2, 8-BO2, 9-PGND3, 10-PGND4, 11-BO1, 12-BO1, 13-VM(Motor 2.5V-13.5V), 14-VCC(Logic 2.7V-5.5V), 15-STBY, 16-PWMA, 17-AIN2, 18-AIN1, 19-BIN1, 20-BIN2, 21-PWMB, 22-GND",
+    "primaryFunction": "High-efficiency MOSFET-based dual DC motor and stepper motor driver with much lower voltage drop than L298N.",
+    "keySpecs": "Continuous current: 1.2A per channel (3.2A peak), Motor supply (VM): 2.5V to 13.5V, Logic supply (VCC): 2.7V to 5.5V, Built-in thermal shutdown, standby mode.",
+    "useCase": "Line follower robots, micromouse robots, compact battery-powered autonomous mobile robots (AMR).",
+    "id": "158"
+  },
+  {
+    "name": "A4988 Stepper Driver (Pololu)",
+    "category": "Motor Driver",
+    "icon": "ic_motor",
+    "pinout": "16-Pin Module: ENABLE(Active Low), MS1, MS2, MS3(Microstep selection: Full, 1/2, 1/4, 1/8, 1/16), RESET, SLEEP, STEP(Pulse clock), DIR(Direction), GND, VDD(3-5.5V logic), 1B, 1A, 2A, 2B(Motor coils), GND, VMOT(8-35V motor power)",
+    "primaryFunction": "Complete microstepping motor driver with built-in translator for easy control of bipolar stepper motors with only 2 MCU pins.",
+    "keySpecs": "Output drive capacity: up to 35V and \u00b12A with heat sink, 5 selectable step modes (down to 1/16 step), adjustable current limiting potentiometer, thermal shutdown.",
+    "useCase": "University 3D printer capstone builds (Prusa i3), CNC PCB milling machines, robotic arm joint actuators.",
+    "id": "159"
+  },
+  {
+    "name": "DRV8825 Stepper Driver IC/Module",
+    "category": "Motor Driver",
+    "icon": "ic_motor",
+    "pinout": "16-Pin Module (A4988 pin-compatible): ENABLE, M0, M1, M2(Microstep config up to 1/32), RESET, SLEEP, STEP, DIR, GND, FAULT, A1, A2, B1, B2, GND, VMOT(8.2V-45V)",
+    "primaryFunction": "High-current bipolar stepper motor driver capable of up to 1/32 microstepping for ultra-smooth silent motion.",
+    "keySpecs": "Motor voltage: 8.2V to 45V, Current: up to 2.5A with cooling, 6 microstep resolutions (Full, 1/2, 1/4, 1/8, 1/16, 1/32), built-in 3.3V reference output.",
+    "useCase": "High-precision laser cutters, medical infusion syringe pumps, telescope equatorial tracking mounts.",
+    "id": "160"
+  },
+  {
+    "name": "TMC2209 SilentStepStick",
+    "category": "Motor Driver",
+    "icon": "ic_motor",
+    "pinout": "16-Pin Module: EN, MS1, MS2, PDN/UART(Single wire serial configuration), CLK, STEP, DIR, VIO(3.3V-5V), GND, 1A, 1B, 2A, 2B, GND, VM(4.75V-29V), DIAG(StallGuard sensorless homing pin)",
+    "primaryFunction": "Ultra-silent motor driver IC for two-phase bipolar stepper motors using StealthChop2 and SpreadCycle technology.",
+    "keySpecs": "Continuous current: 2A RMS (2.8A peak), Voltage: 4.75V to 29V, StealthChop2 silent operation, StallGuard4 sensorless load detection, UART register programming.",
+    "useCase": "Silent 3D printers without mechanical endstops, precision camera sliders, laboratory automated pipetting stations.",
+    "id": "161"
+  },
+  {
+    "name": "BTS7960 43A High Power H-Bridge",
+    "category": "Motor Driver",
+    "icon": "ic_motor",
+    "pinout": "Power: B+(Battery +), B-(Battery -), M+(Motor +), M-(Motor -). Logic: VCC(5V), GND, R_EN(Forward enable), L_EN(Reverse enable), RPWM(Forward PWM), LPWM(Reverse PWM), R_IS(Forward current sense), L_IS(Reverse current sense)",
+    "primaryFunction": "High-current half-bridge motor drive module combining two BTS7960 chips to form a massive 43A H-bridge.",
+    "keySpecs": "Operating voltage: 6V to 27V, Maximum continuous current: 43A peak, PWM frequency: up to 25 kHz, Onboard thermal, overvoltage, undervoltage, and overcurrent protection.",
+    "useCase": "Heavy electric wheelchair conversion, university electric go-kart / formula student vehicles, high-torque battlebots.",
+    "id": "162"
+  },
+  {
+    "name": "IR2110 High & Low Side Gate Driver",
+    "category": "IC",
+    "icon": "ic_ic",
+    "pinout": "14-Pin DIP: 1-LO(Low side gate drive), 2-COM(Low side return), 3-VCC(Low side supply 10-20V), 4-NC, 5-VS(High side floating return), 6-VB(High side floating bootstrap supply), 7-HO(High side gate drive), 8-NC, 9-VDD(Logic supply 3.3-15V), 10-HIN(Logic High in), 11-SD(Shutdown), 12-LIN(Logic Low in), 13-VSS(Logic ground), 14-NC",
+    "primaryFunction": "High-voltage, high-speed power MOSFET and IGBT gate driver with independent high and low referenced output channels.",
+    "keySpecs": "Floating channel voltage: up to +500V, Gate drive output: 2A source / 2A sink, Matched propagation delay for both channels: 10ns, 3.3V logic compatible.",
+    "useCase": "Pure sine wave solar inverter capstone projects, induction heating resonant bridges, Brushless DC (BLDC) motor speed controllers.",
+    "id": "163"
+  },
+  {
+    "name": "IR2104 Half-Bridge Gate Driver",
+    "category": "IC",
+    "icon": "ic_ic",
+    "pinout": "8-Pin DIP: 1-VCC(10V-20V), 2-IN(Logic input), 3-SD(Active Low Shutdown), 4-COM(Power ground), 5-LO(Low side gate output), 6-VS(High side floating return), 7-HO(High side gate output), 8-VB(Bootstrap supply)",
+    "primaryFunction": "Half-Bridge driver IC with internal dead-time generation to prevent shoot-through in synchronous buck converters and H-bridges.",
+    "keySpecs": "Floating channel rated to +600V, Internal dead-time: 520 ns, Gate drive current: 130mA source / 270mA sink, Single logic input drives both HO and LO in complementary phase.",
+    "useCase": "Synchronous DC-DC step down converters, Class-D audio amplifier output stages, bi-directional battery charger inverters.",
+    "id": "164"
+  },
+  {
+    "name": "SG3525A PWM Controller IC",
+    "category": "IC",
+    "icon": "ic_ic",
+    "pinout": "16-Pin DIP: 1-Inv In, 2-Non-inv In, 3-Sync, 4-OSC Out, 5-CT, 6-RT, 7-Discharge, 8-Soft Start, 9-Compensation, 10-Shutdown, 11-Out A(Totem-pole), 12-Ground, 13-VC(Collector supply), 14-Out B(Totem-pole), 15-VCC(8V-35V), 16-VREF(5.1V)",
+    "primaryFunction": "Pulse-width modulator control circuit optimized for driving push-pull, half-bridge, and full-bridge SMPS switching topologies.",
+    "keySpecs": "Dual alternating totem-pole outputs (up to 500mA peak drive), Oscillator range: 100 Hz to 400 kHz, Built-in 5.1V trimmed reference, Programmable soft-start and deadtime.",
+    "useCase": "12V DC to 220V AC modified and pure sine wave power inverters, high-frequency switch-mode power supplies (SMPS).",
+    "id": "165"
+  },
+  {
+    "name": "TL494 PWM Controller IC",
+    "category": "IC",
+    "icon": "ic_ic",
+    "pinout": "16-Pin DIP: 1-1IN+, 2-1IN-, 3-FEEDBACK, 4-DTC(Dead-Time Control), 5-CT, 6-RT, 7-GND, 8-C1, 9-E1, 10-E2, 11-C2, 12-VCC(7V-40V), 13-OUTPUT CTRL(Low=Parallel, High=Push-pull), 14-REF(5.0V), 15-2IN-, 16-2IN+",
+    "primaryFunction": "Fixed-frequency pulse-width-modulation control circuit containing all functions required for switching power supply control.",
+    "keySpecs": "Two independent error amplifiers, On-chip 5.0V reference, Dead-time control comparator (0-100%), Uncommitted output transistors up to 200mA sink/source, 1kHz-300kHz.",
+    "useCase": "ATX computer power supplies, solar MPPT battery charge controllers, variable voltage-regulated lab bench power supplies.",
+    "id": "166"
+  },
+  {
+    "name": "UC3843 Current Mode PWM Controller",
+    "category": "IC",
+    "icon": "ic_ic",
+    "pinout": "8-Pin DIP: 1-COMP(Error amp output), 2-VFB(Voltage feedback), 3-ISENSE(Current sense input), 4-RT/CT(Oscillator timing), 5-GND, 6-OUTPUT(Totem pole gate drive), 7-VCC(8.4V turn-on threshold), 8-VREF(5.0V output)",
+    "primaryFunction": "High-performance current-mode PWM controller designed for off-line and DC-to-DC converter applications.",
+    "keySpecs": "Optimized for low-voltage applications with UVLO threshold of 8.4V (turns off at 7.6V), High-current totem pole output (\u00b11.0A peak), Trimmed oscillator, cycle-by-cycle current limiting.",
+    "useCase": "High-efficiency flyback converters, boost converters for electric vehicles, isolated telecom power supplies.",
+    "id": "167"
+  },
+  {
+    "name": "PCA9685 16-Channel 12-bit PWM IC",
+    "category": "IC",
+    "icon": "ic_interface",
+    "pinout": "28-Pin TSSOP / Module: VCC(Logic 3.3-5V), GND, SCL(I2C Clock), SDA(I2C Data), OE(Active Low Output Enable), V+(Servo Power 5-6V). 16x 3-pin headers (GND, V+, PWM0-PWM15)",
+    "primaryFunction": "16-channel, 12-bit PWM I2C-bus controlled LED and servo motor controller.",
+    "keySpecs": "12-bit resolution (4096 steps), Programmable PWM frequency from 24 Hz to 1526 Hz, 6 hardware address select pins (up to 62 chained boards = 992 servos!), Internal 25MHz clock.",
+    "useCase": "University hexapod walking robots, 6-DOF robotic manipulator arms, animated animatronics, multi-channel LED lighting rigs.",
+    "id": "168"
+  },
+  {
+    "name": "MAX7219 LED Display Driver",
+    "category": "IC",
+    "icon": "ic_interface",
+    "pinout": "24-Pin DIP: 1-DIN(Serial Data In), 2-DIG0, 3-DIG4, 4-GND, 5-DIG6, 6-DIG2, 7-DIG3, 8-DIG7, 9-GND, 10-DIG5, 11-DIG1, 12-LOAD/CS, 13-CLK, 14-SEGA, 15-SEGF, 16-SEGB, 17-SEGG, 18-ISET(Current set resistor to VCC), 19-VCC, 20-SEGC, 21-SEGE, 22-SEGDP, 23-SEGD, 24-DOUT(Serial Data Out to next cascaded chip)",
+    "primaryFunction": "Serially interfaced compact display driver connecting microprocessors to 8-digit 7-segment displays or 64 individual LEDs (8x8 matrix).",
+    "keySpecs": "10MHz SPI-compatible serial interface, Individual digit addressing, Hardware BCD code-B decoder, Digital and analog brightness intensity control, 150uA low-power shutdown.",
+    "useCase": "8x8 LED matrix game consoles (Tetris/Snake), electronic scoreboard displays, cockpit instrumentation readouts.",
+    "id": "169"
+  },
+  {
+    "name": "IRF1404 Power MOSFET",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "TO-220AB (Face front, pins down): 1-Gate, 2-Drain (connected to metal tab), 3-Source",
+    "primaryFunction": "Extremely low RDS(on) N-channel HEXFET power MOSFET designed for high-current automotive and inverter applications.",
+    "keySpecs": "Vdss: 40V, Id continuous: 202A (Silicon limited, 75A package limited), RDS(on): 4.0 m\u03a9 max, Total Gate Charge: 160 nC, Max Power: 333W.",
+    "useCase": "High-power 12V inverter push-pull transformer stages, high-current spot welders, DC motor dynamic braking.",
+    "id": "170"
+  },
+  {
+    "name": "IRL3705N Logic-Level MOSFET",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "TO-220AB: 1-Gate, 2-Drain (metal tab), 3-Source",
+    "primaryFunction": "Logic-level gate drive N-channel power MOSFET fully saturated with just 4.5V to 5V gate voltage.",
+    "keySpecs": "Vdss: 55V, Id: 89A, RDS(on): 10 m\u03a9 @ Vgs=10V, 12 m\u03a9 @ Vgs=4.5V (Logic Level compatible!), Gate threshold Vgs(th): 1.0V - 2.0V.",
+    "useCase": "Direct microcontroller PWM switching (Arduino 5V output) without needing pre-driver transistor stages.",
+    "id": "171"
+  },
+  {
+    "name": "IRFP250N High Power MOSFET",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "TO-247AC Large Package (Face front): 1-Gate, 2-Drain, 3-Source",
+    "primaryFunction": "200V N-Channel power MOSFET in a massive TO-247 package with superior thermal dissipation.",
+    "keySpecs": "Vdss: 200V, Id continuous: 30A @ 25\u00b0C, RDS(on): 0.075 \u03a9, Power Dissipation: 214W, Operating Temp: up to 175\u00b0C.",
+    "useCase": "ZVS induction heating circuits, solid-state Tesla coils (SSTC), Class-AB and Class-D high voltage audio amplifiers.",
+    "id": "172"
+  },
+  {
+    "name": "IRFP460 High Voltage MOSFET",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "TO-247AC (Face front): 1-Gate, 2-Drain, 3-Source",
+    "primaryFunction": "500V high-voltage N-channel power MOSFET widely utilized in mains AC-rectified power electronics.",
+    "keySpecs": "Vdss: 500V, Id: 20A, RDS(on): 0.27 \u03a9, Fast switching speed, Easy paralleling, 280W max power dissipation.",
+    "useCase": "High-voltage SMPS primary bridges, offline full-bridge inverters, high-power plasma drivers, electric vehicle chargers.",
+    "id": "173"
+  },
+  {
+    "name": "IRF640N Power MOSFET",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "TO-220AB: 1-Gate, 2-Drain, 3-Source",
+    "primaryFunction": "200V N-channel power MOSFET ideal for medium-voltage switching, DC motor drives, and audio amplifiers.",
+    "keySpecs": "Vdss: 200V, Id: 18A, RDS(on): 0.150 \u03a9, Gate charge: 67 nC, Power dissipation: 150W.",
+    "useCase": "Class D subwoofer amplifiers, DC-DC boost converters step-up to 150V, solenoid impulse drivers.",
+    "id": "174"
+  },
+  {
+    "name": "IRF530N Power MOSFET",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "TO-220AB: 1-Gate, 2-Drain, 3-Source",
+    "primaryFunction": "100V N-channel HEXFET power MOSFET designed for fast switching and low on-resistance.",
+    "keySpecs": "Vdss: 100V, Id: 17A, RDS(on): 0.09 \u03a9, Gate charge: 37 nC, Power Dissipation: 70W.",
+    "useCase": "48V telecommunication power systems, solar battery dump load switches, industrial relay replacements.",
+    "id": "175"
+  },
+  {
+    "name": "TIP31C NPN Power Transistor",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-220AB: 1-Base, 2-Collector (connected to tab), 3-Emitter",
+    "primaryFunction": "100V 3A NPN Bipolar Power Transistor widely used in linear amplifiers and medium power switching.",
+    "keySpecs": "Vceo: 100V, Ic continuous: 3A (5A peak), hFE: 10 to 50 @ 3A, Ptot: 40W, Transition Frequency: 3 MHz.",
+    "useCase": "Audio amplifier output stages, linear voltage regulator pass transistor, 12V/24V solenoid actuator drivers.",
+    "id": "176"
+  },
+  {
+    "name": "TIP32C PNP Power Transistor",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-220AB: 1-Base, 2-Collector (metal tab), 3-Emitter",
+    "primaryFunction": "100V 3A PNP Bipolar Power Transistor, complementary pair to the TIP31C.",
+    "keySpecs": "Vceo: -100V, Ic: -3A (-5A peak), hFE: 10 to 50, Ptot: 40W, Complementary to TIP31C.",
+    "useCase": "Complementary push-pull audio power amplifiers, high-side power supply switching circuits.",
+    "id": "177"
+  },
+  {
+    "name": "TIP142 NPN Darlington Transistor",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-247 Package: 1-Base, 2-Collector, 3-Emitter (Internal monolithic Darlington pair with base-emitter speed-up resistors and antiparallel diode)",
+    "primaryFunction": "100V 10A High-Current NPN Darlington transistor with very high current gain.",
+    "keySpecs": "Vceo: 100V, Ic: 10A continuous (15A peak), hFE minimum: 1000 @ 5A, Total Power Dissipation: 125W.",
+    "useCase": "High-power linear laboratory power supplies, heavy DC motor servo amplifiers, high-wattage audio amplifiers.",
+    "id": "178"
+  },
+  {
+    "name": "TIP147 PNP Darlington Transistor",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-247 Package: 1-Base, 2-Collector, 3-Emitter (PNP Darlington pair with integrated flyback diode)",
+    "primaryFunction": "100V 10A PNP Darlington power transistor, complementary pair to TIP142.",
+    "keySpecs": "Vceo: -100V, Ic: -10A, hFE: 1000 min @ -5A, Ptot: 125W, Complementary to TIP142.",
+    "useCase": "Bipolar linear power supplies, dual-rail audio power stages, reversible high-current H-bridges.",
+    "id": "179"
+  },
+  {
+    "name": "2SC5200 NPN Audio Power Transistor",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-3P / TO-264 Large Package: 1-Base, 2-Collector, 3-Emitter",
+    "primaryFunction": "High-power 230V 15A NPN triple-diffused silicon transistor legendary for high-fidelity audio power amplifiers.",
+    "keySpecs": "Vceo: 230V, Ic: 15A continuous, Total power dissipation: 150W, Transition frequency fT: 30 MHz, hFE: 55 to 160 (High linearity).",
+    "useCase": "100W-500W RMS high-fidelity studio power amplifiers, audio engineering thesis, subwoofer plate amplifiers.",
+    "id": "180"
+  },
+  {
+    "name": "2SA1943 PNP Audio Power Transistor",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-3P / TO-264: 1-Base, 2-Collector, 3-Emitter",
+    "primaryFunction": "Complementary PNP power transistor to 2SC5200 for symmetric push-pull audio amplifier outputs.",
+    "keySpecs": "Vceo: -230V, Ic: -15A, Ptot: 150W, fT: 30 MHz, Excellent hFE linearity across output current swing.",
+    "useCase": "Class AB symmetric push-pull audio output stage with 2SC5200, public address (PA) system amplifiers.",
+    "id": "181"
+  },
+  {
+    "name": "MJ2955 PNP TO-3 Power Transistor",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-3 Diamond Metal Can: Case is Collector, Pin 1-Base, Pin 2-Emitter",
+    "primaryFunction": "Classic 60V 15A PNP Bipolar Power Transistor in rugged metal hermetic TO-3 package, complementary to 2N3055.",
+    "keySpecs": "Vceo: -60V, Ic: -15A, Total power: 115W, hFE: 20 to 70 @ 4A, Metal-to-heatsink low thermal resistance.",
+    "useCase": "Dual-rail linear lab power supplies with 2N3055, vintage audio equipment restoration, heavy linear regulators.",
+    "id": "182"
+  },
+  {
+    "name": "BD135 NPN Medium Power Transistor",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "SOT-32 / TO-126: 1-Emitter, 2-Collector, 3-Base",
+    "primaryFunction": "45V 1.5A NPN silicon epitaxial planar transistor for audio drivers and medium current switching.",
+    "keySpecs": "Vceo: 45V, Ic: 1.5A, hFE: 40 to 250, Ptot: 12.5W with heatsink, fT: 190 MHz.",
+    "useCase": "Pre-driver transistor for large power stages, relay and solenoid switching from microcontroller GPIO.",
+    "id": "183"
+  },
+  {
+    "name": "BTA16-600B 16A Snubberless TRIAC",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-220AB (Insulated Tab): 1-A1(Main Terminal 1), 2-A2(Main Terminal 2), 3-G(Gate)",
+    "primaryFunction": "16A 600V bidirectional AC silicon thyristor (TRIAC) with internally insulated ceramic tab (2500V RMS isolation).",
+    "keySpecs": "Vdrm/Vrrm: 600V, It(RMS): 16A, Gate trigger current Igt: 50mA, High dV/dt snubberless capability for inductive loads.",
+    "useCase": "AC ceiling fan speed controllers, incandescent light dimmers, AC heating element PID temperature controllers.",
+    "id": "184"
+  },
+  {
+    "name": "BTA41-600B 40A Heavy Duty TRIAC",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TOP3 Insulated Package: 1-A1(Main Terminal 1), 2-A2(Main Terminal 2), 3-G(Gate)",
+    "primaryFunction": "Heavy-duty 40A 600V bidirectional AC switch for industrial and high-load heating control.",
+    "keySpecs": "On-state RMS current: 40A, Non-repetitive peak surge current: 400A, Peak off-state voltage: 600V, Tab electrical insulation: 2500V.",
+    "useCase": "Electric spot welding machine controllers, industrial plastic extruder heaters, solid-state contactors.",
+    "id": "185"
+  },
+  {
+    "name": "BT136-600E Sensitive Gate TRIAC",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-220: 1-T1(Main Terminal 1), 2-T2(Main Terminal 2), 3-G(Gate)",
+    "primaryFunction": "4A 600V planar passivated sensitive gate 4-quadrant TRIAC intended for direct logic IC and optocoupler triggering.",
+    "keySpecs": "RMS on-state current: 4A, Off-state voltage: 600V, Gate trigger current Igt: \u2264 10mA (Very sensitive gate), Surge current: 25A.",
+    "useCase": "Opto-isolated microcontroller solid-state AC switches (triggered via MOC3021/MOC3041), low-power AC fan controllers.",
+    "id": "186"
+  },
+  {
+    "name": "BT151-500R 12A SCR Thyristor",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-220AB: 1-Cathode, 2-Anode (metal tab), 3-Gate",
+    "primaryFunction": "12A 500V Silicon Controlled Rectifier (SCR) designed for high voltage AC phase control and crowbar protection.",
+    "keySpecs": "Repetitive peak off-state voltage: 500V, RMS on-state current: 12A, Peak surge current: 120A, Gate trigger current: \u2264 15mA.",
+    "useCase": "Over-voltage crowbar protection circuits on DC power supplies, CDI capacitor discharge engine ignition systems, battery chargers.",
+    "id": "187"
+  },
+  {
+    "name": "2P4M 2A Sensitive Gate SCR",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-202 / TO-220: 1-Cathode, 2-Anode, 3-Gate",
+    "primaryFunction": "Low current (2A 400V) sensitive gate silicon controlled rectifier.",
+    "keySpecs": "It(RMS): 2A, Vdrm: 400V, Igt: 200 uA max (Extremely sensitive gate), Holding current: 3mA.",
+    "useCase": "Electronic emergency lighting switches, strobe light triggers, low-cost capacitive discharge ignition (CDI) modules.",
+    "id": "188"
+  },
+  {
+    "name": "DB3 Bidirectional Trigger Diode (DIAC)",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "DO-35 Axial Glass Package: Bidirectional symmetrical terminals (no polarity)",
+    "primaryFunction": "Bidirectional trigger diode exhibiting negative dynamic resistance after reaching its breakover voltage.",
+    "keySpecs": "Breakover Voltage Vbo: 28V to 36V (32V typical), Peak pulse current: 2A, Breakover current: 100 uA max, Power: 150mW.",
+    "useCase": "Phase-angle trigger circuit for TRIAC light dimmers, AC motor speed controls, fluorescent ballast circuits.",
+    "id": "189"
+  },
+  {
+    "name": "MPSA42 High Voltage NPN Transistor",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-92 (Flat face facing you): 1-Emitter, 2-Base, 3-Collector",
+    "primaryFunction": "300V High-voltage NPN small signal transistor designed for high-voltage switching and telecommunications.",
+    "keySpecs": "Vceo: 300V, Vcbo: 300V, Ic: 500mA, hFE: 40 min @ 10mA, Transition Frequency: 50 MHz, Ptot: 625mW.",
+    "useCase": "Nixie tube driver circuits (170V DC), strobe light triggers, CRT video amplifiers, high voltage relay drivers.",
+    "id": "190"
+  },
+  {
+    "name": "MPSA92 High Voltage PNP Transistor",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-92: 1-Emitter, 2-Base, 3-Collector",
+    "primaryFunction": "300V High-voltage PNP transistor, complementary to MPSA42.",
+    "keySpecs": "Vceo: -300V, Ic: -500mA, hFE: 40 min, Complementary to MPSA42, Ptot: 625mW.",
+    "useCase": "High voltage complementary push-pull stages, telephone line interfaces, high voltage linear regulators.",
+    "id": "191"
+  },
+  {
+    "name": "ADS1115 16-Bit 4-Channel I2C ADC",
+    "category": "IC",
+    "icon": "ic_interface",
+    "pinout": "10-Pin MSOP / Module: VDD(2.0V-5.5V), GND, SCL(I2C Clock), SDA(I2C Data), ADDR(Address select: GND=0x48, VDD=0x49, SDA=0x4A, SCL=0x4B), ALERT, A0, A1, A2, A3",
+    "primaryFunction": "Ultra-small, low-power, 16-bit precision analog-to-digital converter with internal PGA and voltage reference.",
+    "keySpecs": "16-bit resolution, Programmable data rate: 8 SPS to 860 SPS, Programmable Gain Amplifier (PGA) from \u00b1256mV to \u00b16.144V full scale, 4 single-ended or 2 differential inputs.",
+    "useCase": "Precision thermocouple signal acquisition, micro-strain gauge monitoring, solar panel IV-curve tracing.",
+    "id": "192"
+  },
+  {
+    "name": "MCP3008 8-Channel 10-Bit SPI ADC",
+    "category": "IC",
+    "icon": "ic_interface",
+    "pinout": "16-Pin DIP: 1-CH0, 2-CH1, 3-CH2, 4-CH3, 5-CH4, 6-CH5, 7-CH6, 8-CH7, 9-DGND, 10-CS/SHDN, 11-DIN, 12-DOUT, 13-CLK, 14-AGND, 15-VREF, 16-VDD(2.7V-5.5V)",
+    "primaryFunction": "10-bit analog-to-digital converter with on-chip sample and hold, communicating via 4-wire SPI.",
+    "keySpecs": "8 single-ended or 4 pseudo-differential inputs, 200 ksps max sampling rate @ 5V (75 ksps @ 2.7V), Low power current: 500uA active, 5nA standby.",
+    "useCase": "Adding analog input pins to Raspberry Pi, multi-channel robotic sensor arrays, audio spectrum analyzer preprocessing.",
+    "id": "193"
+  },
+  {
+    "name": "MCP4725 12-Bit I2C DAC",
+    "category": "IC",
+    "icon": "ic_interface",
+    "pinout": "6-Pin SOT-23 / Module: VCC(2.7V-5.5V), GND, SCL(I2C Clock), SDA(I2C Data), A0(Address pin), VOUT(Analog output voltage)",
+    "primaryFunction": "Low-power, high accuracy, single-channel 12-bit buffered voltage output Digital-to-Analog Converter with EEPROM.",
+    "keySpecs": "12-bit resolution (4096 voltage steps), Rail-to-rail output swing, Internal non-volatile EEPROM stores DAC code across power-cycles, Fast mode I2C (3.4Mbps).",
+    "useCase": "Programmable benchtop power supply reference voltage generation, audio waveform synthesis, analog sensor emulation.",
+    "id": "194"
+  },
+  {
+    "name": "AD9833 Programmable Waveform Generator",
+    "category": "IC",
+    "icon": "ic_interface",
+    "pinout": "10-Pin MSOP / Module: VCC(2.3V-5.5V), DGND, AGND, CAP/2.5V, COMP, VOUT, MCLK(Master Clock 25MHz), SDATA(SPI Data), SCLK(SPI Clock), FSYNC(Frame Sync / CS)",
+    "primaryFunction": "Direct Digital Synthesis (DDS) programmable waveform generator capable of producing sine, triangular, and square wave outputs.",
+    "keySpecs": "Frequency resolution: 28 bits (0.1 Hz step at 25MHz reference clock), Output frequency: 0 MHz to 12.5 MHz, 3-wire SPI interface, Power: 20mW @ 3V.",
+    "useCase": "University electrical engineering function generators, impedance spectroscopy, sweep frequency resonance testing.",
+    "id": "195"
+  },
+  {
+    "name": "MCP2515 Stand-Alone CAN Controller",
+    "category": "IC",
+    "icon": "ic_interface",
+    "pinout": "18-Pin DIP / Module: 1-TXCAN, 2-RXCAN, 3-CLKOUT, 4-TX0RTS, 5-TX1RTS, 6-TX2RTS, 7-OSC2, 8-OSC1(16MHz crystal), 9-VSS, 10-RX1BF, 11-RX0BF, 12-INT, 13-SCK, 14-SI, 15-SO, 16-CS, 17-RESET, 18-VDD",
+    "primaryFunction": "Controller Area Network (CAN) protocol controller implementing CAN V2.0B at up to 1 Mb/s, interfaced via SPI.",
+    "keySpecs": "High speed SPI interface (10 MHz), Standard and extended data frames, Two receive buffers with prioritized message storage, Six 29-bit acceptance filters.",
+    "useCase": "Automotive OBD-II diagnostics logging thesis, industrial automation Modbus-to-CAN gateways, Formula Student telemetry.",
+    "id": "196"
+  },
+  {
+    "name": "TJA1050 High Speed CAN Transceiver",
+    "category": "IC",
+    "icon": "ic_interface",
+    "pinout": "8-Pin DIP/SOIC: 1-TXD(Transmit data input), 2-GND, 3-VCC(4.75V-5.25V), 4-RXD(Receive data output), 5-Vref(Reference voltage), 6-CANL(Low level CAN bus line), 7-CANH(High level CAN bus line), 8-S(Silent mode select)",
+    "primaryFunction": "Interface between CAN protocol controller and physical two-wire differential CAN bus lines.",
+    "keySpecs": "Fully compatible with ISO 11898 standard, High speed up to 1 Mbaud, Electro-Magnetic Emission (EME) optimized, Differential receiver with wide common-mode range.",
+    "useCase": "Differential transceiver companion to MCP2515 for automotive and industrial CAN networks.",
+    "id": "197"
+  },
+  {
+    "name": "MCP23017 16-Bit I2C I/O Expander",
+    "category": "IC",
+    "icon": "ic_interface",
+    "pinout": "28-Pin DIP: 1-GPB0, 2-GPB1, 3-GPB2, 4-GPB3, 5-GPB4, 6-GPB5, 7-GPB6, 8-GPB7, 9-VDD(1.8V-5.5V), 10-VSS, 11-NC, 12-SCL, 13-SDA, 14-NC, 15-A0, 16-A1, 17-A2(Address select up to 8 chips on one I2C bus), 18-RESET, 19-INTB, 20-INTA, 21-GPA0, 22-GPA1, 23-GPA2, 24-GPA3, 25-GPA4, 26-GPA5, 27-GPA6, 28-GPA7",
+    "primaryFunction": "16-bit, general purpose parallel I/O expansion for I2C bus with configurable interrupt outputs.",
+    "keySpecs": "16 individual bidirectional I/O pins (Port A & Port B), 100kHz, 400kHz, 1.7MHz I2C modes, Internal 100k\u03a9 pull-up resistors, Interrupt-on-change pins.",
+    "useCase": "Expanding microcontroller pinouts for large matrix keypads, multi-relay boards, LED indicator consoles.",
+    "id": "198"
+  },
+  {
+    "name": "DS3231 High Precision I2C RTC",
+    "category": "Display & Module",
+    "icon": "ic_interface",
+    "pinout": "16-Pin SOIC / Module: 32KHz(32.768kHz output), SQW(Square wave / Interrupt out), SCL(I2C Clock), SDA(I2C Data), VCC(2.3V-5.5V), GND, VBAT(Coin cell battery input)",
+    "primaryFunction": "Extremely accurate I2C real-time clock (RTC) with integrated Temperature Compensated Crystal Oscillator (TCXO).",
+    "keySpecs": "Accuracy: \u00b12 ppm from 0\u00b0C to +40\u00b0C (less than 1 minute drift per year!), Integrated 32.768 kHz TCXO crystal, Battery backup input, Dual programmable time-of-day alarms.",
+    "useCase": "Autonomous datalogging stations (SD card logging), solar tracker timers, electronic digital clocks with calendar.",
+    "id": "199"
+  },
+  {
+    "name": "LM3914 Dot/Bar Display Driver",
+    "category": "IC",
+    "icon": "ic_ic",
+    "pinout": "18-Pin DIP: 1-LED1, 2-V-(GND), 3-V+(3V-25V), 4-RLO(Low reference), 5-SIG(Analog input signal), 6-RHI(High reference), 7-REF OUT(1.25V), 8-REF ADJ, 9-MODE(Open=Dot, V+=Bar), 10-18: LED2 to LED10",
+    "primaryFunction": "Monolithic integrated circuit that senses analog voltage levels and drives 10 LEDs in linear bar graph or moving dot mode.",
+    "keySpecs": "Drives LEDs, LCDs or vacuum fluorescents, Current drive programmable from 2mA to 30mA (no external resistors required!), Linear 10-step internal resistor ladder.",
+    "useCase": "Battery voltage fuel gauges, laboratory analog voltmeter meters, visual sensor telemetry displays.",
+    "id": "200"
+  },
+  {
+    "name": "LM3915 Logarithmic Display Driver",
+    "category": "IC",
+    "icon": "ic_ic",
+    "pinout": "18-Pin DIP: 1-LED1, 2-V-, 3-V+, 4-RLO, 5-SIG, 6-RHI, 7-REF OUT, 8-REF ADJ, 9-MODE, 10-18: LED2 to LED10",
+    "primaryFunction": "Monolithic display driver with logarithmic 3 dB/step internal divider ladder for audio decibel (VU) metering.",
+    "keySpecs": "3 dB/step (30 dB total range), Logarithmic response matching human hearing perception, Bar or Dot mode selectable, Wide supply: 3V to 25V.",
+    "useCase": "Audio stereo VU power meters, audio mixing console peak indicators, acoustic sound level meters.",
+    "id": "201"
+  },
+  {
+    "name": "PAM8403 3W Class D Audio Amplifier",
+    "category": "IC",
+    "icon": "ic_ic",
+    "pinout": "16-Pin SOP / Module: +OUT_L, -OUT_L, +OUT_R, -OUT_R(Bridged BTL speaker outputs), VDD(2.5V-5.5V), GND, INL, INR, MUTE, SHDN",
+    "primaryFunction": "3W dual-channel stereo filterless Class D audio amplifier with high efficiency and low electromagnetic interference.",
+    "keySpecs": "Output Power: 3.0W x 2 into 4\u03a9 load @ 5V, Efficiency up to 90%, THD+N < 0.1%, Low quiescent current (16mA), Filterless architecture directly drives speakers.",
+    "useCase": "Portable MP3 speakers, talking robotic speech synthesis outputs, arcade gaming consoles.",
+    "id": "202"
+  },
+  {
+    "name": "TDA7294 100W Hi-Fi Audio Amplifier",
+    "category": "IC",
+    "icon": "ic_ic",
+    "pinout": "15-Pin Multiwatt15V: 1-STANDBY-GND, 2-IN-, 3-IN+, 4-IN+MUTE, 5-NC, 6-BOOTSTRAP, 7-+Vs(Signal), 8--Vs(Signal), 9-STBY, 10-MUTE, 11-NC, 12-NC, 13-+Vs(Power), 14-OUT, 15--Vs(Power)",
+    "primaryFunction": "Monolithic DMOS power amplifier IC intended for use as a high-fidelity Class AB audio power stage in home theater systems.",
+    "keySpecs": "Supply voltage range: \u00b110V to \u00b140V (Dual split rail), Output power: 100W RMS into 4\u03a9/8\u03a9, DMOS power output stage with very low distortion and low noise.",
+    "useCase": "University audio engineering capstone projects, high-power subwoofer amplifiers, active studio monitors.",
+    "id": "203"
+  },
+  {
+    "name": "NE567 Tone Decoder / Phase Locked Loop",
+    "category": "IC",
+    "icon": "ic_ic",
+    "pinout": "8-Pin DIP: 1-Output Filter, 2-Low Pass Filter, 3-Input, 4-VCC(4.75V-9V), 5-Timing Resistor, 6-Timing Capacitor, 7-Ground, 8-Output (Active Low Open Collector)",
+    "primaryFunction": "Highly stable phase-locked loop (PLL) tone decoder that latches its output low whenever a specific programmed frequency is detected at its input.",
+    "keySpecs": "Center frequency adjustable from 0.01 Hz to 500 kHz, Bandwidth adjustable from 0% to 14%, High out-of-band rejection, 100mA output sinking capability.",
+    "useCase": "Infrared remote control receiver decoding, ultrasonic frequency detectors, DTMF telephone tone receivers, touch-tone decoders.",
+    "id": "204"
+  },
+  {
+    "name": "74HC193 4-Bit Up/Down Binary Counter",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "16-Pin DIP: 1-B(Data In 1), 2-QB(Out 1), 3-QA(Out 0), 4-COUNT DOWN, 5-COUNT UP, 6-QC(Out 2), 7-QD(Out 3), 8-GND, 9-D(Data In 3), 10-C(Data In 2), 11-LOAD(Active Low Parallel Load), 12-CARRY(Active Low), 13-BORROW(Active Low), 14-CLEAR(Active High Master Reset), 15-A(Data In 0), 16-VCC",
+    "primaryFunction": "Synchronous 4-bit reversible up/down binary counter with separate count-up and count-down clock inputs.",
+    "keySpecs": "Cascadable via Carry and Borrow pins, Asynchronous parallel load, High speed: fmax = 40 MHz, Operating Voltage: 2.0V to 6.0V, High noise immunity.",
+    "useCase": "Digital elevator floor indicators, quadrature encoder bidirectional pulse counters, university digital lab counters.",
+    "id": "205"
+  },
+  {
+    "name": "74HC283 4-Bit Binary Full Adder",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "16-Pin DIP: 1-S2, 2-B2, 3-A2, 4-S1, 5-A1, 6-B1, 7-C0(Carry In), 8-GND, 9-C4(Carry Out), 10-S4, 11-B4, 12-A4, 13-S3, 14-A3, 15-B3, 16-VCC",
+    "primaryFunction": "High-speed 4-bit binary full adder with internal fast look-ahead carry generation.",
+    "keySpecs": "Adds two 4-bit binary words (A1-A4 + B1-B4) plus Carry In, outputs 4-bit Sum (S1-S4) and Carry Out (C4), Propagation delay: 16 ns.",
+    "useCase": "Arithmetic Logic Unit (ALU) building block projects, binary calculators, digital computer architecture labs.",
+    "id": "206"
+  },
+  {
+    "name": "74HC85 4-Bit Magnitude Comparator",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "16-Pin DIP: 1-B3, 2-A<B In, 3-A=B In, 4-A>B In, 5-A>B Out, 6-A=B Out, 7-A<B Out, 8-GND, 9-B0, 10-A0, 11-B1, 12-A1, 13-A2, 14-B2, 15-A3, 16-VCC",
+    "primaryFunction": "4-bit magnitude comparator determining whether word A is greater than, equal to, or less than word B.",
+    "keySpecs": "Cascadable for 8, 16, or 32-bit comparisons without external gates, High-speed CMOS logic, 2.0V to 6.0V supply.",
+    "useCase": "Digital servo position comparators, address matching in computer hardware, digital threshold detection.",
+    "id": "207"
+  },
+  {
+    "name": "74HC151 8-to-1 Multiplexer",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "16-Pin DIP: 1-D3, 2-D2, 3-D1, 4-D0, 5-Y(Output), 6-W(Inverted Output), 7-G(Enable Active Low), 8-GND, 9-C(Select 2), 10-B(Select 1), 11-A(Select 0), 12-D7, 13-D6, 14-D5, 15-D4, 16-VCC",
+    "primaryFunction": "8-input data selector/multiplexer providing complementary true (Y) and inverted (W) outputs.",
+    "keySpecs": "Selects 1 of 8 data inputs based on a 3-bit binary address (A, B, C), Strobe enable input, High speed: tpd = 15 ns, 2.0V to 6.0V.",
+    "useCase": "Boolean logic function implementation without discrete gates, parallel-to-serial conversion, signal routing.",
+    "id": "208"
+  },
+  {
+    "name": "74HC4511 BCD to 7-Segment Driver",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "16-Pin DIP: 1-B, 2-C, 3-LT(Lamp Test Active Low), 4-BL(Blanking Active Low), 5-LE/ST(Latch Enable), 6-D, 7-A, 8-GND, 9-e, 10-d, 11-c, 12-b, 13-a, 14-g, 15-f, 16-VCC",
+    "primaryFunction": "BCD to 7-segment latch/decoder/driver with 25mA high-current active-high outputs for driving common cathode LED displays.",
+    "keySpecs": "Input 4-bit BCD code (A, B, C, D), Output 7 segments (a-g), Built-in 4-bit data storage latch, Lamp test for testing all segments, Blanking for pulse-width modulation dimming.",
+    "useCase": "Digital clock display drivers, counter readouts without needing microcontrollers, digital instrumentation panels.",
+    "id": "209"
+  },
+  {
+    "name": "74HC112 Dual J-K Flip-Flop",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "16-Pin DIP: 1-1CLK, 2-1K, 3-1J, 4-1PRE(Active Low), 5-1CLR(Active Low), 6-1Q, 7-1Q_BAR, 8-GND, 9-2Q_BAR, 10-2Q, 11-2CLR(Active Low), 12-2PRE(Active Low), 13-2CLK, 14-2K, 15-2J, 16-VCC",
+    "primaryFunction": "Dual negative-edge-triggered J-K flip-flop with individual Set (Preset) and Clear inputs.",
+    "keySpecs": "Negative edge triggered, Independent clock, inputs, and outputs per flip-flop, Toggle frequency: 45 MHz, 2.0V to 6.0V supply.",
+    "useCase": "Frequency dividers, toggle flip-flops in ripple counters, synchronous state machine controllers.",
+    "id": "210"
+  },
+  {
+    "name": "74HC244 Octal Buffer/Line Driver",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "20-Pin DIP: 1-1OE(Active Low), 2-1A1, 3-2Y4, 4-1A2, 5-2Y3, 6-1A3, 7-2Y2, 8-1A4, 9-2Y1, 10-GND, 11-2A1, 12-1Y4, 13-2A2, 14-1Y3, 15-2A3, 16-1Y2, 17-2A4, 18-1Y1, 19-2OE(Active Low), 20-VCC",
+    "primaryFunction": "Octal buffer and line driver with 3-state outputs designed for memory and address bus driving.",
+    "keySpecs": "Non-inverting outputs, High drive current (6mA per output), Schmitt-trigger action on inputs for clean signal transition, 3-state bus isolation.",
+    "useCase": "Microcontroller bus buffering, long cable driver, isolating sensitive signals from noisy external connections.",
+    "id": "211"
+  },
+  {
+    "name": "CD4046 Micropower Phase-Locked Loop",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "16-Pin DIP: 1-PCP Out, 2-Phase Comp I Out, 3-Comp In, 4-VCO Out, 5-Inhibit, 6-C1, 7-C2, 8-VSS, 9-VCO In, 10-Demod Out, 11-R1, 12-R2, 13-Phase Comp II Out, 14-Signal In, 15-Zener(5.4V), 16-VDD",
+    "primaryFunction": "CMOS micropower Phase-Locked Loop (PLL) containing a linear voltage-controlled oscillator (VCO) and two phase comparators.",
+    "keySpecs": "Wide supply voltage: 3V to 18V, Operating frequency up to 1.4 MHz @ 10V, High linearity of VCO, Low power dissipation (70uW typical).",
+    "useCase": "FM demodulation, frequency synthesizers, motor speed synchronizers, tone decoding.",
+    "id": "212"
+  },
+  {
+    "name": "MT3608 2A Step-Up Boost IC",
+    "category": "Voltage Regulator",
+    "icon": "ic_power",
+    "pinout": "SOT-23-6 / Module: 1-SW(Switch pin to inductor & schottky), 2-GND, 3-FB(Feedback reference 0.6V), 4-EN(Enable), 5-IN(Input 2V-24V), 6-NC. Module: VIN+, VIN-, VOUT+, VOUT-",
+    "primaryFunction": "Constant frequency, 6-pin SOT23 current mode step-up converter intended for small, low power applications.",
+    "keySpecs": "Input Voltage: 2.0V to 24V, Output Voltage: Up to 28V adjustable, Max Switch Current: 2A, Switching Frequency: 1.2 MHz (allows tiny ceramic caps & inductors).",
+    "useCase": "Stepping up a single 3.7V 18650 Li-Ion cell to 5V (USB), 9V, or 12V for microcontroller and motor projects.",
+    "id": "213"
+  },
+  {
+    "name": "MP1584EN 3A Step-Down Buck IC",
+    "category": "Voltage Regulator",
+    "icon": "ic_power",
+    "pinout": "SOIC-8 with exposed pad / Module: 1-SW, 2-EN, 3-COMP, 4-FB(0.8V reference), 5-GND, 6-FREQ(Frequency set), 7-VIN(4.5V-28V), 8-BST(Bootstrap cap)",
+    "primaryFunction": "High-frequency step-down switching regulator with an integrated internal high-side power MOSFET.",
+    "keySpecs": "Wide input: 4.5V to 28V, Output adjustable from 0.8V to 20V, Continuous output current: 3A, Programmable switching frequency up to 1.5 MHz, 95% efficiency.",
+    "useCase": "Stepping down 12V car battery or 24V industrial supply to clean 5V/3.3V for microcontrollers in robotics.",
+    "id": "214"
+  },
+  {
+    "name": "TP4056 1A Li-Ion Battery Charger",
+    "category": "Voltage Regulator",
+    "icon": "ic_power",
+    "pinout": "SOP-8 / Type-C Module: 1-TEMP(NTC thermistor input), 2-PROG(Charge current set resistor), 3-GND, 4-VCC(4.0V-8.0V), 5-BAT(Battery positive connection), 6-STDBY(Full charge green LED), 7-CHRG(Charging red LED), 8-CE(Chip Enable)",
+    "primaryFunction": "Complete constant-current / constant-voltage (CC/CV) linear charger for single cell 3.7V lithium-ion batteries.",
+    "keySpecs": "Programmable charge current up to 1000mA via single resistor (Rprog=1.2k for 1A), Preset 4.2V charge voltage with 1.5% accuracy, Automatic recharge, Soft-start.",
+    "useCase": "Built-in battery charging for all portable student projects, robots, IoT nodes, and handheld measurement instruments.",
+    "id": "215"
+  },
+  {
+    "name": "DW01A Battery Protection IC",
+    "category": "Voltage Regulator",
+    "icon": "ic_power",
+    "pinout": "SOT-23-6: 1-OD(Overdischarge MOSFET gate drive), 2-CS(Current sense), 3-OC(Overcharge MOSFET gate drive), 4-TD(Test delay), 5-VCC(Battery supply), 6-GND",
+    "primaryFunction": "One-cell lithium-ion/polymer battery protection IC monitoring overcharge, overdischarge, and overcurrent.",
+    "keySpecs": "Overcharge detection: 4.30V \u00b10.05V, Overdischarge detection: 2.40V \u00b10.1V, Overcurrent detection voltage: 150mV, Ultra-low supply current: 3.0uA.",
+    "useCase": "Paired with FS8205A MOSFET on TP4056 protection boards to prevent lithium battery fire or damage.",
+    "id": "216"
+  },
+  {
+    "name": "FS8205A Dual N-MOSFET Protection",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "TSSOP-8: 1-Drain 1, 2-Source 1, 3-Source 1, 4-Gate 1, 5-Gate 2, 6-Source 2, 7-Source 2, 8-Drain 2 (Internally connected common drain)",
+    "primaryFunction": "Dual common-drain N-channel power MOSFET designed specifically for lithium battery protection modules.",
+    "keySpecs": "Vdss: 20V, Id continuous: 6A, RDS(on): 21 m\u03a9 @ Vgs=4.5V, 28 m\u03a9 @ Vgs=2.5V, Low gate threshold voltage.",
+    "useCase": "Connected in series with battery negative terminal and DW01A protection IC for bidirectional charge/discharge cutoff.",
+    "id": "217"
+  },
+  {
+    "name": "LM7815 +15V Voltage Regulator",
+    "category": "Voltage Regulator",
+    "icon": "ic_power",
+    "pinout": "TO-220: 1-Input (+18V to +35V), 2-Ground, 3-Output (+15V DC, up to 1.5A)",
+    "primaryFunction": "Standard 3-terminal positive voltage regulator providing stable +15V output.",
+    "keySpecs": "Output voltage: +15V \u00b14%, Maximum input voltage: 35V, Output current: 1.5A with proper heatsinking, Thermal overload and short circuit protection.",
+    "useCase": "Op-amp dual power supplies (+15V rail for TL072/LM324/AD620), gate driver supplies, audio preamplifiers.",
+    "id": "218"
+  },
+  {
+    "name": "LM7915 -15V Negative Voltage Regulator",
+    "category": "Voltage Regulator",
+    "icon": "ic_power",
+    "pinout": "TO-220 (Note: Pin 1 is Ground!): 1-Ground, 2-Input (Negative DC -18V to -35V), 3-Output (-15V DC)",
+    "primaryFunction": "Fixed negative 3-terminal voltage regulator providing stable -15V output rail.",
+    "keySpecs": "Output voltage: -15V, Max input: -35V, Current: 1.5A, Thermal shutdown, Short-circuit current limit.",
+    "useCase": "Negative -15V rail companion to LM7815 for professional dual-polarity laboratory power supplies.",
+    "id": "219"
+  },
+  {
+    "name": "AMS1117-1.8 LDO Regulator",
+    "category": "Voltage Regulator",
+    "icon": "ic_power",
+    "pinout": "SOT-223 / TO-252: 1-Ground/Adjust, 2-VOUT (connected to center tab), 3-VIN",
+    "primaryFunction": "1.8V Low Dropout (LDO) linear voltage regulator for ultra-low voltage digital ICs and FPGAs.",
+    "keySpecs": "Output Voltage: 1.8V fixed, Dropout voltage: 1.1V @ 800mA, Max input voltage: 15V, Current limit: 1.0A typical.",
+    "useCase": "Core voltage rail for FPGAs (Spartan/Cyclone), high-speed digital DSP chips, memory interfaces.",
+    "id": "220"
+  },
+  {
+    "name": "KBPC5010 50A 1000V Bridge Rectifier",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "Square Metal Case with Center Mounting Hole: 4 Spade Terminals: AC (~), AC (~), +(Positive DC), -(Negative DC)",
+    "primaryFunction": "Heavy-duty 50 Amp 1000 Volt single-phase full-wave bridge rectifier in an electrically isolated metal casing.",
+    "keySpecs": "Maximum Recurrent Peak Reverse Voltage: 1000V, Maximum Average Forward Rectified Output Current: 50A (with heatsink), Peak forward surge: 400A, Case dielectric isolation: 2500V.",
+    "useCase": "High-current linear lab bench power supplies (0-30V 10A), automotive battery chargers, heavy transformer rectifiers.",
+    "id": "221"
+  },
+  {
+    "name": "KBL406 4A 600V Bridge Rectifier",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "Single-in-line 4-Pin: 1-+(Positive DC), 2-AC(~), 3-AC(~), 4--(Negative DC)",
+    "primaryFunction": "Compact 4A 600V through-hole silicon full-wave bridge rectifier.",
+    "keySpecs": "Max RMS Bridge Input Voltage: 420V, Average Forward Output Current: 4.0A @ 50\u00b0C, Peak Forward Surge Current: 120A, Low forward voltage drop.",
+    "useCase": "Mains 220V AC-to-DC converters, linear power supply modules, transformer output rectification.",
+    "id": "222"
+  },
+  {
+    "name": "MBR20100CT 20A 100V Dual Schottky",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "TO-220AB (Common Cathode): 1-Anode 1, 2-Cathode (Center pin & metal tab), 3-Anode 2",
+    "primaryFunction": "20A 100V High-power Dual Schottky Barrier Rectifier with ultra-low forward voltage and virtually zero reverse recovery time.",
+    "keySpecs": "Repetitive peak reverse voltage: 100V, Average forward current: 20A total (10A per diode), Forward voltage drop: 0.70V @ 10A, Operating temp: up to 150\u00b0C.",
+    "useCase": "Secondary rectification in high-frequency SMPS, solar panel reverse-current blocking, freewheeling motor diodes.",
+    "id": "223"
+  },
+  {
+    "name": "1N5408 3A 1000V Silicon Rectifier",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "DO-201AD Axial Leads: Silver cathode band indicates negative terminal",
+    "primaryFunction": "3 Amp 1000 Volt general purpose high-current power rectifier diode.",
+    "keySpecs": "Average forward rectified current: 3.0A, Peak reverse voltage: 1000V, Non-repetitive peak surge: 200A, Forward voltage drop: 1.0V @ 3A.",
+    "useCase": "Heavy relay and inductive solenoid flyback protection, linear power supply full wave rectification, reverse polarity protection.",
+    "id": "224"
+  },
+  {
+    "name": "6N137 High Speed 10MBd Optocoupler",
+    "category": "Opto & Relay",
+    "icon": "ic_opto",
+    "pinout": "8-Pin DIP: 1-NC, 2-Anode (LED), 3-Cathode (LED), 4-NC, 5-GND, 6-VO(Open Collector Output), 7-VE(Enable Active High), 8-VCC(4.5V-5.5V)",
+    "primaryFunction": "High-speed optocoupler featuring an AlGaAs LED optically coupled to a very high speed integrated photodetector logic gate.",
+    "keySpecs": "High speed: 10 MBaud typical, High Common Mode Rejection (CMR): 10 kV/us, 5000 Vrms input-to-output isolation, Open collector output with pull-up.",
+    "useCase": "High-speed CNC optical isolation (spindle PWM / step & dir signals), industrial PLC isolated digital inputs, isolated RS-485 / CAN buses.",
+    "id": "225"
+  },
+  {
+    "name": "EL817 Phototransistor Optocoupler",
+    "category": "Opto & Relay",
+    "icon": "ic_opto",
+    "pinout": "4-Pin DIP: 1-Anode, 2-Cathode, 3-Emitter, 4-Collector",
+    "primaryFunction": "Standard 4-pin phototransistor optocoupler for galvanic signal isolation between low-voltage and high-voltage domains.",
+    "keySpecs": "Isolation voltage: 5000 Vrms, Collector-Emitter voltage: 80V, Current Transfer Ratio (CTR): 50% to 600%, Fast response time: 4 us.",
+    "useCase": "SMPS feedback loop optoisolation (paired with TL431), microcontroller input protection from 24V industrial sensors.",
+    "id": "226"
+  },
+  {
+    "name": "SSD1306 0.96\" I2C OLED Display",
+    "category": "Display & Module",
+    "icon": "ic_display",
+    "pinout": "4-Pin Header: 1-GND, 2-VCC(3.3V-5.0V with onboard regulator), 3-SCL(I2C Clock), 4-SDA(I2C Data)",
+    "primaryFunction": "128x64 monochrome organic light-emitting diode (OLED) graphic display module with self-illuminating pixels.",
+    "keySpecs": "Resolution: 128x64 pixels, Viewing angle: > 160\u00b0, Contrast ratio: > 2000:1, No backlight needed (each pixel emits light), I2C address: 0x3C (or 0x3D), Ultra-low power (~20mA full on).",
+    "useCase": "Displaying real-time telemetry (speed, voltage, temperature, battery %) on portable student gadgets, mini oscilloscope screens.",
+    "id": "227"
+  },
+  {
+    "name": "HD44780 16x2 LCD with I2C Backpack",
+    "category": "Display & Module",
+    "icon": "ic_display",
+    "pinout": "4-Pin Header: 1-GND, 2-VCC(5V), 3-SDA(I2C Data), 4-SCL(I2C Clock), Onboard potentiometer adjusts character contrast, Jumper enables LED backlight",
+    "primaryFunction": "Standard 16-character by 2-line alphanumeric LCD fitted with PCF8574 I2C adapter to use only 2 MCU wires instead of 16.",
+    "keySpecs": "Display format: 16 characters x 2 rows (5x8 dot matrix characters), I2C default address: 0x27 (or 0x3F), Built-in custom character generator (8 custom characters), 5V DC.",
+    "useCase": "Standard university laboratory readouts, automated token counters, menu navigation systems with push buttons.",
+    "id": "228"
+  },
+  {
+    "name": "ST7735 1.8\" Color TFT SPI Display",
+    "category": "Display & Module",
+    "icon": "ic_display",
+    "pinout": "8-Pin Header: 1-GND, 2-VCC(3.3V-5V), 3-SCL(SPI Clock), 4-SDA(SPI MOSI), 5-RES(Reset), 6-DC(Data/Command Select), 7-CS(Chip Select), 8-BLK(Backlight Control)",
+    "primaryFunction": "Full-color 1.8-inch TFT LCD display with 128x160 resolution capable of displaying 65K/262K vibrant RGB colors.",
+    "keySpecs": "Resolution: 128 x 160 pixels, Driver IC: Sitronix ST7735S, SPI 4-wire high-speed serial interface, Operating voltage: 3.3V (5V tolerant with level shifters), White LED backlight.",
+    "useCase": "Miniature handheld gaming consoles, real-time waveform graphing, color camera preview monitors, complex graphical UI.",
+    "id": "229"
+  },
+  {
+    "name": "WS2812B Addressable RGB LED (NeoPixel)",
+    "category": "Display & Module",
+    "icon": "ic_display",
+    "pinout": "4-Pin 5050 SMD / Strip / Ring: 1-VCC(+5V), 2-DIN(Data Input), 3-GND, 4-DOUT(Data Output to next chained LED)",
+    "primaryFunction": "Individually addressable RGB LED integrating an intelligent control circuit and RGB chip into a 5050 component.",
+    "keySpecs": "24-bit color (8-bit per channel = 16,777,216 colors), Single-wire communication protocol @ 800 kHz, Cascaded design allows controlling hundreds of LEDs from one microcontroller pin, 5V supply.",
+    "useCase": "Interactive RGB lighting rings for robotic facial expressions, audio spectrum waterfall bars, smart wearable indicators.",
+    "id": "230"
+  },
+  {
+    "name": "MicroSD Card Adapter (SPI Module)",
+    "category": "Display & Module",
+    "icon": "ic_display",
+    "pinout": "6-Pin Header: 1-GND, 2-VCC(4.5V-5.5V), 3-MISO(SPI Data Out), 4-MOSI(SPI Data In), 5-SCK(SPI Clock), 6-CS(Chip Select), Onboard 74LVC125 level converter and 3.3V LDO",
+    "primaryFunction": "MicroSD card reader module with onboard level conversion for reading and writing FAT16/FAT32 formatted SD cards.",
+    "keySpecs": "Supports MicroSD (<=2GB) and MicroSDHC (<=32GB) cards, High speed SPI interface, Onboard 3.3V regulator and level conversion buffers for 5V microcontroller safety.",
+    "useCase": "High-capacity data logging for environmental sensors, flight data recorders (black box), WAV audio file playback.",
+    "id": "231"
+  },
+  {
+    "name": "TM1637 4-Digit 7-Segment Display",
+    "category": "Display & Module",
+    "icon": "ic_display",
+    "pinout": "4-Pin Header: 1-GND, 2-VCC(3.3V-5V), 3-DIO(Data Input/Output), 4-CLK(Clock Input), Center colon (:) for clock display",
+    "primaryFunction": "4-digit 0.36-inch common anode 7-segment display module with integrated TM1637 driver using a 2-wire serial interface.",
+    "keySpecs": "Only 2 signal pins required (CLK & DIO), 8 adjustable brightness levels, Supply voltage: 3.3V to 5.5V, Operating current: 30-80mA.",
+    "useCase": "Digital stopwatch and countdown timers, speedometers, ultrasonic distance display, digital thermometers.",
+    "id": "232"
+  },
+  {
+    "name": "Arduino Leonardo (ATmega32U4)",
+    "category": "MCU & Board",
+    "icon": "ic_mcu",
+    "pinout": "20 Digital I/O (7 PWM, 12 Analog ADC inputs), Micro-USB with native USB HID support, ICSP header, Vin (7-12V), 5V, 3.3V, GND",
+    "primaryFunction": "Microcontroller board based on ATmega32U4 with built-in USB communication eliminating secondary processor.",
+    "keySpecs": "16 MHz clock, 32KB Flash, 2.5KB SRAM, 1KB EEPROM, Native USB 2.0 full-speed (emulates keyboard, mouse, or MIDI directly), 5V logic.",
+    "useCase": "Custom USB gaming controllers, macro mechanical keyboards, assistive computer input peripherals for disabled individuals.",
+    "id": "233"
+  },
+  {
+    "name": "Teensy 4.0 (ARM Cortex-M7)",
+    "category": "MCU & Board",
+    "icon": "ic_mcu",
+    "pinout": "DIP-24 Breadboard footprint: 40 Digital Pins (31 PWM), 14 Analog Inputs, 7 Serial UARTs, 3 SPI, 3 I2C, 2 I2S/TDM audio, S/PDIF, 3 CAN Bus, USB Host",
+    "primaryFunction": "High-performance microcontroller board featuring an NXP i.MX RT1062 ARM Cortex-M7 running at 600 MHz.",
+    "keySpecs": "CPU: ARM Cortex-M7 @ 600 MHz (Fastest MCU board!), RAM: 1024KB (1MB), Flash: 2048KB (2MB), Floating Point Unit (64-bit hardware double precision), 3.3V logic.",
+    "useCase": "Real-time polyphonic audio synthesizers, real-time Fourier analysis (FFT), complex robotics inverse kinematics, computer vision.",
+    "id": "234"
+  },
+  {
+    "name": "Arduino Pro Mini 5V / 16MHz",
+    "category": "MCU & Board",
+    "icon": "ic_mcu",
+    "pinout": "Ultra-compact DIP: TXO, RXI, RST, GND, D2-D13, A0-A7(8 ADC inputs), RAW(7-12V), VCC(5V), GND. Programmed via external FTDI/CP2102 header",
+    "primaryFunction": "Minimalist, thin, ultra-lightweight ATmega328P microcontroller board designed for permanent installation in projects.",
+    "keySpecs": "Clock: 16 MHz, Voltage: 5V, 32KB Flash, 2KB SRAM, No onboard USB interface to save space and minimize idle current.",
+    "useCase": "Combat robots, RC airplane flight stabilization, permanent sensor deployments inside tight enclosures.",
+    "id": "235"
+  },
+  {
+    "name": "Seeed Studio XIAO SAMD21",
+    "category": "MCU & Board",
+    "icon": "ic_mcu",
+    "pinout": "Thumb-sized 14-Pin Castellated Header: Type-C, D0-D10 (All 11 pins support PWM, DAC on A0, ADC on all 11 pins), 3.3V, GND, 5V, Reset pads",
+    "primaryFunction": "Smallest member of the Seeeduino family powered by Microchip SAMD21 ARM Cortex-M0+ 32-bit MCU with USB Type-C.",
+    "keySpecs": "CPU: ARM Cortex-M0+ @ 48 MHz, Flash: 256KB, SRAM: 32KB, 10-bit DAC, 14 GPIOs, Size: only 20x17.5 mm, USB Type-C.",
+    "useCase": "Miniature wearable health rings, custom smart rings, hidden spy gadgets, high-resolution analog measurement.",
+    "id": "236"
+  },
+  {
+    "name": "ESP32-S3 (AI & TinyML MCU)",
+    "category": "MCU & Board",
+    "icon": "ic_mcu",
+    "pinout": "44-Pin QFN / DevKit: 45 programmable GPIOs, Native USB OTG (Full speed), 2.4 GHz Wi-Fi + Bluetooth 5 (LE + Mesh), Octal SPI Flash/PSRAM, Vector instructions",
+    "primaryFunction": "Dual-core XTensa LX7 MCU with added vector instructions designed for on-device machine learning and neural network acceleration.",
+    "keySpecs": "CPU: Dual-core 240 MHz Xtensa LX7 with AI vector acceleration, 512 KB SRAM + up to 8MB PSRAM, Bluetooth 5.0 LE, 45 GPIOs.",
+    "useCase": "On-device wake-word detection, offline speech recognition, tinyML gesture recognition, smart camera image processing.",
+    "id": "237"
+  },
+  {
+    "name": "W5500 SPI Ethernet Module",
+    "category": "MCU & Board",
+    "icon": "ic_interface",
+    "pinout": "10-Pin Header: 3V3, 5V, MISO, MOSI, SCLK, SCS(Chip Select), RST, INT(Active Low Interrupt), GND, RJ45 Ethernet Port with built-in transformer & LEDs",
+    "primaryFunction": "Hardwired TCP/IP embedded Ethernet controller providing easy Internet connection to embedded systems over SPI.",
+    "keySpecs": "Supports 8 independent hardware sockets simultaneously, 32KB internal buffer memory for TX/RX, 10BaseT/100BaseTX Ethernet PHY, SPI clock up to 80MHz.",
+    "useCase": "Industrial Ethernet gateways, university IoT data logging where Wi-Fi is prohibited or unreliable, MQTT over LAN.",
+    "id": "238"
+  },
+  {
+    "name": "SIM900A GPRS/GSM Module",
+    "category": "MCU & Board",
+    "icon": "ic_wireless",
+    "pinout": "Dual-Band GSM: VCC(5V 2A), GND, 5VRX(UART 5V in), 5VTX(UART 5V out), 3VRX, 3VTX, DB9 RS232 Serial Port, SMA Antenna, SIM tray",
+    "primaryFunction": "Dual-band GSM/GPRS engine works on frequencies EGSM 900MHz and DCS 1800MHz.",
+    "keySpecs": "Supply voltage: 5V DC (requires external adapter up to 2A during RF transmission bursts), Standard AT commands, SMS, Voice, GPRS multi-slot class 10.",
+    "useCase": "Agricultural SMS remote pump control, solar park theft SMS alert system, remote prepaid energy meters.",
+    "id": "239"
+  },
+  {
+    "name": "AD8232 Single Lead Heart Monitor (ECG)",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "6-Pin Header: 3.3V, GND, OUTPUT(Analog amplified ECG signal), LO-(Lead-off detect -), LO+(Lead-off detect +), SDN(Shutdown). 3.5mm jack for 3 biomedical electrode pads (RA, LA, RL)",
+    "primaryFunction": "Integrated signal conditioning block for electrocardiogram (ECG) and other biopotential measurement applications.",
+    "keySpecs": "Instrumentation amplifier with high CMRR (80 dB), 2-pole adjustable high-pass filter, 3-pole adjustable low-pass filter, Integrated right leg drive (RLD) amplifier.",
+    "useCase": "Biomedical engineering ECG heart monitoring thesis, patient cardiac arrhythmia detector, biometric stress level monitor.",
+    "id": "240"
+  },
+  {
+    "name": "Sharp GP2Y0A21YK0F Analog IR Distance",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "3-Pin JST Connector: 1-Vo(Analog Voltage Output 0.4V to 2.3V inversely proportional to distance), 2-GND, 3-Vcc(4.5V-5.5V DC)",
+    "primaryFunction": "Distance measuring sensor unit with integrated PSD (position sensitive detector) infrared emitting diode and signal processing circuit.",
+    "keySpecs": "Distance measuring range: 10 cm to 80 cm, Analog output voltage, Fast update cycle: 38.3 ms \u00b19.6 ms, Immune to ambient light and target reflectivity color.",
+    "useCase": "Sumo robotics obstacle tracking, wall follower mobile robots, contactless trash bin lids, security tripwires.",
+    "id": "241"
+  },
+  {
+    "name": "HMC5883L 3-Axis Digital Compass",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "5-Pin Breakout: VCC(3.3V-5V), GND, SCL(I2C Clock), SDA(I2C Data), DRDY(Data Ready Interrupt output)",
+    "primaryFunction": "Surface-mount, multi-chip 3-axis magnetic sensor module designed for low-field magnetic sensing.",
+    "keySpecs": "12-bit ADC, Magnetic field range: \u00b18 Gauss, Heading accuracy: 1\u00b0 to 2\u00b0, Fast 160 Hz maximum output rate, I2C digital interface.",
+    "useCase": "Autonomous drone compass navigation, robotic heading alignment, digital electronic compasses.",
+    "id": "242"
+  },
+  {
+    "name": "SHT31 High Precision Temp & Humidity",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "4-Pin I2C Breakout: VIN(2.4V-5.5V), GND, SCL(I2C Clock), SDA(I2C Data), ALR(Alert interrupt), ADR(Address pin: Low=0x44, High=0x45)",
+    "primaryFunction": "Next-generation Sensirion temperature and humidity sensor offering unmatched laboratory accuracy.",
+    "keySpecs": "Humidity accuracy: \u00b11.5% RH (0 to 100% RH), Temperature accuracy: \u00b10.1\u00b0C (-40\u00b0C to 125\u00b0C), Fully calibrated linearized digital output, Internal heater.",
+    "useCase": "Pharmaceutical cleanroom monitoring, incubator climate controllers, university laboratory environmental calibration.",
+    "id": "243"
+  },
+  {
+    "name": "LM35DZ Precision Centigrade Temp Sensor",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "TO-92 (Flat face): 1-+Vs (4V to 30V DC), 2-Vout (10.0 mV/\u00b0C linear analog output), 3-GND",
+    "primaryFunction": "Precision integrated-circuit centigrade temperature sensor whose output voltage is linearly proportional to the Celsius temperature.",
+    "keySpecs": "Scale factor: 10.0 mV/\u00b0C (e.g. 250mV = 25.0\u00b0C), Accuracy: 0.5\u00b0C at room temp, Range: 0\u00b0C to +100\u00b0C (down to -55\u00b0C with pull-down resistor), Low self-heating (0.08\u00b0C).",
+    "useCase": "Direct ADC reading of temperature without look-up tables or Steinhart-Hart equations, power amplifier heatsink overheat protection.",
+    "id": "244"
+  },
+  {
+    "name": "TCRT5000 Reflective Optical Sensor",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "4-Pin Package / 4-Pin Module: Blue IR Emitting Diode (Anode/Cathode) and Black Phototransistor (Collector/Emitter). Module: VCC, GND, DO(Digital comparator), AO(Analog)",
+    "primaryFunction": "Reflective infrared sensor with daylight blocking filter used for line tracking and optical edge detection.",
+    "keySpecs": "Peak operating distance: 2.5 mm (effective range: 0.2 mm to 15 mm), Emitter wavelength: 950 nm, High sensitivity phototransistor output.",
+    "useCase": "Line follower robots (white line on black surface detection), rotary wheel tachometer speed encoders, paper feed detection.",
+    "id": "245"
+  },
+  {
+    "name": "TSOP4838 38kHz IR Receiver Module",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "3-Pin Molded Metal Package: 1-OUT(Demodulated active-low digital pulse), 2-GND, 3-VS(2.5V to 5.5V DC)",
+    "primaryFunction": "Miniaturized receiver for infrared remote control systems with internal PIN diode, preamplifier, and 38 kHz bandpass filter.",
+    "keySpecs": "Carrier frequency: 38.0 kHz, Internal AGC (Automatic Gain Control) for high noise immunity, TTL/CMOS active-low output directly connects to microcontroller.",
+    "useCase": "Decoding TV remote controls (NEC, Sony SIRC, RC5 protocols), optical obstacle detection, beam break alarms.",
+    "id": "246"
+  },
+  {
+    "name": "MQ-4 Methane (CNG) Gas Sensor",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "4-Pin Module: VCC(5V), GND, DO(Digital threshold output), AO(Analog voltage proportional to CNG/Methane concentration)",
+    "primaryFunction": "Metal oxide semiconductor gas sensor with high sensitivity to Methane (CH4) and Compressed Natural Gas (CNG).",
+    "keySpecs": "Detection concentration: 300 ppm to 10,000 ppm CH4, Heater voltage: 5.0V, Fast response and high stability.",
+    "useCase": "CNG vehicle gas leakage safety alarms, kitchen natural gas leak detectors, biogas digester monitoring.",
+    "id": "247"
+  },
+  {
+    "name": "Rotary Encoder EC11 with Push Button",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "5-Pin Module: CLK(Channel A quadrature), DT(Channel B quadrature), SW(Momentary push switch), VCC(3.3V-5V), GND",
+    "primaryFunction": "Incremental rotary encoder providing 2-channel 90-degree phase-shifted quadrature pulses for endless rotary user input.",
+    "keySpecs": "20 pulses per 360-degree rotation (detent tactile feel), Integrated center push button, 3.3V/5V compatible pull-up resistors onboard.",
+    "useCase": "User interface menu navigation on OLED/LCD displays, digital oscilloscope timebase/voltage knobs, audio volume control.",
+    "id": "248"
+  },
+  {
+    "name": "HCPL-3120 2.5A IGBT Gate Drive Opto",
+    "category": "Opto & Relay",
+    "icon": "ic_opto",
+    "pinout": "8-Pin DIP: 1-NC, 2-Anode (LED), 3-Cathode (LED), 4-NC, 5-VEE(Negative rail or ground), 6-VO(Output), 7-VO(Output), 8-VCC(15V to 30V positive gate rail)",
+    "primaryFunction": "Optically coupled gate drive IC containing a GaAsP LED optically coupled to an integrated circuit with a power output stage.",
+    "keySpecs": "2.5A maximum peak output current, Wide operating voltage: 15V to 30V, High Common Mode Rejection (CMR): 25 kV/us, 5000 Vrms isolation rating.",
+    "useCase": "Variable Frequency Drives (VFD) for AC induction motors, high-power solar inverters driving 1200V IGBT modules.",
+    "id": "249"
+  },
+  {
+    "name": "TC4420 6A High-Speed MOSFET Driver",
+    "category": "IC",
+    "icon": "ic_ic",
+    "pinout": "8-Pin DIP: 1-VDD(4.5V-18V), 2-INPUT(TTL/CMOS compatible), 3-NC, 4-GND, 5-GND, 6-OUTPUT(6A Peak), 7-OUTPUT, 8-VDD",
+    "primaryFunction": "6A high-speed non-inverting MOSFET gate driver designed to switch large capacitive loads rapidly.",
+    "keySpecs": "Peak output current: 6.0 Amperes, Matched rise and fall times: 25 ns into 2500 pF load, Low propagation delay: 55 ns, Supply: 4.5V to 18V.",
+    "useCase": "Solid-State Tesla Coils (DRSSTC), high-frequency induction heaters, laser diode pulse modulators.",
+    "id": "250"
+  },
+  {
+    "name": "L9110S Dual DC Motor Driver",
+    "category": "Motor Driver",
+    "icon": "ic_motor",
+    "pinout": "6-Pin Module: B-1A(Motor B dir), B-1B(Motor B dir/PWM), GND, VCC(2.5V-12V), A-1A(Motor A dir), A-1B(Motor A dir/PWM). Screw terminals: Motor A & Motor B",
+    "primaryFunction": "Compact, two-channel push-pull power amplifier ASIC designed to control and drive toy DC motors or 2-phase 4-wire steppers.",
+    "keySpecs": "Operating voltage: 2.5V to 12V, Continuous current: 800mA per channel (2.5A peak), Low static working current, Low saturation voltage drop.",
+    "useCase": "Micro line follower robots, robotic gripper claws, battery-operated miniature AGVs.",
+    "id": "251"
+  },
+  {
+    "name": "L6203 4A DMOS Full-Bridge Motor Driver",
+    "category": "Motor Driver",
+    "icon": "ic_motor",
+    "pinout": "11-Pin Multiwatt11 Package: 1-GND, 2-SENSE(Current sense resistor), 3-OUT1, 4-VBOOT1, 5-IN1, 6-ENABLE, 7-IN2, 8-VREF, 9-VBOOT2, 10-OUT2, 11-Vs(Supply up to 48V)",
+    "primaryFunction": "DMOS full-bridge motor driver IC capable of driving high voltage, high current DC and stepper motors with very low power dissipation.",
+    "keySpecs": "Supply voltage up to 48V, Total RMS current: 4A, Low RDS(on): 0.3 \u03a9 typical, Operating frequency up to 100 kHz, Internal thermal shutdown.",
+    "useCase": "High-voltage industrial stepper drives, heavy CNC positioning tables, DC servo motor closed loop controllers.",
+    "id": "252"
+  },
+  {
+    "name": "TIP41C NPN 100V 6A Power Transistor",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-220AB: 1-Base, 2-Collector (metal tab), 3-Emitter",
+    "primaryFunction": "100V 6A NPN Power Transistor designed for general-purpose switching and amplifier applications.",
+    "keySpecs": "Vceo: 100V, Ic: 6A continuous (10A pulse), Total power dissipation: 65W, hFE: 15 to 75 @ 3A, Transition frequency: 3 MHz.",
+    "useCase": "Medium-power audio amplifier drivers, linear power supply pass element, 24V relay banks.",
+    "id": "253"
+  },
+  {
+    "name": "TIP42C PNP 100V 6A Power Transistor",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-220AB: 1-Base, 2-Collector (metal tab), 3-Emitter",
+    "primaryFunction": "100V 6A PNP Power Transistor, complementary pair to TIP41C.",
+    "keySpecs": "Vceo: -100V, Ic: -6A (-10A pulse), Ptot: 65W, hFE: 15 to 75, Complementary to TIP41C.",
+    "useCase": "High-side power switching, complementary push-pull audio power outputs.",
+    "id": "254"
+  },
+  {
+    "name": "IRF4905 P-Channel Power MOSFET",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "TO-220AB: 1-Gate, 2-Drain (metal tab), 3-Source",
+    "primaryFunction": "-55V 74A P-channel HEXFET power MOSFET designed for high-side switching without needing bootstrap charge pumps.",
+    "keySpecs": "Vdss: -55V, Id continuous: -74A, RDS(on): 0.020 \u03a9 max, Power dissipation: 200W, Fast switching speed.",
+    "useCase": "High-side load disconnect switches in battery management systems, reverse polarity protection without diode drop.",
+    "id": "255"
+  },
+  {
+    "name": "BT138-600E 12A 600V TRIAC",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-220: 1-T1, 2-T2, 3-Gate",
+    "primaryFunction": "12A 600V sensitive gate 4-quadrant TRIAC for bidirectional mains AC switching and phase control.",
+    "keySpecs": "RMS on-state current: 12A, Non-repetitive peak surge: 105A, Peak off-state voltage: 600V, Gate trigger current: 10mA to 25mA.",
+    "useCase": "Washing machine motor speed control, heavy AC inductive load switching, industrial oven heaters.",
+    "id": "256"
+  },
+  {
+    "name": "XL4015 5A 180kHz Step-Down Buck IC",
+    "category": "Voltage Regulator",
+    "icon": "ic_power",
+    "pinout": "TO-263-5L (SMD / Module): 1-GND, 2-FB(0.8V reference), 3-SW(Switch output to inductor), 4-VC(Internal regulator), 5-VIN(8V to 36V). Module: IN+, IN-, OUT+, OUT-, Current Pot, Voltage Pot",
+    "primaryFunction": "5A 180 kHz 36V Step-Down DC-DC converter with constant voltage and constant current (CV/CC) regulation.",
+    "keySpecs": "Wide input: 8V to 36V, Output adjustable: 1.25V to 32V, Maximum current: 5A, Switching frequency: 180 kHz, Efficiency up to 96%, Built-in current limit and thermal shutdown.",
+    "useCase": "High-power constant current LED drivers, multi-chemistry lithium battery chargers, solar panel MPPT step-down stages.",
+    "id": "257"
+  },
+  {
+    "name": "LM350 3A Adjustable Positive Regulator",
+    "category": "Voltage Regulator",
+    "icon": "ic_power",
+    "pinout": "TO-220 / TO-3: 1-ADJUST, 2-OUTPUT (center pin & tab), 3-INPUT",
+    "primaryFunction": "Adjustable 3-terminal positive voltage regulator capable of supplying in excess of 3A over an output range of 1.2V to 33V.",
+    "keySpecs": "Output voltage adjustable from 1.2V to 33V using two external resistors, Output current: 3.0 Amperes guaranteed, 0.1% line and load regulation, Thermal overload protection.",
+    "useCase": "Heavy linear laboratory power supplies, high-current battery chargers, precision current sources.",
+    "id": "258"
+  },
+  {
+    "name": "CN3791 MPPT Solar Charger Controller",
+    "category": "Voltage Regulator",
+    "icon": "ic_power",
+    "pinout": "SSOP-16 / Module: Solar Input (+ / -), Battery (+ / - for 3.7V / 4.2V Li-ion), Status LEDs (CHRG / DONE). Tracks solar panel maximum power point",
+    "primaryFunction": "Maximum Power Point Tracking (MPPT) photovolatic battery charge management IC for single-cell lithium-ion batteries.",
+    "keySpecs": "Input voltage: 6V, 9V, 12V solar panels, Constant current charge up to 2A, Complete charge management with MPPT algorithm, 300kHz PWM switching frequency.",
+    "useCase": "Solar powered environmental IoT stations, off-grid weather stations, self-sustaining wireless sensor nodes.",
+    "id": "259"
+  },
+  {
+    "name": "LD1117V33 3.3V 800mA LDO Regulator",
+    "category": "Voltage Regulator",
+    "icon": "ic_power",
+    "pinout": "TO-220: 1-Ground, 2-Output (+3.3V DC), 3-Input (+4.5V to +15V DC)",
+    "primaryFunction": "Low drop fixed 3.3V positive voltage regulator in through-hole TO-220 package for breadboards.",
+    "keySpecs": "Output voltage: 3.3V \u00b11%, Low dropout voltage: 1.15V @ 800mA, Internal current and thermal limit, Easy breadboard mounting.",
+    "useCase": "Powering 3.3V microcontrollers (ESP32, STM32, Raspberry Pi Pico) directly from 5V rails on breadboards.",
+    "id": "260"
+  },
+  {
+    "name": "TL071 Low-Noise JFET Single Op-Amp",
+    "category": "IC",
+    "icon": "ic_ic",
+    "pinout": "8-Pin DIP: 1-Offset Null, 2-Inverting In, 3-Non-Inverting In, 4-V- (Negative supply), 5-Offset Null, 6-Output, 7-V+ (Positive supply), 8-NC",
+    "primaryFunction": "Single low-noise JFET-input operational amplifier featuring high slew rate and ultra-low input bias current.",
+    "keySpecs": "Slew rate: 13 V/us, Bandwidth: 3 MHz, Input impedance: 10^12 \u03a9 (Picoampere bias current), Low harmonic distortion: 0.003%, Dual supply: \u00b15V to \u00b118V.",
+    "useCase": "High-impedance piezo vibration sensor preamps, active audio filters, precision integrators.",
+    "id": "261"
+  },
+  {
+    "name": "TL084 Quad JFET Operational Amplifier",
+    "category": "IC",
+    "icon": "ic_ic",
+    "pinout": "14-Pin DIP: 1-1OUT, 2-1IN-, 3-1IN+, 4-VCC+, 5-2IN+, 6-2IN-, 7-2OUT, 8-3OUT, 9-3IN-, 10-3IN+, 11-VCC-, 12-4IN+, 13-4IN-, 14-4OUT",
+    "primaryFunction": "Four independent high-speed JFET-input operational amplifiers in a single 14-pin package.",
+    "keySpecs": "4 Op-Amps in one IC, JFET input stage with high input impedance (10^12 \u03a9), Slew rate: 13 V/us, Unity gain bandwidth: 3 MHz.",
+    "useCase": "State-variable active filters, graphic equalizers, multi-stage analog computers, quadrature sine-cosine oscillators.",
+    "id": "262"
+  },
+  {
+    "name": "LM311 High-Speed Voltage Comparator",
+    "category": "IC",
+    "icon": "ic_ic",
+    "pinout": "8-Pin DIP: 1-GND, 2-Non-Inverting In, 3-Inverting In, 4-VCC- (Negative rail), 5-Balance, 6-Balance/Strobe, 7-Collector Output (Open collector), 8-VCC+ (Positive rail)",
+    "primaryFunction": "Versatile high-speed voltage comparator capable of driving relays, lamps, or logic gates directly.",
+    "keySpecs": "Response time: 200 ns, Can operate from single 5V supply or dual \u00b115V supplies, Output can sink or source up to 50mA and drive loads up to 50V, Strobe capability.",
+    "useCase": "Zero-crossing AC detectors for TRIAC phase control, fast pulse height discriminators, window comparators.",
+    "id": "263"
+  },
+  {
+    "name": "INA128 Precision Instrumentation Amp",
+    "category": "IC",
+    "icon": "ic_ic",
+    "pinout": "8-Pin DIP: 1-RG(Gain set resistor pin 1), 2-VIN-(Inverting Input), 3-VIN+(Non-Inverting Input), 4-V-(Negative supply), 5-REF(Output voltage reference offset), 6-VO(Output), 7-V+(Positive supply), 8-RG(Gain set resistor pin 2)",
+    "primaryFunction": "Low-power, general-purpose instrumentation amplifier offering excellent accuracy and very high CMRR.",
+    "keySpecs": "Gain set with one external resistor: G = 1 + (50k\u03a9 / RG), CMRR: 120 dB min @ G=100, Low offset voltage: 50 uV max, Quiescent current: 700 uA.",
+    "useCase": "Wheatstone bridge strain gauge amplifiers, biomedical biopotential signals (EEG/EMG), RTD platinum temperature probes.",
+    "id": "264"
+  },
+  {
+    "name": "TDA2050 32W Hi-Fi Audio Amplifier",
+    "category": "IC",
+    "icon": "ic_ic",
+    "pinout": "5-Pin Pentawatt Package: 1-Non-Inverting Input, 2-Inverting Input, 3-V-(Negative Supply), 4-Output, 5-V+(Positive Supply)",
+    "primaryFunction": "Monolithic integrated circuit intended for use as an audio Class AB power amplifier in Hi-Fi systems.",
+    "keySpecs": "Music power up to 50W into 4\u03a9 load, Operating supply up to \u00b125V, Very low harmonic and crossover distortion, Short-circuit protection and thermal shutdown.",
+    "useCase": "High-fidelity guitar amplifiers, active bookshelf speakers, laboratory audio frequency power amplifiers.",
+    "id": "265"
+  },
+  {
+    "name": "ILI9341 2.8\" SPI Color TFT Touchscreen",
+    "category": "Display & Module",
+    "icon": "ic_display",
+    "pinout": "14-Pin Header: VCC(3.3V-5V), GND, CS, RESET, DC, MOSI, SCK, LED(Backlight), MISO. Touch Pins: T_CLK, T_CS, T_DIN, T_DO, T_IRQ (XPT2046 touch controller)",
+    "primaryFunction": "240x320 262K Color TFT LCD with resistive touch screen controller (XPT2046) communicating via high-speed SPI.",
+    "keySpecs": "Resolution: 240x320 RGB pixels, ILI9341 controller chip, 4-wire SPI up to 40MHz, Built-in SD card socket, Resistive touch panel with stylus support.",
+    "useCase": "Handheld GUI instruments, mini digital storage oscilloscopes, graphical drone ground stations, 3D printer touchscreen panels.",
+    "id": "266"
+  },
+  {
+    "name": "SH1106 1.3\" I2C OLED Display",
+    "category": "Display & Module",
+    "icon": "ic_display",
+    "pinout": "4-Pin Header: 1-VCC(3.3V-5V), 2-GND, 3-SCL(I2C Clock), 4-SDA(I2C Data). I2C Address: 0x3C",
+    "primaryFunction": "1.3-inch diagonal 128x64 dot matrix monochrome OLED display with broader viewing area than standard 0.96\" screen.",
+    "keySpecs": "Resolution: 128 x 64 pixels, SH1106 driver controller, High contrast > 2000:1, Viewing angle: > 160\u00b0, Operating current: ~25mA, 3.3V to 5V DC.",
+    "useCase": "Enhanced readability handheld multi-meters, crypto hardware wallets, portable spectrum visualizers.",
+    "id": "267"
+  },
+  {
+    "name": "HD44780 20x4 Large Character LCD",
+    "category": "Display & Module",
+    "icon": "ic_display",
+    "pinout": "4-Pin I2C Backpack: GND, VCC(5V), SDA, SCL. Displays 4 rows of 20 characters each (80 characters total)",
+    "primaryFunction": "Large format 20-character by 4-line alphanumeric liquid crystal display fitted with PCF8574 I2C adapter.",
+    "keySpecs": "Display format: 20 characters x 4 rows, Blue backlight with white text or Green with black text, I2C address: 0x27, 5V DC supply.",
+    "useCase": "Telemetry consoles displaying voltage, current, power, and energy on one screen, CNC status consoles, vending machine interfaces.",
+    "id": "268"
+  },
+  {
+    "name": "MAX7219 4-in-1 Dot Matrix Display",
+    "category": "Display & Module",
+    "icon": "ic_display",
+    "pinout": "5-Pin Input / Output: VCC(5V), GND, DIN, CS, CLK. Chained module with four 8x8 red LED matrices = 32x8 matrix total",
+    "primaryFunction": "Cascaded four-unit 8x8 LED matrix display driven by four daisy-chained MAX7219 ICs over a single 3-wire SPI interface.",
+    "keySpecs": "Total resolution: 32x8 dots (256 individual red LEDs), SPI interface, Hardware multiplexing, Dynamic brightness control, Cascadable indefinitely.",
+    "useCase": "Scrolling LED marquee message boards, digital real-time clocks, audio spectrum visualizers, retro Pong/Snake arcade games.",
+    "id": "269"
+  },
+  {
+    "name": "74HC10 Triple 3-Input NAND Gate",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "14-Pin DIP: 1-1A, 2-1B, 3-2A, 4-2B, 5-2C, 6-2Y, 7-GND, 8-3Y, 9-3A, 10-3B, 11-3C, 12-1Y, 13-1C, 14-VCC",
+    "primaryFunction": "Triple 3-input NAND gate utilizing advanced silicon-gate CMOS technology.",
+    "keySpecs": "Propagation delay: 10 ns, Operating voltage: 2.0V to 6.0V, Fanout: 10 LSTTL loads, Low input current: 1 uA.",
+    "useCase": "Multi-condition interlock safety gates, combinatorial digital logic, address decoding.",
+    "id": "270"
+  },
+  {
+    "name": "74HC139 Dual 2-to-4 Line Decoder",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "16-Pin DIP: 1-1E(Active Low Enable), 2-1A0, 3-1A1, 4-1Y0, 5-1Y1, 6-1Y2, 7-1Y3, 8-GND, 9-2Y3, 10-2Y2, 11-2Y1, 12-2Y0, 13-2A1, 14-2A0, 15-2E, 16-VCC",
+    "primaryFunction": "Dual 2-to-4 line decoder/demultiplexer with active low outputs and individual enable inputs.",
+    "keySpecs": "Two independent 2-to-4 decoders in single package, Active low outputs (Y0-Y3), High speed: tpd = 13 ns, 2.0V to 6.0V.",
+    "useCase": "Microprocessor memory chip selection (CS lines), peripheral address decoding, digital routing.",
+    "id": "271"
+  },
+  {
+    "name": "74HC157 Quad 2-Input Multiplexer",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "16-Pin DIP: 1-SELECT, 2-1I0, 3-1I1, 4-1Y, 5-2I0, 6-2I1, 7-2Y, 8-GND, 9-3Y, 10-3I1, 11-3I0, 12-4Y, 13-4I1, 14-4I0, 15-ENABLE(Active Low), 16-VCC",
+    "primaryFunction": "Quad 2-input data selector/multiplexer selecting four bits of data from two sources under the control of a common Select input.",
+    "keySpecs": "Four 2-to-1 multiplexers in one chip, Common select line, Active low strobe enable, Propagation delay: 11 ns.",
+    "useCase": "Selecting between two 4-bit data buses, digital bus multiplexing, ALU function selection.",
+    "id": "272"
+  },
+  {
+    "name": "74HC164 8-Bit Serial-In Parallel-Out",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "14-Pin DIP: 1-A(Data In 1), 2-B(Data In 2), 3-Q0, 4-Q1, 5-Q2, 6-Q3, 7-GND, 8-CLK(Clock In), 9-CLR(Active Low Clear), 10-Q4, 11-Q5, 12-Q6, 13-Q7, 14-VCC",
+    "primaryFunction": "8-bit serial-in parallel-out shift register featuring AND-gated serial inputs and an asynchronous master reset.",
+    "keySpecs": "Clock frequency: up to 50 MHz, Gated serial inputs, Asynchronous clear, High-speed CMOS logic.",
+    "useCase": "Expanding microcontroller output pins for driving 8 LEDs or relays without needing latch pins.",
+    "id": "273"
+  },
+  {
+    "name": "74HC373 Octal Transparent Latch",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "20-Pin DIP: 1-OE(Active Low Output Enable), 2-Q0, 3-D0, 4-D1, 5-Q1, 6-Q2, 7-D2, 8-D3, 9-Q3, 10-GND, 11-LE(Latch Enable), 12-Q4, 13-D4, 14-D5, 15-Q5, 16-Q6, 17-D6, 18-D7, 19-Q7, 20-VCC",
+    "primaryFunction": "Octal transparent D-type latch with 3-state outputs designed for driving bus lines directly.",
+    "keySpecs": "8 independent latches, Transparent when LE is high, latched when LE goes low, 3-state outputs drive up to 15 LS-TTL loads.",
+    "useCase": "Demultiplexing multiplexed address/data buses on 8085/8086 and 8051 university microprocessors (ALE pin).",
+    "id": "274"
+  },
+  {
+    "name": "74HC374 Octal D-Type Flip-Flop",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "20-Pin DIP: 1-OE(Active Low), 2-Q0, 3-D0, 4-D1, 5-Q1, 6-Q2, 7-D2, 8-D3, 9-Q3, 10-GND, 11-CLK(Positive Edge Clock), 12-Q4, 13-D4, 14-D5, 15-Q5, 16-Q6, 17-D6, 18-D7, 19-Q7, 20-VCC",
+    "primaryFunction": "Octal positive-edge-triggered D-type flip-flop with 3-state non-inverting outputs.",
+    "keySpecs": "Edge-triggered on rising clock edge, 3-state outputs for bus-oriented applications, High speed: fmax = 45 MHz.",
+    "useCase": "Digital memory registers, accumulator buffer registers, synchronous bus interfaces.",
+    "id": "275"
+  },
+  {
+    "name": "CD4013 Dual D-Type Flip-Flop",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "14-Pin DIP: 1-1Q, 2-1Q_BAR, 3-1CLK, 4-1RESET, 5-1DATA, 6-1SET, 7-VSS(GND), 8-2SET, 9-2DATA, 10-2RESET, 11-2CLK, 12-2Q_BAR, 13-2Q, 14-VDD(3V-18V)",
+    "primaryFunction": "CMOS dual independent D-type flip-flop with asynchronous Set and Reset inputs and wide voltage tolerance.",
+    "keySpecs": "Wide voltage: 3.0V to 18V (can run directly on 12V automotive battery), Set and Reset independent of clock, High noise immunity.",
+    "useCase": "Push-button toggle latch circuits (press once for ON, press again for OFF), digital clock frequency dividers.",
+    "id": "276"
+  },
+  {
+    "name": "CD4027 Dual J-K Flip-Flop",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "16-Pin DIP: 1-1Q, 2-1Q_BAR, 3-1CLK, 4-1RESET, 5-1K, 6-1J, 7-1SET, 8-VSS, 9-2SET, 10-2J, 11-2K, 12-2RESET, 13-2CLK, 14-2Q_BAR, 15-2Q, 16-VDD",
+    "primaryFunction": "Dual J-K master/slave flip-flop with independent J, K, Set, Reset, and Clock inputs.",
+    "keySpecs": "Wide voltage: 3V to 18V, Medium speed: fCL = 16 MHz @ 10V, Asynchronous Set and Reset capability.",
+    "useCase": "Ripple counters, binary divide-by-2 / divide-by-4 stages in industrial 12V/15V control circuits.",
+    "id": "277"
+  },
+  {
+    "name": "CD4049 Hex Inverting Buffer/Converter",
+    "category": "Logic IC",
+    "icon": "ic_logic",
+    "pinout": "16-Pin DIP: 1-VDD, 2-OUT1, 3-IN1, 4-OUT2, 5-IN2, 6-OUT3, 7-IN3, 8-VSS, 9-NC, 10-OUT4, 11-IN4, 12-OUT5, 13-NC, 14-IN5, 15-OUT6, 16-IN6",
+    "primaryFunction": "Hex inverting buffer capable of driving two DTL/TTL loads or converting high logic levels (e.g. 15V) to low logic levels (5V).",
+    "keySpecs": "High-to-low logic level converter capability (input voltage can exceed VDD!), Current sink: 48mA @ VDD=15V.",
+    "useCase": "Interfacing 12V/15V CMOS logic or sensors to 5V microcontrollers, clock generator oscillators with crystal.",
+    "id": "278"
+  },
+  {
+    "name": "IRL540N Logic-Level Power MOSFET",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "TO-220AB: 1-Gate, 2-Drain (metal tab), 3-Source",
+    "primaryFunction": "100V 36A Logic-Level N-Channel HEXFET Power MOSFET fully turned on by 5V TTL/CMOS logic signals.",
+    "keySpecs": "Vdss: 100V, Id continuous: 36A @ 25\u00b0C, RDS(on): 0.044 \u03a9 @ Vgs=5V (Logic Level), Gate threshold: 1.0V - 2.0V, Power: 140W.",
+    "useCase": "Direct 5V microcontroller PWM motor driving, solenoid actuation, power supply switching.",
+    "id": "279"
+  },
+  {
+    "name": "IRFZ34N Power MOSFET",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "TO-220AB: 1-Gate, 2-Drain (metal tab), 3-Source",
+    "primaryFunction": "55V 29A N-Channel HEXFET Power MOSFET providing fast switching and ruggedized design.",
+    "keySpecs": "Vdss: 55V, Id: 29A, RDS(on): 0.040 \u03a9, Gate charge: 34 nC, Power Dissipation: 68W.",
+    "useCase": "Automotive DC motor drives, 12V/24V electronic speed controllers, audio power switching.",
+    "id": "280"
+  },
+  {
+    "name": "IRF840 High Voltage Power MOSFET",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "TO-220AB: 1-Gate, 2-Drain, 3-Source",
+    "primaryFunction": "500V 8A N-Channel power MOSFET ideal for mains SMPS and offline flyback transformers.",
+    "keySpecs": "Vdss: 500V, Id: 8.0A, RDS(on): 0.85 \u03a9, Power: 125W, Fast switching times.",
+    "useCase": "High voltage flyback power supplies, AC-DC switched mode converters, ultrasonic transducers.",
+    "id": "281"
+  },
+  {
+    "name": "2N7002 SMD Small Signal N-MOSFET",
+    "category": "MOSFET",
+    "icon": "ic_mosfet",
+    "pinout": "SOT-23 Surface Mount: 1-Gate, 2-Source, 3-Drain",
+    "primaryFunction": "60V 115mA surface-mount N-channel enhancement mode Field Effect Transistor.",
+    "keySpecs": "Vdss: 60V, Id: 115mA continuous (800mA pulse), RDS(on): 7.5 \u03a9 max @ Vgs=5V, Fast switching: 20 ns.",
+    "useCase": "Bi-directional logic level shifters (3.3V <-> 5V I2C bus level translators), high-speed digital switching.",
+    "id": "282"
+  },
+  {
+    "name": "1N4004 1A 400V Silicon Rectifier",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "DO-41 Axial: Silver stripe denotes cathode (-)",
+    "primaryFunction": "Standard 1 Amp 400 Volt silicon rectifier diode for power supplies and polarity protection.",
+    "keySpecs": "Peak reverse voltage: 400V, Average forward current: 1.0A, Forward voltage: 1.1V @ 1A, Surge current: 30A.",
+    "useCase": "AC-DC rectification in low voltage adapters, reverse polarity protection, inductive kickback snubbers.",
+    "id": "283"
+  },
+  {
+    "name": "1N5817 1A 20V Schottky Diode",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "DO-41 Axial: Silver band on cathode",
+    "primaryFunction": "Ultra-low forward drop Schottky barrier diode designed for low-voltage high-efficiency circuits.",
+    "keySpecs": "Forward voltage drop: only 0.45V @ 1A (extremely low!), Reverse voltage: 20V, Average current: 1A.",
+    "useCase": "High-efficiency battery power OR-ing circuits, boost converter output diodes, fast free-wheeling.",
+    "id": "284"
+  },
+  {
+    "name": "SS14 1A 40V SMD Schottky Diode",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "SMA (DO-214AC) Surface Mount: White band indicates cathode",
+    "primaryFunction": "Surface mount 1A 40V Schottky rectifier for compact automated PCB assembly.",
+    "keySpecs": "Vrrm: 40V, If(AV): 1.0A, Vf: 0.5V @ 1A, Guardring protection for stress protection.",
+    "useCase": "SMD DC-DC buck/boost converter circuits, reverse battery polarity protection.",
+    "id": "285"
+  },
+  {
+    "name": "SS54 5A 40V SMD Schottky Diode",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "SMC (DO-214AB) Surface Mount: Polarity band indicates cathode",
+    "primaryFunction": "High current 5 Amp 40 Volt surface mount Schottky barrier rectifier with very low forward voltage drop.",
+    "keySpecs": "Average forward current: 5.0A, Peak reverse voltage: 40V, Forward voltage drop: 0.55V @ 5A, Surge current: 175A.",
+    "useCase": "High-current step-down buck modules (XL4015, LM2596), solar battery charge controllers.",
+    "id": "286"
+  },
+  {
+    "name": "KBPC2510 25A 1000V Metal Bridge",
+    "category": "Diode",
+    "icon": "ic_diode",
+    "pinout": "Square metal case with spade terminals: AC (~), AC (~), +(Positive DC), -(Negative DC)",
+    "primaryFunction": "25 Amp 1000 Volt single phase full-wave bridge rectifier with electrically isolated metal heat sink case.",
+    "keySpecs": "Max Recurrent Peak Reverse: 1000V, Maximum Forward Current: 25A (with heatsink), Surge: 300A, Isolation: 2500V.",
+    "useCase": "Medium-to-heavy linear power supplies, industrial battery chargers, electric motor DC supplies.",
+    "id": "287"
+  },
+  {
+    "name": "DRV8833 Dual H-Bridge Motor Driver",
+    "category": "Motor Driver",
+    "icon": "ic_motor",
+    "pinout": "16-Pin TSSOP / Module: VM(2.7V-10.8V), GND, AIN1, AIN2, BIN1, BIN2, AOUT1, AOUT2, BOUT1, BOUT2, SLP(Sleep), FAULT",
+    "primaryFunction": "Dual low-voltage H-bridge motor driver providing a complete motor-drive solution for toys, printers, and robotics.",
+    "keySpecs": "Dual H-bridge with low RDS(on): 360 m\u03a9 (HS + LS), 1.5A RMS / 2A peak per bridge, Operating voltage: 2.7V to 10.8V (Ideal for 1-2 Li-Ion cells!).",
+    "useCase": "Low-voltage battery-operated robots, micro robotic rovers, miniature stepper motor drives.",
+    "id": "288"
+  },
+  {
+    "name": "MX1508 Dual Mini DC Motor Driver",
+    "category": "Motor Driver",
+    "icon": "ic_motor",
+    "pinout": "Module Form Factor: IN1, IN2, IN3, IN4 (Logic PWM), Motor A (+/-), Motor B (+/-), Power (+2V to +10V DC), GND",
+    "primaryFunction": "Ultra-compact dual MOS-driven H-bridge module with minimal idle power consumption and low heat dissipation.",
+    "keySpecs": "Supply voltage: 2V to 10V, Peak current: 2.5A (Continuous: 1.5A per channel), No heat sink needed for small loads, Low standby current (0.1 uA).",
+    "useCase": "Smart robot cars, DIY RC toy car upgrades, lightweight pan-tilt camera mechanisms.",
+    "id": "289"
+  },
+  {
+    "name": "AQH3213 1.2A Solid State Relay IC",
+    "category": "Opto & Relay",
+    "icon": "ic_opto",
+    "pinout": "8-Pin DIP: 1-Cathode, 2-Anode, 3-NC, 4-NC, 5-AC Output Terminal 1, 6-AC Output Terminal 2, 7-NC, 8-NC",
+    "primaryFunction": "Solid State Relay (SSR) combining an infrared LED and a phototriac with Zero-Crossing circuit in a compact DIP8 package.",
+    "keySpecs": "Output load current: 1.2A RMS, Peak off-state voltage: 600V, Built-in Zero-Cross firing circuit (eliminates electrical switching noise!), 5000Vrms isolation.",
+    "useCase": "Silent AC switching without clicks or mechanical wear, smart home home-automation relay boards, heater PID controllers.",
+    "id": "290"
+  },
+  {
+    "name": "OMRON G5LE-1 12V 10A Cube Relay",
+    "category": "Opto & Relay",
+    "icon": "ic_opto",
+    "pinout": "Sugar Cube 5-Pin SPDT: Coil 1, Coil 2 (12V DC coil, 400mW), COM(Common terminal), NO(Normally Open), NC(Normally Closed)",
+    "primaryFunction": "Miniature single-pole double-throw (SPDT) power relay capable of switching heavy mains AC/DC electrical loads.",
+    "keySpecs": "Contact rating: 10A @ 250VAC / 10A @ 30VDC, Coil voltage: 12V DC (Coil resistance: 360 \u03a9), Dielectric strength: 4.5 kV impulse between coil and contacts.",
+    "useCase": "Standard 12V relay modules for home appliance control, UPS transfer switches, high-wattage water heater controllers.",
+    "id": "291"
+  },
+  {
+    "name": "Matrix 4x4 Keypad Module",
+    "category": "Display & Module",
+    "icon": "ic_interface",
+    "pinout": "8-Pin Single Row Header: R1, R2, R3, R4 (Rows 1-4) and C1, C2, C3, C4 (Columns 1-4). 16 keys total: 0-9, A, B, C, D, *, #",
+    "primaryFunction": "16-button matrix keypad arranged in 4 rows and 4 columns requiring only 8 microcontroller GPIO pins to read 16 inputs.",
+    "keySpecs": "Keypad matrix scanning technique (rows set outputs, columns read inputs with internal pull-ups), Contact bounce < 5ms, Max voltage: 24V DC.",
+    "useCase": "Electronic security password door locks, PIN authentication terminals, calculator input interfaces.",
+    "id": "292"
+  },
+  {
+    "name": "KY-023 Dual Axis Analog Thumbstick",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "5-Pin Header: GND, +5V, VRx(X-axis analog output 0-5V, 2.5V centered), VRy(Y-axis analog output 0-5V, 2.5V centered), SW(Pushbutton click to GND)",
+    "primaryFunction": "Dual-axis potentiometer joystick with integrated momentary push button providing tactile 2D directional control.",
+    "keySpecs": "Dual 10k\u03a9 linear potentiometers (X and Y axes), Center spring return, Integrated tactile push button switch, 3.3V or 5V operation.",
+    "useCase": "Robot remote control transmitters, pan-tilt camera surveillance controllers, video game navigation inputs.",
+    "id": "293"
+  },
+  {
+    "name": "Laser Diode Transmitter Module KY-008",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "3-Pin Header: -(Ground), Middle pin(Not connected), S(Signal: +5V triggers red laser emission)",
+    "primaryFunction": "650nm Red dot laser diode module with internal current-limiting resistor.",
+    "keySpecs": "Wavelength: 650 nm (Red visible light), Operating voltage: 5.0V, Operating current: < 40mA, Output power: 5 mW (Class IIIa/3R).",
+    "useCase": "Laser security tripwire perimeter alarm systems, optical communication audio beam links, distance triangulation test rigs.",
+    "id": "294"
+  },
+  {
+    "name": "ICL8038 Precision Waveform Generator",
+    "category": "IC",
+    "icon": "ic_ic",
+    "pinout": "14-Pin DIP: 1-Sine Wave Adj 1, 2-Sine Wave Out, 3-Triangular Wave Out, 4-Duty Cycle/Freq Adj, 5-Timing Resistor, 6-V+, 7-FM Bias, 8-FM Sweep In, 9-Square Wave Out, 10-Timing Cap, 11-V- / GND, 12-Sine Wave Adj 2, 13-NC, 14-NC",
+    "primaryFunction": "Monolithic waveform generator IC producing highly accurate sine, square, triangular, sawtooth and pulse waveforms with minimal external components.",
+    "keySpecs": "Frequency range: 0.001 Hz to 300 kHz, Low distortion sine wave (1%), Linearity: 0.1%, Wide supply: \u00b15V to \u00b115V or +10V to +30V single.",
+    "useCase": "University analog electronics laboratory signal generators, acoustic audio sweep testing, frequency modulation (FM) test benches.",
+    "id": "295"
+  },
+  {
+    "name": "CA3140 BiMOS Operational Amplifier",
+    "category": "IC",
+    "icon": "ic_ic",
+    "pinout": "8-Pin DIP: 1-Offset Null, 2-Inverting In, 3-Non-Inverting In, 4-V- / GND, 5-Offset Null, 6-Output, 7-V+, 8-Strobe",
+    "primaryFunction": "BiMOS operational amplifier combining advantages of high voltage PMOS transistors with high-voltage bipolar transistors on a single monolithic chip.",
+    "keySpecs": "Input impedance: 1.5 T\u03a9 (1.5 x 10^12 \u03a9), Input current: 10 pA @ 15V, Slew rate: 9 V/us, Output swings within 10mV of GND on single supply.",
+    "useCase": "pH meter electrode high-impedance amplifiers, ion chamber detectors, precision peak detectors, sample and hold circuits.",
+    "id": "296"
+  },
+  {
+    "name": "LF353 Wide Bandwidth Dual JFET Op-Amp",
+    "category": "IC",
+    "icon": "ic_ic",
+    "pinout": "8-Pin DIP: 1-1OUT, 2-1IN-, 3-1IN+, 4-V-, 5-2IN+, 6-2IN-, 7-2OUT, 8-V+",
+    "primaryFunction": "Low cost, high speed, dual JFET input operational amplifier with internally trimmed input offset voltage.",
+    "keySpecs": "Wide gain bandwidth: 4 MHz, Fast slew rate: 13 V/us, Low input bias current: 50 pA, Low noise: 16 nV/sqrt(Hz).",
+    "useCase": "High-speed integrators, fast D/A converters, sample and hold circuits, audio equalizers.",
+    "id": "297"
+  },
+  {
+    "name": "Pulse Sensor Amped (Optical PPG)",
+    "category": "Sensor",
+    "icon": "ic_sensor",
+    "pinout": "3-Wire Cable: Red(+3.3V to +5V), Black(GND), Purple(Analog signal output directly to microcontroller ADC)",
+    "primaryFunction": "Plug-and-play heart-rate sensor for Arduino incorporating optical heart rate sensor with amplification and noise cancellation.",
+    "keySpecs": "Operating voltage: 3.0V to 5.5V, Current consumption: ~4mA @ 5V, Center LED wavelength: 525 nm (Green), Integrated ambient light filtering.",
+    "useCase": "Student biomedical projects, interactive game inputs reacting to heart rate, stress level detection.",
+    "id": "298"
+  },
+  {
+    "name": "Digispark ATtiny85 Micro Dev Board",
+    "category": "MCU & Board",
+    "icon": "ic_mcu",
+    "pinout": "Direct USB PCB Male: P0(I2C SDA/PWM), P1(PWM/Built-in LED), P2(I2C SCL/ADC1), P3(ADC3/USB+), P4(PWM/ADC2/USB-), P5(ADC0/Reset), 5V, GND, VIN(7-12V)",
+    "primaryFunction": "Attiny85-based USB development board similar to Arduino line, only cheaper, smaller, and a bit less powerful.",
+    "keySpecs": "CPU: 8-bit AVR @ 16.5 MHz (Micronucleus USB bootloader), 6 I/O pins, 8KB Flash (6KB available after bootloader), Powered via USB or 7-12V regulator.",
+    "useCase": "USB BadUSB keystroke penetration testing research, ultra-compact wearable lights, single-sensor data nodes.",
+    "id": "299"
+  },
+  {
+    "name": "ESP32-C3 (RISC-V Architecture)",
+    "category": "MCU & Board",
+    "icon": "ic_mcu",
+    "pinout": "Castellated 16-Pin / DevKit: 15 GPIOs, 6x 12-bit ADC channels, Type-C, 2.4 GHz Wi-Fi + Bluetooth 5.0 LE, Hardware UART/SPI/I2C/I2S, 3.3V, GND",
+    "primaryFunction": "Single-core 32-bit RISC-V microcontroller with integrated Wi-Fi and Bluetooth 5 (LE) for low-power secure IoT.",
+    "keySpecs": "CPU: 32-bit RISC-V 4-stage pipeline core @ 160 MHz, 400KB SRAM, 384KB ROM, Industry-standard open RISC-V instruction set architecture (ISA).",
+    "useCase": "University computer engineering RISC-V architecture research, secure low-power smart sensors, Matter IoT protocol devices.",
+    "id": "300"
+  },
+  {
+    "name": "LM7808 +8V Voltage Regulator",
+    "category": "Voltage Regulator",
+    "icon": "ic_power",
+    "pinout": "TO-220: 1-Input (+10.5V to +25V), 2-Ground, 3-Output (+8.0V DC)",
+    "primaryFunction": "Fixed 3-terminal positive voltage regulator providing clean +8V DC output rail.",
+    "keySpecs": "Output voltage: 8.0V, Output current: 1.5A max, Thermal shutdown, Internal short circuit current limiting.",
+    "useCase": "Powering 8V analog circuitry, older synthesizer modules, specialty radio frequency communication stages.",
+    "id": "301"
+  },
+  {
+    "name": "LM7824 +24V Voltage Regulator",
+    "category": "Voltage Regulator",
+    "icon": "ic_power",
+    "pinout": "TO-220: 1-Input (+27V to +40V), 2-Ground, 3-Output (+24.0V DC)",
+    "primaryFunction": "Fixed 3-terminal positive 24V linear regulator for industrial instrumentation and relay systems.",
+    "keySpecs": "Output voltage: +24V \u00b14%, Input voltage: up to 40V, Output current: 1.5A with proper heatsink, Safe area protection.",
+    "useCase": "Industrial 24V PLC power supplies, 24V solenoid valve actuators, high voltage audio stages.",
+    "id": "302"
+  },
+  {
+    "name": "C945 NPN Audio Transistor",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-92: 1-Emitter, 2-Collector, 3-Base",
+    "primaryFunction": "50V 150mA NPN silicon transistor designed for audio frequency general purpose amplification and high speed switching.",
+    "keySpecs": "Vceo: 50V, Ic: 150mA, hFE: 70 to 700 (High gain grades), Transition frequency: 200 MHz, Ptot: 250mW.",
+    "useCase": "Found in virtually all ATX computer power supply secondary feedback stages, audio preamps, oscillator circuits.",
+    "id": "303"
+  },
+  {
+    "name": "A733 PNP Audio Transistor",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-92: 1-Emitter, 2-Collector, 3-Base",
+    "primaryFunction": "50V 150mA PNP silicon transistor, complementary to the C945 for audio and switching circuits.",
+    "keySpecs": "Vceo: -50V, Ic: -150mA, hFE: 70 to 700, Transition frequency: 180 MHz, Complementary to C945.",
+    "useCase": "Push-pull driver stages in consumer electronics, active low switching, audio mixers.",
+    "id": "304"
+  },
+  {
+    "name": "S8050 NPN Transistor (2W / 700mA)",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-92: 1-Emitter, 2-Base, 3-Collector",
+    "primaryFunction": "High current (700mA) small signal NPN transistor ideal for driving small motors, relays, and buzzers directly from MCU pins.",
+    "keySpecs": "Vceo: 25V, Ic: 700mA continuous (1.5A peak), hFE: 85 to 300, Ptot: 1 Watt (TO-92), Transition frequency: 150 MHz.",
+    "useCase": "Direct microcontroller driving of 5V DC toy motors, electromagnetic buzzers, and relay coils up to 700mA.",
+    "id": "305"
+  },
+  {
+    "name": "S8550 PNP Transistor (700mA)",
+    "category": "Transistor",
+    "icon": "ic_transistor",
+    "pinout": "TO-92: 1-Emitter, 2-Base, 3-Collector",
+    "primaryFunction": "High current 700mA PNP transistor, complementary to S8050 for low-voltage push-pull power amplification.",
+    "keySpecs": "Vceo: -25V, Ic: -700mA, Ptot: 1W, hFE: 85 to 300, Complementary to S8050.",
+    "useCase": "Class B push-pull audio output stage with S8050, high-side power supply switching.",
+    "id": "306"
+  },
+  {
+    "name": "L6205 Dual Full-Bridge Driver",
+    "category": "Motor Driver",
+    "icon": "ic_motor",
+    "pinout": "PowerDIP-20 / SO-20: 2 complete DMOS full-bridges with independent direction and PWM inputs and current sense resistors",
+    "primaryFunction": "DMOS dual full-bridge motor driver IC with non-dissipative overcurrent protection and thermal shutdown.",
+    "keySpecs": "Operating voltage: 8V to 52V, Total RMS current: 2.8A (5.6A peak), Low RDS(on): 0.3 \u03a9, Switching frequency up to 100 kHz.",
+    "useCase": "Driving two separate DC motors or one bipolar stepper motor in robotic arms and 3D printers.",
+    "id": "307"
+  },
+  {
+    "name": "BTS7960B Single Half-Bridge 43A IC",
+    "category": "Motor Driver",
+    "icon": "ic_motor",
+    "pinout": "TO-263-7 (D2PAK-7): 1-GND, 2-IN(Logic Input), 3-INH(Inhibit / Enable), 4-OUT(High current half-bridge switch node), 5-SR(Slew rate resistor), 6-IS(Current sense diagnostic), 7-VS(Supply voltage up to 28V)",
+    "primaryFunction": "Fully integrated high-current half bridge for motor drive applications combining one p-channel high side and one n-channel low side MOSFET.",
+    "keySpecs": "Maximum current: 43A peak, Low on-state resistance: 16 m\u03a9 @ 25\u00b0C, Current limitation level: 55A, Diagnostic current feedback.",
+    "useCase": "Combined in pairs to form the ubiquitous 43A BTS7960 H-Bridge module for high-torque electric vehicles.",
+    "id": "308"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "ElectroMaster",
+  "description": "Comprehensive Electronics & Hardware Toolkit with 300+ components, calculators, board pinouts, and logic simulator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
